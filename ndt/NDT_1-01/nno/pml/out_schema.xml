@@ -1,0 +1,81 @@
+<s:pml_schema version="1.1" xmlns:s="http://ufal.mff.cuni.cz/pdt/pml/schema/">
+ <s:root name="conll" type="conll.type" />
+ <s:type name="conll.type">
+  <s:structure>
+   <s:member name="body" required="1" type="body.type" />
+  </s:structure>
+ </s:type>
+ <s:type name="body.type">
+  <s:list ordered="1" role="#TREES" type="node.type" />
+ </s:type>
+ <s:type name="node.type">
+  <s:structure role="#NODE">
+   <s:member name="order" as_attribute="1" role="#ORDER">
+    <s:cdata format="positiveInteger" />
+   </s:member>
+   <s:member name="form">
+    <s:cdata format="any" />
+   </s:member>
+   <s:member name="lemma">
+    <s:cdata format="any" />
+   </s:member>
+    <s:member name="cpostag">
+    <s:cdata format="any" />
+   </s:member>
+    <s:member name="postag">
+    <s:cdata format="any" />
+   </s:member>
+   <s:member name="feats" type="feats.type" />
+   <s:member name="deprel" type="deprel.type">
+   </s:member>
+   <s:member name="phead">
+    <s:cdata format="any" />
+   </s:member>
+   <s:member name="pdeprel">
+    <s:cdata format="any" />
+   </s:member>
+   <s:member name="childnodes" role="#CHILDNODES">
+    <s:list ordered="1" type="node.type" />
+   </s:member>
+  </s:structure>
+ </s:type>
+  <s:type name="deprel.type">
+    <s:choice>
+      <s:value>ADV</s:value>
+      <s:value>APP</s:value>
+      <s:value>ATR</s:value>
+      <s:value>DET</s:value>
+      <s:value>DOBJ</s:value>
+      <s:value>FINV</s:value>
+      <s:value>FLAT</s:value>
+      <s:value>FOBJ</s:value>
+      <s:value>FOPRED</s:value>
+      <s:value>FRAG</s:value>
+      <s:value>FSPRED</s:value>
+      <s:value>FSUBJ</s:value>
+      <s:value>IK</s:value>
+      <s:value>INFV</s:value>
+      <s:value>INTERJ</s:value>
+      <s:value>IOBJ</s:value>
+      <s:value>IP</s:value>
+      <s:value>KONJ</s:value>
+      <s:value>KOORD</s:value>
+      <s:value>KOORD-ELL</s:value>
+      <s:value>OPRED</s:value>
+      <s:value>PAR</s:value>
+      <s:value>POBJ</s:value>
+      <s:value>PSUBJ</s:value>
+      <s:value>PUTFYLL</s:value>
+      <s:value>SBU</s:value>
+      <s:value>SPRED</s:value>
+      <s:value>SUBJ</s:value>
+      <s:value>UKJENT</s:value>
+    </s:choice>
+  </s:type>
+
+ <s:type name="feats.type">
+  <s:list ordered="0">
+   <s:cdata format="any" />
+  </s:list>
+ </s:type>
+</s:pml_schema>

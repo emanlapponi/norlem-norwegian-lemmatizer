@@ -1,0 +1,17402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conll xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
+  <head>
+    <schema href="out_schema.xml" />
+  </head>
+  <body>
+    <LM order="4">
+      <form>bibelspråk</form>
+      <lemma>bibelspråk</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>nøyt</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Råare</form>
+          <lemma>rå</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>ATR</deprel>
+          <childnodes order="3">
+            <form>tydelegare</form>
+            <lemma>tydeleg</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>komp</feats>
+            <deprel>KOORD</deprel>
+            <childnodes order="2">
+              <form>og</form>
+              <lemma>og</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>&lt;ikkje-clb></feats>
+              <deprel>KONJ</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>heitte</form>
+      <lemma>heite</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Før</form>
+          <lemma>før</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="7">
+          <form>mennesket</form>
+          <lemma>menneske</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="5">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="6">
+              <form>syndige</form>
+              <lemma>syndig</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="8">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="12">
+          <form>kjøt</form>
+          <lemma>kjøt</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>KOORD-ELL</deprel>
+          <childnodes>
+            <LM order="10">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="11">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="13">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="6">
+      <form>gjer</form>
+      <lemma>gjere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>myriade</form>
+          <lemma>myriade</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Ein</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="3">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="5">
+                <form>døme</form>
+                <lemma>døme</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="4">
+                  <form>liknande</form>
+                  <lemma>liknande</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>biletspråket</form>
+          <lemma>biletspråk</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="8">
+            <form>i</form>
+            <lemma>i</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="11">
+              <form>Bibelen</form>
+              <lemma>Bibelen</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="9">
+                  <form>den</form>
+                  <lemma>den</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>dem</LM>
+                    <LM>mask</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="10">
+                  <form>nye</form>
+                  <lemma>ny</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>råare</form>
+          <lemma>rå</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>OPRED</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>både</form>
+              <lemma>både</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>
+                <LM>&lt;ikkje-clb></LM>
+                <LM>&lt;adv></LM>
+              </feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="15">
+              <form>tydelegare</form>
+              <lemma>tydeleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>KOORD</deprel>
+              <childnodes order="14">
+                <form>og</form>
+                <lemma>og</lemma>
+                <cpostag>konj</cpostag>
+                <postag>konj</postag>
+                <feats>&lt;ikkje-clb></feats>
+                <deprel>KONJ</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="16">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Bibelen</form>
+      <lemma>Bibelen</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>prop</feats>
+      <deprel>FRAG</deprel>
+      <childnodes order="2">
+        <form>|</form>
+        <lemma>$|</lemma>
+        <cpostag>clb</cpostag>
+        <postag>clb</postag>
+        <feats>&lt;overskrift></feats>
+        <deprel>IP</deprel>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Ny-omsetjing</form>
+      <lemma>Ny-omsetjing</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>fem</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+        <LM>samset</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes order="2">
+        <form>|</form>
+        <lemma>$|</lemma>
+        <cpostag>clb</cpostag>
+        <postag>clb</postag>
+        <feats>&lt;overskrift></feats>
+        <deprel>IP</deprel>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Bibelselskapet</form>
+      <lemma>Bibelselskapet</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>prop</feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>2011</form>
+          <lemma>2011</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>kvant</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="3">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>forfattarar</form>
+          <lemma>forfattar</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="1">
+            <form>Tolv</form>
+            <lemma>tolv</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>arbeidd</form>
+          <lemma>arbeide</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes order="5">
+            <form>med</form>
+            <lemma>med</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="6">
+              <form>stil</form>
+              <lemma>stil</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="9">
+                <form>utforming</form>
+                <lemma>utforming</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>KOORD</deprel>
+                <childnodes>
+                  <LM order="7">
+                    <form>og</form>
+                    <lemma>og</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>&lt;ikkje-clb></feats>
+                    <deprel>KONJ</deprel>
+                  </LM>
+                  <LM order="8">
+                    <form>språkleg</form>
+                    <lemma>språkleg</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </LM>
+                  <LM order="10">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="13">
+                      <form>utgåva</form>
+                      <lemma>utgåve</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>fem</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes>
+                        <LM order="11">
+                          <form>den</form>
+                          <lemma>den</lemma>
+                          <cpostag>det</cpostag>
+                          <postag>det</postag>
+                          <feats>
+                            <LM>dem</LM>
+                            <LM>fem</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>DET</deprel>
+                        </LM>
+                        <LM order="12">
+                          <form>nye</form>
+                          <lemma>ny</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>eint</LM>
+                            <LM>bu</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </LM>
+                        <LM order="14">
+                          <form>av</form>
+                          <lemma>av</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ATR</deprel>
+                          <childnodes order="15">
+                            <form>Bibelen</form>
+                            <lemma>Bibelen</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>prop</feats>
+                            <deprel>PUTFYLL</deprel>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="16">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Alle</form>
+          <lemma>alle</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>arbeidd</form>
+          <lemma>arbeide</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes order="4">
+            <form>med</form>
+            <lemma>med</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="5">
+              <form>sambandet</form>
+              <lemma>samband</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="6">
+                <form>mellom</form>
+                <lemma>mellom</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="7">
+                  <form>meining</form>
+                  <lemma>meining</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="8">
+                      <form>,</form>
+                      <lemma>$,</lemma>
+                      <cpostag>&lt;komma></cpostag>
+                      <postag>&lt;komma></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="9">
+                      <form>stil</form>
+                      <lemma>stil</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>KOORD</deprel>
+                    </LM>
+                    <LM order="11">
+                      <form>estetikk</form>
+                      <lemma>estetikk</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>KOORD</deprel>
+                      <childnodes order="10">
+                        <form>og</form>
+                        <lemma>og</lemma>
+                        <cpostag>konj</cpostag>
+                        <postag>konj</postag>
+                        <feats>&lt;ikkje-clb></feats>
+                        <deprel>KONJ</deprel>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Forfattarane</form>
+          <lemma>forfattar</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>gått</form>
+          <lemma>gå</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>til</form>
+              <lemma>til</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="5">
+                <form>oppgåva</form>
+                <lemma>oppgåve</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="6">
+              <form>med</form>
+              <lemma>med</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="8">
+                <form>ålvor</form>
+                <lemma>ålvor</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="7">
+                  <form>stort</form>
+                  <lemma>stor</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="10">
+          <form>nokre</form>
+          <lemma>nokre</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>KOORD-ELL</deprel>
+          <childnodes>
+            <LM order="11">
+              <form>engstelege</form>
+              <lemma>engsteleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+            </LM>
+            <LM order="12">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>nokre</form>
+          <lemma>nokre</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>KOORD-ELL</deprel>
+          <childnodes>
+            <LM order="15">
+              <form>overraska</form>
+              <lemma>overraske</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+              <childnodes order="14">
+                <form>meir</form>
+                <lemma>mykje</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>komp</feats>
+                <deprel>ADV</deprel>
+                <childnodes order="16">
+                  <form>enn</form>
+                  <lemma>enn</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="17">
+                    <form>andre</form>
+                    <lemma>annan</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>&lt;adj></LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="18">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="21">
+          <form>har</form>
+          <lemma>ha</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="19">
+              <form>men</form>
+              <lemma>men</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="20">
+              <form>alle</form>
+              <lemma>alle</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="22">
+              <form>funne</form>
+              <lemma>finne</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>perf-part</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="24">
+                <form>glede</form>
+                <lemma>glede</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+                <childnodes>
+                  <LM order="23">
+                    <form>stor</form>
+                    <lemma>stor</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </LM>
+                  <LM order="25">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="26">
+                      <form>det</form>
+                      <lemma>det</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>3</LM>
+                        <LM>nøyt</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="27">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>gjorde</form>
+      <lemma>gjere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Eg</form>
+          <lemma>eg</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>snarveg</form>
+          <lemma>snarveg</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="3">
+            <form>ein</form>
+            <lemma>ein</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>mask</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>hadde</form>
+          <lemma>ha</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="5">
+              <form>og</form>
+              <lemma>og</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="9">
+              <form>prat</form>
+              <lemma>prat</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>ein</form>
+                  <lemma>ein</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>mask</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="8">
+                  <form>liten</form>
+                  <lemma>liten</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>mask</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="10">
+                  <form>med</form>
+                  <lemma>med</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="11">
+                    <form>Magnar</form>
+                    <lemma>Magnar</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>prop</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="12">
+                        <form>Kartveit</form>
+                        <lemma>Kartveit</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>prop</feats>
+                        <deprel>FLAT</deprel>
+                      </LM>
+                      <LM order="13">
+                        <form>,</form>
+                        <lemma>$,</lemma>
+                        <cpostag>&lt;komma></cpostag>
+                        <postag>&lt;komma></postag>
+                        <deprel>IK</deprel>
+                      </LM>
+                      <LM order="14">
+                        <form>professor</form>
+                        <lemma>professor</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>mask</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>APP</deprel>
+                        <childnodes order="15">
+                          <form>ved</form>
+                          <lemma>ved</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ATR</deprel>
+                          <childnodes order="16">
+                            <form>Misjonshøgskolen</form>
+                            <lemma>Misjonshøgskolen</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>prop</feats>
+                            <deprel>PUTFYLL</deprel>
+                            <childnodes order="17">
+                              <form>i</form>
+                              <lemma>i</lemma>
+                              <cpostag>prep</cpostag>
+                              <postag>prep</postag>
+                              <deprel>ATR</deprel>
+                              <childnodes order="18">
+                                <form>Stavanger</form>
+                                <lemma>Stavanger</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>prop</feats>
+                                <deprel>PUTFYLL</deprel>
+                              </childnodes>
+                            </childnodes>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="19">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="7">
+      <form>peikar</form>
+      <lemma>peike</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>For</form>
+          <lemma>for</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>å</form>
+            <lemma>å</lemma>
+            <cpostag>inf-merke</cpostag>
+            <postag>inf-merke</postag>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="3">
+              <form>forklåre</form>
+              <lemma>forklåre</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>inf</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="4">
+                <form>motivasjonen</form>
+                <lemma>motivasjon</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+                <childnodes order="5">
+                  <form>for</form>
+                  <lemma>for</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="6">
+                    <form>arbeidet</form>
+                    <lemma>arbeid</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>han</form>
+          <lemma>han</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>mask</LM>
+            <LM>eint</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="9">
+          <form>mellom</form>
+          <lemma>mellom</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="10">
+            <form>anna</form>
+            <lemma>annan</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>dem</LM>
+              <LM>&lt;adj></LM>
+              <LM>nøyt</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>på</form>
+          <lemma>på</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="17">
+            <form>er</form>
+            <lemma>vere</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>pres</feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes>
+              <LM order="12">
+                <form>at</form>
+                <lemma>at</lemma>
+                <cpostag>sbu</cpostag>
+                <postag>sbu</postag>
+                <deprel>SBU</deprel>
+              </LM>
+              <LM order="16">
+                <form>bibellesarar</form>
+                <lemma>bibellesar</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                  <LM>samset</LM>
+                </feats>
+                <deprel>SUBJ</deprel>
+                <childnodes>
+                  <LM order="15">
+                    <form>typen</form>
+                    <lemma>type</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                    <childnodes>
+                      <LM order="13">
+                        <form>den</form>
+                        <lemma>den</lemma>
+                        <cpostag>det</cpostag>
+                        <postag>det</postag>
+                        <feats>
+                          <LM>dem</LM>
+                          <LM>mask</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>DET</deprel>
+                      </LM>
+                      <LM order="14">
+                        <form>gamle</form>
+                        <lemma>gammal</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>pos</LM>
+                          <LM>eint</LM>
+                          <LM>bu</LM>
+                        </feats>
+                        <deprel>ATR</deprel>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                  <LM order="20">
+                    <form>dei</form>
+                    <lemma>dei</lemma>
+                    <cpostag>pron</cpostag>
+                    <postag>pron</postag>
+                    <feats>
+                      <LM>pers</LM>
+                      <LM>3</LM>
+                      <LM>fl</LM>
+                      <LM>hum</LM>
+                      <LM>nom</LM>
+                    </feats>
+                    <deprel>APP</deprel>
+                    <childnodes order="22">
+                      <form>drøfta</form>
+                      <lemma>drøfte</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>pret</feats>
+                      <deprel>ATR</deprel>
+                      <childnodes>
+                        <LM order="21">
+                          <form>som</form>
+                          <lemma>som</lemma>
+                          <cpostag>sbu</cpostag>
+                          <postag>sbu</postag>
+                          <deprel>SBU</deprel>
+                        </LM>
+                        <LM order="23">
+                          <form>tolkingar</form>
+                          <lemma>tolking</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>fem</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>fl</LM>
+                          </feats>
+                          <deprel>DOBJ</deprel>
+                          <childnodes>
+                            <LM order="24">
+                              <form>,</form>
+                              <lemma>$,</lemma>
+                              <cpostag>&lt;komma></cpostag>
+                              <postag>&lt;komma></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                            <LM order="25">
+                              <form>usemjer</form>
+                              <lemma>usemje</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>fem</LM>
+                                <LM>appell</LM>
+                                <LM>ub</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>KOORD</deprel>
+                            </LM>
+                            <LM order="28">
+                              <form>tekststader</form>
+                              <lemma>tekststad</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>mask</LM>
+                                <LM>appell</LM>
+                                <LM>ub</LM>
+                                <LM>fl</LM>
+                                <LM>samset</LM>
+                              </feats>
+                              <deprel>KOORD</deprel>
+                              <childnodes>
+                                <LM order="26">
+                                  <form>og</form>
+                                  <lemma>og</lemma>
+                                  <cpostag>konj</cpostag>
+                                  <postag>konj</postag>
+                                  <feats>&lt;ikkje-clb></feats>
+                                  <deprel>KONJ</deprel>
+                                </LM>
+                                <LM order="27">
+                                  <form>uklåre</form>
+                                  <lemma>uklår</lemma>
+                                  <cpostag>adj</cpostag>
+                                  <postag>adj</postag>
+                                  <feats>
+                                    <LM>pos</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>ATR</deprel>
+                                </LM>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                        <LM order="29">
+                          <form>nøye</form>
+                          <lemma>nøye</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>nøyt</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>ADV</deprel>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </LM>
+              <LM order="18">
+                <form>borte</form>
+                <lemma>borte</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>SPRED</deprel>
+              </LM>
+              <LM order="19">
+                <form>;</form>
+                <lemma>$;</lemma>
+                <cpostag>clb</cpostag>
+                <postag>clb</postag>
+                <feats>&lt;semi></feats>
+                <deprel>IK</deprel>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="30">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>lesemåtar</form>
+          <lemma>lesemåte</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="1">
+            <form>Nye</form>
+            <lemma>ny</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>
+              <LM>pos</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>ATR</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>komne</form>
+          <lemma>kome</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="5">
+              <form>inn</form>
+              <lemma>inn</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="6">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="8">
+              <form>frå</form>
+              <lemma>frå</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>særleg</form>
+                  <lemma>særleg</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="9">
+                  <form>USA</form>
+                  <lemma>USA</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fork</LM>
+                    <LM>prop</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                </LM>
+                <LM order="10">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>les</form>
+          <lemma>lese</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="11">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>eint</LM>
+                <LM>hum</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="13">
+              <form>ut</form>
+              <lemma>ut</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="14">
+                <form>frå</form>
+                <lemma>frå</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="17">
+                  <form>mønster</form>
+                  <lemma>mønster</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="16">
+                    <form>ferdiglaga</form>
+                    <lemma>ferdiglaga</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                    <childnodes order="15">
+                      <form>meir</form>
+                      <lemma>mykje</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>komp</feats>
+                      <deprel>ADV</deprel>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>nyttar</form>
+      <lemma>nytte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Forkynnarane</form>
+          <lemma>forkynnar</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>anekdotar</form>
+          <lemma>anekdote</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>mykje</form>
+              <lemma>mykje</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="5">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="6">
+              <form>dømesoger</form>
+              <lemma>dømesoge</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>-</form>
+          <lemma>$-</lemma>
+          <cpostag>&lt;strek></cpostag>
+          <postag>&lt;strek></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="9">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>preikene</form>
+              <lemma>preike</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>fl</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="11">
+              <form>anna</form>
+              <lemma>annan</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>&lt;adj></LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+              <childnodes>
+                <LM order="10">
+                  <form>alt</form>
+                  <lemma>alt</lemma>
+                  <cpostag>adv</cpostag>
+                  <postag>adv</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="12">
+                  <form>enn</form>
+                  <lemma>enn</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="13">
+                    <form>tekstutlegging</form>
+                    <lemma>tekstutlegging</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fem</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                      <LM>samset</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>vonar</form>
+      <lemma>vone</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Kartveit</form>
+          <lemma>Kartveit</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>vert</form>
+          <lemma>verte</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>FSUBJ</deprel>
+            </LM>
+            <LM order="4">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="6">
+              <form>mogleg</form>
+              <lemma>mogleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+            </LM>
+            <LM order="7">
+              <form>å</form>
+              <lemma>å</lemma>
+              <cpostag>inf-merke</cpostag>
+              <postag>inf-merke</postag>
+              <deprel>PSUBJ</deprel>
+              <childnodes order="8">
+                <form>samanlikne</form>
+                <lemma>samanlikne</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>inf</feats>
+                <deprel>INFV</deprel>
+                <childnodes order="10">
+                  <form>utgåver</form>
+                  <lemma>utgåve</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                  <childnodes order="9">
+                    <form>ulike</form>
+                    <lemma>ulike</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="20">
+          <form>aukar</form>
+          <lemma>auke</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>så</form>
+              <lemma>så</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="13">
+              <form>interessa</form>
+              <lemma>interesse</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes order="14">
+                <form>for</form>
+                <lemma>for</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="15">
+                  <form>samtalar</form>
+                  <lemma>samtale</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="17">
+                    <form>diskusjonar</form>
+                    <lemma>diskusjon</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>KOORD</deprel>
+                    <childnodes>
+                      <LM order="16">
+                        <form>og</form>
+                        <lemma>og</lemma>
+                        <cpostag>konj</cpostag>
+                        <postag>konj</postag>
+                        <feats>&lt;ikkje-clb></feats>
+                        <deprel>KONJ</deprel>
+                      </LM>
+                      <LM order="18">
+                        <form>om</form>
+                        <lemma>om</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ATR</deprel>
+                        <childnodes order="19">
+                          <form>lesemåtar</form>
+                          <lemma>lesemåte</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>mask</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>fl</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="21">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="11">
+      <form>kan</form>
+      <lemma>kunne</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="5">
+          <form>vil</form>
+          <lemma>vilje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>At</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="4">
+              <form>kyrkja</form>
+              <lemma>kyrkje</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>den</form>
+                  <lemma>den</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>dem</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="3">
+                  <form>katolske</form>
+                  <lemma>katolsk</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="6">
+              <form>bruke</form>
+              <lemma>bruke</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>inf</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="9">
+                <form>omsetjingane</form>
+                <lemma>omsetjing</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>fl</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+                <childnodes>
+                  <LM order="7">
+                    <form>dei</form>
+                    <lemma>dei</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="8">
+                    <form>nye</form>
+                    <lemma>ny</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="10">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>trekkje</form>
+          <lemma>trekkje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>inf</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>òg</form>
+              <lemma>òg</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="14">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="16">
+                <form>lei</form>
+                <lemma>lei</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="15">
+                  <form>samlande</form>
+                  <lemma>samle</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>&lt;pres-part></feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="17">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>orientalsk</form>
+      <lemma>orientalsk</lemma>
+      <cpostag>adj</cpostag>
+      <postag>adj</postag>
+      <feats>
+        <LM>pos</LM>
+        <LM>nøyt</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Meir</form>
+          <lemma>mykje</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>1985-utgåvene</form>
+          <lemma>1985-utgåve</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>1978</form>
+              <lemma>1978</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>FLAT</deprel>
+            </LM>
+            <LM order="2">
+              <form>/</form>
+              <lemma>$/</lemma>
+              <cpostag>symb</cpostag>
+              <postag>symb</postag>
+              <deprel>FLAT</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>orienterte</form>
+          <lemma>orientert</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="5">
+            <form>kommunikativt</form>
+            <lemma>kommunikativ</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>
+              <LM>pos</LM>
+              <LM>nøyt</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>freista</form>
+      <lemma>freiste</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Ein</form>
+          <lemma>ein</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>motarbeide</form>
+          <lemma>motarbeide</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>inf</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="4">
+            <form>kjensla</form>
+            <lemma>kjensle</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fem</LM>
+              <LM>appell</LM>
+              <LM>eint</LM>
+              <LM>bu</LM>
+            </feats>
+            <deprel>DOBJ</deprel>
+            <childnodes order="5">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="7">
+                <form>språk</form>
+                <lemma>språk</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="6">
+                  <form>framandsleg</form>
+                  <lemma>framandsleg</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>la</form>
+          <lemma>leggje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>og</form>
+              <lemma>og</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="10">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="11">
+                <form>staden</form>
+                <lemma>stad</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="12">
+              <form>inn</form>
+              <lemma>inn</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="13">
+              <form>forklåringar</form>
+              <lemma>forklåring</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>vart</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="3">
+            <form>mon</form>
+            <lemma>mon</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>mask</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="2">
+              <form>viss</form>
+              <lemma>viss</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>m/f</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>teksten</form>
+          <lemma>tekst</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="6">
+          <form>dermed</form>
+          <lemma>dermed</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="8">
+          <form>abstrakt</form>
+          <lemma>abstrakt</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="7">
+            <form>meir</form>
+            <lemma>mykje</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>komp</feats>
+            <deprel>ATR</deprel>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>gjort</form>
+          <lemma>gjere</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>No</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="4">
+              <form>ikkje</form>
+              <lemma>ikkje</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="7">
+              <form>endringar</form>
+              <lemma>endring</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="6">
+                  <form>store</form>
+                  <lemma>stor</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="8">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="11">
+                  <form>små</form>
+                  <lemma>liten</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="9">
+                      <form>men</form>
+                      <lemma>men</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </LM>
+                    <LM order="10">
+                      <form>mangfaldige</form>
+                      <lemma>mangfaldig</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>karakteriserer</form>
+      <lemma>karakterisere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Vørdnaden</form>
+          <lemma>vørdnad</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="2">
+            <form>overfor</form>
+            <lemma>overfor</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="3">
+              <form>grunnteksten</form>
+              <lemma>grunntekst</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>Kartveit</form>
+          <lemma>Kartveit</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="6">
+          <form>slik</form>
+          <lemma>slik</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="7">
+          <form>:</form>
+          <lemma>$:</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;kolon></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Ein</form>
+          <lemma>ein</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>fått</form>
+          <lemma>få</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>attende</form>
+              <lemma>attende</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="5">
+              <form>meir</form>
+              <lemma>mykje</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="6">
+                <form>av</form>
+                <lemma>av</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="12">
+                  <form>svipet</form>
+                  <lemma>svip</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                    <LM>unorm</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="7">
+                      <form>det</form>
+                      <lemma>det</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>dem</LM>
+                        <LM>nøyt</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </LM>
+                    <LM order="8">
+                      <form>orientalske</form>
+                      <lemma>orientalsk</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                      <childnodes order="9">
+                        <form>,</form>
+                        <lemma>$,</lemma>
+                        <cpostag>&lt;komma></cpostag>
+                        <postag>&lt;komma></postag>
+                        <deprel>IK</deprel>
+                      </childnodes>
+                    </LM>
+                    <LM order="11">
+                      <form>framandslege</form>
+                      <lemma>framandsleg</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                      <childnodes order="10">
+                        <form>litt</form>
+                        <lemma>litt</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>pos</LM>
+                          <LM>nøyt</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>ADV</deprel>
+                      </childnodes>
+                    </LM>
+                    <LM order="13">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="14">
+                        <form>tekstane</form>
+                        <lemma>tekst</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>mask</LM>
+                          <LM>appell</LM>
+                          <LM>fl</LM>
+                          <LM>bu</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="15">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="17">
+                <form>med</form>
+                <lemma>med</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>KOORD</deprel>
+                <childnodes>
+                  <LM order="16">
+                    <form>og</form>
+                    <lemma>og</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>&lt;ikkje-clb></feats>
+                    <deprel>KONJ</deprel>
+                  </LM>
+                  <LM order="21">
+                    <form>er</form>
+                    <lemma>vere</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pres</feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="18">
+                        <form>at</form>
+                        <lemma>at</lemma>
+                        <cpostag>sbu</cpostag>
+                        <postag>sbu</postag>
+                        <deprel>SBU</deprel>
+                      </LM>
+                      <LM order="19">
+                        <form>dei</form>
+                        <lemma>dei</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>pers</LM>
+                          <LM>3</LM>
+                          <LM>fl</LM>
+                          <LM>hum</LM>
+                          <LM>nom</LM>
+                        </feats>
+                        <deprel>SUBJ</deprel>
+                      </LM>
+                      <LM order="22">
+                        <form>vortne</form>
+                        <lemma>verte</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>&lt;perf-part></LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>INFV</deprel>
+                        <childnodes>
+                          <LM order="20">
+                            <form>gjennomgåande</form>
+                            <lemma>gjennomgåande</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>nøyt</LM>
+                              <LM>ub</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>ADV</deprel>
+                          </LM>
+                          <LM order="24">
+                            <form>poetiske</form>
+                            <lemma>poetisk</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>SPRED</deprel>
+                            <childnodes>
+                              <LM order="23">
+                                <form>meir</form>
+                                <lemma>mykje</lemma>
+                                <cpostag>adj</cpostag>
+                                <postag>adj</postag>
+                                <feats>komp</feats>
+                                <deprel>ADV</deprel>
+                              </LM>
+                              <LM order="25">
+                                <form>i</form>
+                                <lemma>i</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                                <childnodes order="26">
+                                  <form>form</form>
+                                  <lemma>form</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>fem</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                  </feats>
+                                  <deprel>PUTFYLL</deprel>
+                                  <childnodes order="28">
+                                    <form>ordval</form>
+                                    <lemma>ordval</lemma>
+                                    <cpostag>subst</cpostag>
+                                    <postag>subst</postag>
+                                    <feats>
+                                      <LM>nøyt</LM>
+                                      <LM>appell</LM>
+                                      <LM>ub</LM>
+                                      <LM>eint</LM>
+                                    </feats>
+                                    <deprel>KOORD</deprel>
+                                    <childnodes order="27">
+                                      <form>og</form>
+                                      <lemma>og</lemma>
+                                      <cpostag>konj</cpostag>
+                                      <postag>konj</postag>
+                                      <feats>&lt;ikkje-clb></feats>
+                                      <deprel>KONJ</deprel>
+                                    </childnodes>
+                                  </childnodes>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="29">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="4">
+          <form>ein</form>
+          <lemma>ein</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>vekt</form>
+          <lemma>vekkje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>I</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="2">
+                <form>grunnen</form>
+                <lemma>grunn</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="6">
+              <form>opp</form>
+              <lemma>opp</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="7">
+              <form>att</form>
+              <lemma>att</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="8">
+              <form>noko</form>
+              <lemma>nokon</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="9">
+                <form>av</form>
+                <lemma>av</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="10">
+                  <form>tonen</form>
+                  <lemma>tone</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="12">
+                    <form>prinsippa</form>
+                    <lemma>prinsipp</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>fl</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>KOORD</deprel>
+                    <childnodes>
+                      <LM order="11">
+                        <form>og</form>
+                        <lemma>og</lemma>
+                        <cpostag>konj</cpostag>
+                        <postag>konj</postag>
+                        <feats>&lt;ikkje-clb></feats>
+                        <deprel>KONJ</deprel>
+                      </LM>
+                      <LM order="13">
+                        <form>til</form>
+                        <lemma>til</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ATR</deprel>
+                        <childnodes order="14">
+                          <form>Alexander</form>
+                          <lemma>Alexander</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>mask</LM>
+                            <LM>prop</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes>
+                            <LM order="15">
+                              <form>Seippel</form>
+                              <lemma>Seippel</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>prop</feats>
+                              <deprel>FLAT</deprel>
+                            </LM>
+                            <LM order="17">
+                              <form>1851</form>
+                              <lemma>1851</lemma>
+                              <cpostag>det</cpostag>
+                              <postag>det</postag>
+                              <feats>
+                                <LM>kvant</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>ATR</deprel>
+                              <childnodes>
+                                <LM order="16">
+                                  <form>(</form>
+                                  <lemma>$(</lemma>
+                                  <cpostag>&lt;parentes-beg></cpostag>
+                                  <postag>&lt;parentes-beg></postag>
+                                  <deprel>IK</deprel>
+                                </LM>
+                                <LM order="18">
+                                  <form>-</form>
+                                  <lemma>$-</lemma>
+                                  <cpostag>&lt;strek></cpostag>
+                                  <postag>&lt;strek></postag>
+                                  <deprel>IK</deprel>
+                                </LM>
+                                <LM order="19">
+                                  <form>1838</form>
+                                  <lemma>1838</lemma>
+                                  <cpostag>det</cpostag>
+                                  <postag>det</postag>
+                                  <feats>
+                                    <LM>kvant</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>KOORD</deprel>
+                                </LM>
+                                <LM order="20">
+                                  <form>)</form>
+                                  <lemma>$)</lemma>
+                                  <cpostag>&lt;parentes-slutt></cpostag>
+                                  <postag>&lt;parentes-slutt></postag>
+                                  <deprel>IK</deprel>
+                                </LM>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="21">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Seippel</form>
+          <lemma>Seippel</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>orientalist</form>
+          <lemma>orientalist</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="4">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="5">
+          <form>samla</form>
+          <lemma>samle</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="6">
+              <form>òg</form>
+              <lemma>òg</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="8">
+              <form>stev</form>
+              <lemma>stev</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="7">
+                <form>norske</form>
+                <lemma>norsk</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>ATR</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="10">
+          <form>skreiv</form>
+          <lemma>skrive</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="9">
+              <form>og</form>
+              <lemma>og</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="11">
+              <form>sjølv</form>
+              <lemma>sjølv</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="12">
+              <form>lyrikk</form>
+              <lemma>lyrikk</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="9">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="10">
+          <form>han</form>
+          <lemma>han</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>mask</LM>
+            <LM>eint</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="11">
+          <form>oppteken</form>
+          <lemma>oppteken</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>m/f</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>arbeidde</form>
+              <lemma>arbeide</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pret</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="1">
+                  <form>Då</form>
+                  <lemma>då</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="2">
+                  <form>han</form>
+                  <lemma>han</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>3</LM>
+                    <LM>mask</LM>
+                    <LM>eint</LM>
+                    <LM>nom</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                </LM>
+                <LM order="4">
+                  <form>med</form>
+                  <lemma>med</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="5">
+                    <form>bibelomsetjingar</form>
+                    <lemma>bibelomsetjing</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fem</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes order="6">
+                      <form>til</form>
+                      <lemma>til</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="7">
+                        <form>nynorsk</form>
+                        <lemma>nynorsk</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>mask</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+                <LM order="8">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="12">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="17">
+                <form>skulle</form>
+                <lemma>skulle</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pret</feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="13">
+                    <form>at</form>
+                    <lemma>at</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="14">
+                    <form>kvar</form>
+                    <lemma>kvar</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>kvant</LM>
+                      <LM>mask</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>SUBJ</deprel>
+                    <childnodes order="16">
+                      <form>ein</form>
+                      <lemma>ein</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>mask</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>KOORD</deprel>
+                      <childnodes order="15">
+                        <form>og</form>
+                        <lemma>og</lemma>
+                        <cpostag>konj</cpostag>
+                        <postag>konj</postag>
+                        <feats>&lt;ikkje-clb></feats>
+                        <deprel>KONJ</deprel>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="18">
+                    <form>kunne</form>
+                    <lemma>kunne</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>inf</feats>
+                    <deprel>INFV</deprel>
+                    <childnodes order="19">
+                      <form>skjøne</form>
+                      <lemma>skjøne</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>inf</feats>
+                      <deprel>INFV</deprel>
+                      <childnodes>
+                        <LM order="20">
+                          <form>omsetjingane</form>
+                          <lemma>omsetjing</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>fem</LM>
+                            <LM>appell</LM>
+                            <LM>fl</LM>
+                            <LM>bu</LM>
+                          </feats>
+                          <deprel>DOBJ</deprel>
+                        </LM>
+                        <LM order="21">
+                          <form>ut</form>
+                          <lemma>ut</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="22">
+                            <form>frå</form>
+                            <lemma>frå</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>PUTFYLL</deprel>
+                            <childnodes order="25">
+                              <form>tradisjonsstoff</form>
+                              <lemma>tradisjonsstoff</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>nøyt</LM>
+                                <LM>appell</LM>
+                                <LM>ub</LM>
+                                <LM>eint</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes>
+                                <LM order="23">
+                                  <form>eige</form>
+                                  <lemma>eigen</lemma>
+                                  <cpostag>det</cpostag>
+                                  <postag>det</postag>
+                                  <feats>
+                                    <LM>&lt;adj></LM>
+                                    <LM>nøyt</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                    <LM>forst</LM>
+                                  </feats>
+                                  <deprel>DET</deprel>
+                                </LM>
+                                <LM order="24">
+                                  <form>språkleg</form>
+                                  <lemma>språkleg</lemma>
+                                  <cpostag>adj</cpostag>
+                                  <postag>adj</postag>
+                                  <feats>
+                                    <LM>pos</LM>
+                                    <LM>nøyt</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                  </feats>
+                                  <deprel>ATR</deprel>
+                                </LM>
+                              </childnodes>
+                            </childnodes>
+                          </childnodes>
+                        </LM>
+                        <LM order="26">
+                          <form>,</form>
+                          <lemma>$,</lemma>
+                          <cpostag>&lt;komma></cpostag>
+                          <postag>&lt;komma></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="27">
+                          <form>samstundes</form>
+                          <lemma>samstundes</lemma>
+                          <cpostag>adv</cpostag>
+                          <postag>adv</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="30">
+                            <form>skulle</form>
+                            <lemma>skulle</lemma>
+                            <cpostag>verb</cpostag>
+                            <postag>verb</postag>
+                            <feats>pret</feats>
+                            <deprel>ADV</deprel>
+                            <childnodes>
+                              <LM order="28">
+                                <form>som</form>
+                                <lemma>som</lemma>
+                                <cpostag>sbu</cpostag>
+                                <postag>sbu</postag>
+                                <deprel>SBU</deprel>
+                              </LM>
+                              <LM order="29">
+                                <form>teksten</form>
+                                <lemma>tekst</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>
+                                  <LM>mask</LM>
+                                  <LM>appell</LM>
+                                  <LM>eint</LM>
+                                  <LM>bu</LM>
+                                </feats>
+                                <deprel>SUBJ</deprel>
+                              </LM>
+                              <LM order="31">
+                                <form>vekkje</form>
+                                <lemma>vekkje</lemma>
+                                <cpostag>verb</cpostag>
+                                <postag>verb</postag>
+                                <feats>inf</feats>
+                                <deprel>INFV</deprel>
+                                <childnodes order="32">
+                                  <form>undring</form>
+                                  <lemma>undring</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>fem</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                  </feats>
+                                  <deprel>DOBJ</deprel>
+                                  <childnodes order="33">
+                                    <form>over</form>
+                                    <lemma>over</lemma>
+                                    <cpostag>prep</cpostag>
+                                    <postag>prep</postag>
+                                    <deprel>ATR</deprel>
+                                    <childnodes order="35">
+                                      <form>uttrykksmåtar</form>
+                                      <lemma>uttrykksmåte</lemma>
+                                      <cpostag>subst</cpostag>
+                                      <postag>subst</postag>
+                                      <feats>
+                                        <LM>mask</LM>
+                                        <LM>appell</LM>
+                                        <LM>ub</LM>
+                                        <LM>fl</LM>
+                                      </feats>
+                                      <deprel>PUTFYLL</deprel>
+                                      <childnodes order="34">
+                                        <form>opphavlege</form>
+                                        <lemma>opphavleg</lemma>
+                                        <cpostag>adj</cpostag>
+                                        <postag>adj</postag>
+                                        <feats>
+                                          <LM>pos</LM>
+                                          <LM>fl</LM>
+                                        </feats>
+                                        <deprel>ATR</deprel>
+                                      </childnodes>
+                                    </childnodes>
+                                  </childnodes>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="36">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>verk</form>
+      <lemma>verk</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>nøyt</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Klassisk</form>
+          <lemma>klassisk</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="2">
+          <form>litterært</form>
+          <lemma>litterær</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="4">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Bibelutgåva</form>
+          <lemma>bibelutgåve</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>då</form>
+          <lemma>då</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="4">
+          <form>òg</form>
+          <lemma>òg</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="8">
+          <form>verk</form>
+          <lemma>verk</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="5">
+              <form>eit</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="6">
+              <form>klassisk</form>
+              <lemma>klassisk</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="7">
+              <form>litterært</form>
+              <lemma>litterær</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>-</form>
+          <lemma>$-</lemma>
+          <cpostag>&lt;strek></cpostag>
+          <postag>&lt;strek></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="11">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>FSUBJ</deprel>
+            </LM>
+            <LM order="13">
+              <form>laga</form>
+              <lemma>lage</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>INFV</deprel>
+              <childnodes>
+                <LM order="10">
+                  <form>difor</form>
+                  <lemma>difor</lemma>
+                  <cpostag>adv</cpostag>
+                  <postag>adv</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="16">
+                  <form>versjon</form>
+                  <lemma>versjon</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                  <childnodes>
+                    <LM order="14">
+                      <form>ein</form>
+                      <lemma>ein</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>mask</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </LM>
+                    <LM order="15">
+                      <form>eigen</form>
+                      <lemma>eigen</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>&lt;adj></LM>
+                        <LM>mask</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                        <LM>forst</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </LM>
+                    <LM order="19">
+                      <form>på</form>
+                      <lemma>på</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes>
+                        <LM order="17">
+                          <form>(</form>
+                          <lemma>$(</lemma>
+                          <cpostag>&lt;parentes-beg></cpostag>
+                          <postag>&lt;parentes-beg></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="18">
+                          <form>berre</form>
+                          <lemma>berre</lemma>
+                          <cpostag>adv</cpostag>
+                          <postag>adv</postag>
+                          <deprel>ADV</deprel>
+                        </LM>
+                        <LM order="20">
+                          <form>bokmål</form>
+                          <lemma>bokmål</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>nøyt</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </LM>
+                        <LM order="21">
+                          <form>)</form>
+                          <lemma>$)</lemma>
+                          <cpostag>&lt;parentes-slutt></cpostag>
+                          <postag>&lt;parentes-slutt></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                    <LM order="22">
+                      <form>,</form>
+                      <lemma>$,</lemma>
+                      <cpostag>&lt;komma></cpostag>
+                      <postag>&lt;komma></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="26">
+                      <form>litteraturutgåva</form>
+                      <lemma>litteraturutgåve</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>fem</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                        <LM>samset</LM>
+                      </feats>
+                      <deprel>APP</deprel>
+                      <childnodes>
+                        <LM order="23">
+                          <form>den</form>
+                          <lemma>den</lemma>
+                          <cpostag>det</cpostag>
+                          <postag>det</postag>
+                          <feats>
+                            <LM>dem</LM>
+                            <LM>fem</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>DET</deprel>
+                        </LM>
+                        <LM order="24">
+                          <form>såkalla</form>
+                          <lemma>såkalla</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>eint</LM>
+                            <LM>bu</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </LM>
+                        <LM order="25">
+                          <form>«</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="27">
+                          <form>»</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="28">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="17">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Kapittel-</form>
+          <lemma>kapittel-</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>ufl</feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>versinndelingar</form>
+              <lemma>versinndeling</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>og</form>
+                  <lemma>og</lemma>
+                  <cpostag>konj</cpostag>
+                  <postag>konj</postag>
+                  <feats>&lt;ikkje-clb></feats>
+                  <deprel>KONJ</deprel>
+                </LM>
+                <LM order="6">
+                  <form>har</form>
+                  <lemma>ha</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>ATR</deprel>
+                  <childnodes>
+                    <LM order="4">
+                      <form>som</form>
+                      <lemma>som</lemma>
+                      <cpostag>sbu</cpostag>
+                      <postag>sbu</postag>
+                      <deprel>SBU</deprel>
+                    </LM>
+                    <LM order="5">
+                      <form>ikkje</form>
+                      <lemma>ikkje</lemma>
+                      <cpostag>adv</cpostag>
+                      <postag>adv</postag>
+                      <deprel>ADV</deprel>
+                    </LM>
+                    <LM order="7">
+                      <form>noko</form>
+                      <lemma>noko</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>3</LM>
+                        <LM>nøyt</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>DOBJ</deprel>
+                      <childnodes order="8">
+                        <form>å</form>
+                        <lemma>å</lemma>
+                        <cpostag>inf-merke</cpostag>
+                        <postag>inf-merke</postag>
+                        <deprel>ATR</deprel>
+                        <childnodes order="9">
+                          <form>gjere</form>
+                          <lemma>gjere</lemma>
+                          <cpostag>verb</cpostag>
+                          <postag>verb</postag>
+                          <feats>inf</feats>
+                          <deprel>INFV</deprel>
+                          <childnodes order="10">
+                            <form>med</form>
+                            <lemma>med</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ADV</deprel>
+                            <childnodes order="11">
+                              <form>organiseringa</form>
+                              <lemma>organisering</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>fem</LM>
+                                <LM>appell</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes order="12">
+                                <form>av</form>
+                                <lemma>av</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ATR</deprel>
+                                <childnodes order="15">
+                                  <form>tekstane</form>
+                                  <lemma>tekst</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>mask</LM>
+                                    <LM>appell</LM>
+                                    <LM>fl</LM>
+                                    <LM>bu</LM>
+                                  </feats>
+                                  <deprel>PUTFYLL</deprel>
+                                  <childnodes>
+                                    <LM order="13">
+                                      <form>dei</form>
+                                      <lemma>dei</lemma>
+                                      <cpostag>det</cpostag>
+                                      <postag>det</postag>
+                                      <feats>
+                                        <LM>dem</LM>
+                                        <LM>fl</LM>
+                                      </feats>
+                                      <deprel>DET</deprel>
+                                    </LM>
+                                    <LM order="14">
+                                      <form>opphavlege</form>
+                                      <lemma>opphavleg</lemma>
+                                      <cpostag>adj</cpostag>
+                                      <postag>adj</postag>
+                                      <feats>
+                                        <LM>pos</LM>
+                                        <LM>fl</LM>
+                                      </feats>
+                                      <deprel>ATR</deprel>
+                                    </LM>
+                                  </childnodes>
+                                </childnodes>
+                              </childnodes>
+                            </childnodes>
+                          </childnodes>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="16">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>reinsa</form>
+          <lemma>reinse</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes order="19">
+            <form>bort</form>
+            <lemma>bort</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="20">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="23">
+          <form>har</form>
+          <lemma>ha</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="22">
+              <form>kapittelinndelingar</form>
+              <lemma>kapittelinndeling</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes order="21">
+                <form>nye</form>
+                <lemma>ny</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>ATR</deprel>
+              </childnodes>
+            </LM>
+            <LM order="24">
+              <form>fått</form>
+              <lemma>få</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>perf-part</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="26">
+                <form>overskrifter</form>
+                <lemma>overskrift</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+                <childnodes order="25">
+                  <form>stutte</form>
+                  <lemma>stutt</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="27">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Tanken</form>
+          <lemma>tanke</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>skal</form>
+          <lemma>skulle</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="4">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>FSUBJ</deprel>
+            </LM>
+            <LM order="6">
+              <form>verte</form>
+              <lemma>verte</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>inf</feats>
+              <deprel>INFV</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>lettare</form>
+                  <lemma>lett</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>komp</feats>
+                  <deprel>SPRED</deprel>
+                </LM>
+                <LM order="8">
+                  <form>å</form>
+                  <lemma>å</lemma>
+                  <cpostag>inf-merke</cpostag>
+                  <postag>inf-merke</postag>
+                  <deprel>PSUBJ</deprel>
+                  <childnodes order="9">
+                    <form>lese</form>
+                    <lemma>lese</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>inf</feats>
+                    <deprel>INFV</deprel>
+                    <childnodes>
+                      <LM order="11">
+                        <form>versjonen</form>
+                        <lemma>versjon</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>mask</LM>
+                          <LM>appell</LM>
+                          <LM>eint</LM>
+                          <LM>bu</LM>
+                        </feats>
+                        <deprel>DOBJ</deprel>
+                        <childnodes>
+                          <LM order="10">
+                            <form>den</form>
+                            <lemma>den</lemma>
+                            <cpostag>det</cpostag>
+                            <postag>det</postag>
+                            <feats>
+                              <LM>dem</LM>
+                              <LM>mask</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>DET</deprel>
+                          </LM>
+                          <LM order="12">
+                            <form>av</form>
+                            <lemma>av</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="13">
+                              <form>Bibelen</form>
+                              <lemma>Bibelen</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>prop</feats>
+                              <deprel>PUTFYLL</deprel>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                      <LM order="14">
+                        <form>for</form>
+                        <lemma>for</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="16">
+                          <form>grupper</form>
+                          <lemma>gruppe</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>fem</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>fl</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes order="15">
+                            <form>mange</form>
+                            <lemma>mange</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>ATR</deprel>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="17">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>vert</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Klassikarane</form>
+          <lemma>klassikar</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="6">
+          <form>utnytta</form>
+          <lemma>utnytte</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="5">
+                <form>tid</form>
+                <lemma>tid</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="4">
+                  <form>vår</form>
+                  <lemma>vår</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>poss</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="7">
+              <form>på</form>
+              <lemma>på</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="9">
+                <form>måtar</form>
+                <lemma>måte</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="8">
+                  <form>nye</form>
+                  <lemma>ny</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="10">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="12">
+                <form>populærkultur</form>
+                <lemma>populærkultur</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="11">
+                  <form>internasjonal</form>
+                  <lemma>internasjonal</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="7">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Å</form>
+          <lemma>å</lemma>
+          <cpostag>inf-merke</cpostag>
+          <postag>inf-merke</postag>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>ha</form>
+            <lemma>ha</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>inf</feats>
+            <deprel>INFV</deprel>
+            <childnodes order="3">
+              <form>tilgang</form>
+              <lemma>tilgang</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="4">
+                <form>til</form>
+                <lemma>til</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="6">
+                  <form>referanseverk</form>
+                  <lemma>referanseverk</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                    <LM>samset</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="5">
+                    <form>gode</form>
+                    <lemma>god</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>atter</form>
+          <lemma>atter</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="9">
+          <form>viktig</form>
+          <lemma>viktig</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="10">
+            <form>for</form>
+            <lemma>for</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="11">
+              <form>å</form>
+              <lemma>å</lemma>
+              <cpostag>inf-merke</cpostag>
+              <postag>inf-merke</postag>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="12">
+                <form>skjøne</form>
+                <lemma>skjøne</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>inf</feats>
+                <deprel>INFV</deprel>
+                <childnodes order="13">
+                  <form>samtidskulturen</form>
+                  <lemma>samtidskultur</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                    <LM>samset</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>tekstfunn</form>
+      <lemma>tekstfunn</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>nøyt</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>fl</LM>
+        <LM>samset</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Nye</form>
+          <lemma>ny</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="3">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Fornyingsarbeidet</form>
+          <lemma>fornyingsarbeid</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>bygd</form>
+          <lemma>byggje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes order="4">
+            <form>på</form>
+            <lemma>på</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="6">
+              <form>forsking</form>
+              <lemma>forsking</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="5">
+                  <form>omfattande</form>
+                  <lemma>omfattande</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="8">
+                  <form>analysar</form>
+                  <lemma>analyse</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="7">
+                      <form>og</form>
+                      <lemma>og</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </LM>
+                    <LM order="9">
+                      <form>av</form>
+                      <lemma>av</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="11">
+                        <form>tekstfunn</form>
+                        <lemma>tekstfunn</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>nøyt</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>fl</LM>
+                          <LM>samset</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="10">
+                            <form>nye</form>
+                            <lemma>ny</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>ATR</deprel>
+                          </LM>
+                          <LM order="12">
+                            <form>i</form>
+                            <lemma>i</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="13">
+                              <form>etterkrigstida</form>
+                              <lemma>etterkrigstid</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>fem</LM>
+                                <LM>appell</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="14">
+              <form>(</form>
+              <lemma>$(</lemma>
+              <cpostag>&lt;parentes-beg></cpostag>
+              <postag>&lt;parentes-beg></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="17">
+              <form>bibelvers</form>
+              <lemma>bibelvers</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="15">
+                  <form>to</form>
+                  <lemma>to</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="16">
+                  <form>nye</form>
+                  <lemma>ny</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="19">
+              <form>funne</form>
+              <lemma>finne</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="20">
+              <form>!</form>
+              <lemma>$!</lemma>
+              <cpostag>clb</cpostag>
+              <postag>clb</postag>
+              <feats>&lt;utrop></feats>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="21">
+              <form>)</form>
+              <lemma>$)</lemma>
+              <cpostag>&lt;parentes-slutt></cpostag>
+              <postag>&lt;parentes-slutt></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="22">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Ein</form>
+          <lemma>ein</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>lagt</form>
+          <lemma>leggje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>vekt</form>
+              <lemma>vekt</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+            <LM order="5">
+              <form>på</form>
+              <lemma>på</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="8">
+                <form>handlar</form>
+                <lemma>handle</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pres</feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="6">
+                    <form>at</form>
+                    <lemma>at</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="7">
+                    <form>Bibelen</form>
+                    <lemma>Bibelen</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>prop</feats>
+                    <deprel>SUBJ</deprel>
+                  </LM>
+                  <LM order="9">
+                    <form>om</form>
+                    <lemma>om</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="10">
+                      <form>relasjonane</form>
+                      <lemma>relasjon</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>fl</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes order="12">
+                        <form>har</form>
+                        <lemma>ha</lemma>
+                        <cpostag>verb</cpostag>
+                        <postag>verb</postag>
+                        <feats>pres</feats>
+                        <deprel>ATR</deprel>
+                        <childnodes>
+                          <LM order="11">
+                            <form>mennesket</form>
+                            <lemma>menneske</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>
+                              <LM>nøyt</LM>
+                              <LM>appell</LM>
+                              <LM>eint</LM>
+                              <LM>bu</LM>
+                            </feats>
+                            <deprel>SUBJ</deprel>
+                          </LM>
+                          <LM order="13">
+                            <form>til</form>
+                            <lemma>til</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ADV</deprel>
+                            <childnodes order="14">
+                              <form>omverda</form>
+                              <lemma>omverd</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>fem</LM>
+                                <LM>appell</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes>
+                                <LM order="15">
+                                  <form>-</form>
+                                  <lemma>$-</lemma>
+                                  <cpostag>&lt;strek></cpostag>
+                                  <postag>&lt;strek></postag>
+                                  <deprel>IK</deprel>
+                                </LM>
+                                <LM order="17">
+                                  <form>menneske</form>
+                                  <lemma>menneske</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>nøyt</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>KOORD</deprel>
+                                  <childnodes order="16">
+                                    <form>andre</form>
+                                    <lemma>annan</lemma>
+                                    <cpostag>det</cpostag>
+                                    <postag>det</postag>
+                                    <feats>
+                                      <LM>dem</LM>
+                                      <LM>&lt;adj></LM>
+                                      <LM>fl</LM>
+                                    </feats>
+                                    <deprel>DET</deprel>
+                                  </childnodes>
+                                </LM>
+                                <LM order="19">
+                                  <form>Gud</form>
+                                  <lemma>Gud</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>prop</feats>
+                                  <deprel>KOORD</deprel>
+                                  <childnodes order="18">
+                                    <form>og</form>
+                                    <lemma>og</lemma>
+                                    <cpostag>konj</cpostag>
+                                    <postag>konj</postag>
+                                    <feats>&lt;ikkje-clb></feats>
+                                    <deprel>KONJ</deprel>
+                                  </childnodes>
+                                </LM>
+                              </childnodes>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="20">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>bort</form>
+      <lemma>bort</lemma>
+      <cpostag>prep</cpostag>
+      <postag>prep</postag>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Dermed</form>
+          <lemma>dermed</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>med</form>
+          <lemma>med</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="7">
+            <form>Fader</form>
+            <lemma>Fader</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>prop</feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes>
+              <LM order="4">
+                <form>det</form>
+                <lemma>det</lemma>
+                <cpostag>det</cpostag>
+                <postag>det</postag>
+                <feats>
+                  <LM>dem</LM>
+                  <LM>nøyt</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>DET</deprel>
+              </LM>
+              <LM order="5">
+                <form>alderdomlege</form>
+                <lemma>alderdomleg</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>ATR</deprel>
+              </LM>
+              <LM order="6">
+                <form>«</form>
+                <lemma>$"</lemma>
+                <cpostag>&lt;anf></cpostag>
+                <postag>&lt;anf></postag>
+                <deprel>IK</deprel>
+              </LM>
+              <LM order="8">
+                <form>»</form>
+                <lemma>$"</lemma>
+                <cpostag>&lt;anf></cpostag>
+                <postag>&lt;anf></postag>
+                <deprel>IK</deprel>
+              </LM>
+              <LM order="12">
+                <form>brukt</form>
+                <lemma>bruke</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>&lt;perf-part></LM>
+                  <LM>nøyt</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>ATR</deprel>
+                <childnodes>
+                  <LM order="9">
+                    <form>(</form>
+                    <lemma>$(</lemma>
+                    <cpostag>&lt;parentes-beg></cpostag>
+                    <postag>&lt;parentes-beg></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                  <LM order="10">
+                    <form>mest</form>
+                    <lemma>mykje</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>sup</LM>
+                      <LM>ub</LM>
+                    </feats>
+                    <deprel>ADV</deprel>
+                  </LM>
+                  <LM order="11">
+                    <form>ikkje</form>
+                    <lemma>ikkje</lemma>
+                    <cpostag>adv</cpostag>
+                    <postag>adv</postag>
+                    <deprel>ADV</deprel>
+                  </LM>
+                  <LM order="13">
+                    <form>av</form>
+                    <lemma>av</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="14">
+                      <form>nokon</form>
+                      <lemma>nokon</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>3</LM>
+                        <LM>mask</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                  <LM order="15">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="16">
+                      <form>kvardagstale</form>
+                      <lemma>kvardagstale</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>fem</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                  <LM order="17">
+                    <form>anna</form>
+                    <lemma>annan</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>&lt;adj></LM>
+                      <LM>nøyt</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>ADV</deprel>
+                    <childnodes order="18">
+                      <form>enn</form>
+                      <lemma>enn</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                      <childnodes order="19">
+                        <form>som</form>
+                        <lemma>som</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="20">
+                          <form>bannord</form>
+                          <lemma>bannord</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>nøyt</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="21">
+                    <form>)</form>
+                    <lemma>$)</lemma>
+                    <cpostag>&lt;parentes-slutt></cpostag>
+                    <postag>&lt;parentes-slutt></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                </childnodes>
+              </LM>
+              <LM order="22">
+                <form>i</form>
+                <lemma>i</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="23">
+                  <form>Fadervåret</form>
+                  <lemma>Fadervåret</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>prop</feats>
+                  <deprel>PUTFYLL</deprel>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="24">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="26">
+          <form>ber</form>
+          <lemma>be</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="25">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="27">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>eint</LM>
+                <LM>hum</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="29">
+              <form>på</form>
+              <lemma>på</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="30">
+                <form>bokmål</form>
+                <lemma>bokmål</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="28">
+                    <form>både</form>
+                    <lemma>både</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>
+                      <LM>&lt;ikkje-clb></LM>
+                      <LM>&lt;adv></LM>
+                    </feats>
+                    <deprel>KONJ</deprel>
+                  </LM>
+                  <LM order="32">
+                    <form>nynorsk</form>
+                    <lemma>nynorsk</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>KOORD</deprel>
+                    <childnodes order="31">
+                      <form>og</form>
+                      <lemma>og</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="33">
+              <form>til</form>
+              <lemma>til</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="36">
+                <form>far</form>
+                <lemma>far</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="34">
+                    <form>«</form>
+                    <lemma>$"</lemma>
+                    <cpostag>&lt;anf></cpostag>
+                    <postag>&lt;anf></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                  <LM order="35">
+                    <form>Vår</form>
+                    <lemma>vår</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>poss</LM>
+                      <LM>mask</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="37">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="38">
+                      <form>himmelen</form>
+                      <lemma>himmel</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                  <LM order="39">
+                    <form>»</form>
+                    <lemma>$"</lemma>
+                    <cpostag>&lt;anf></cpostag>
+                    <postag>&lt;anf></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="40">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>ville</form>
+      <lemma>vilje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>nynorskingar</form>
+          <lemma>nynorsking</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="1">
+            <form>Mange</form>
+            <lemma>mange</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>
+              <LM>pos</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>ATR</deprel>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>likt</form>
+          <lemma>like</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>nok</form>
+              <lemma>nok</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="8">
+              <form>Far</form>
+              <lemma>far</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="6">
+                  <form>betre</form>
+                  <lemma>god</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>komp</feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="7">
+                  <form>«</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="9">
+                  <form>vår</form>
+                  <lemma>vår</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>poss</LM>
+                    <LM>mask</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                  <childnodes>
+                    <LM order="10">
+                      <form>»</form>
+                      <lemma>$"</lemma>
+                      <cpostag>&lt;anf></cpostag>
+                      <postag>&lt;anf></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="11">
+                      <form>,</form>
+                      <lemma>$,</lemma>
+                      <cpostag>&lt;komma></cpostag>
+                      <postag>&lt;komma></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="12">
+                  <form>slik</form>
+                  <lemma>slik</lemma>
+                  <cpostag>adv</cpostag>
+                  <postag>adv</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="14">
+                    <form>skreiv</form>
+                    <lemma>skrive</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pret</feats>
+                    <deprel>ADV</deprel>
+                    <childnodes order="13">
+                      <form>Seippel</form>
+                      <lemma>Seippel</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>prop</feats>
+                      <deprel>SUBJ</deprel>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="15">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Tendensen</form>
+          <lemma>tendens</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>i</form>
+            <lemma>i</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="3">
+              <form>NN-omsetjinga</form>
+              <lemma>NN-omsetjing</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>å</form>
+          <lemma>å</lemma>
+          <cpostag>inf-merke</cpostag>
+          <postag>inf-merke</postag>
+          <deprel>SPRED</deprel>
+          <childnodes order="6">
+            <form>setje</form>
+            <lemma>setje</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>inf</feats>
+            <deprel>INFV</deprel>
+            <childnodes>
+              <LM order="7">
+                <form>pronomenet</form>
+                <lemma>pronomen</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+              </LM>
+              <LM order="8">
+                <form>framfor</form>
+                <lemma>framfor</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ADV</deprel>
+                <childnodes order="9">
+                  <form>substantivet</form>
+                  <lemma>substantiv</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                </childnodes>
+              </LM>
+              <LM order="12">
+                <form>skal</form>
+                <lemma>skulle</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pres</feats>
+                <deprel>ADV</deprel>
+                <childnodes>
+                  <LM order="10">
+                    <form>når</form>
+                    <lemma>når</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="11">
+                    <form>det</form>
+                    <lemma>det</lemma>
+                    <cpostag>pron</cpostag>
+                    <postag>pron</postag>
+                    <feats>
+                      <LM>pers</LM>
+                      <LM>3</LM>
+                      <LM>nøyt</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>FSUBJ</deprel>
+                  </LM>
+                  <LM order="13">
+                    <form>vere</form>
+                    <lemma>vere</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>inf</feats>
+                    <deprel>INFV</deprel>
+                    <childnodes order="14">
+                      <form>høgtidsamt</form>
+                      <lemma>høgtidsam</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>nøyt</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>SPRED</deprel>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </LM>
+              <LM order="20">
+                <form>,</form>
+                <lemma>$,</lemma>
+                <cpostag>&lt;komma></cpostag>
+                <postag>&lt;komma></postag>
+                <deprel>IK</deprel>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>namn</form>
+          <lemma>namn</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="15">
+              <form>(</form>
+              <lemma>$(</lemma>
+              <cpostag>&lt;parentes-beg></cpostag>
+              <postag>&lt;parentes-beg></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="16">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="17">
+              <form>ditt</form>
+              <lemma>din</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>poss</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="19">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="23">
+              <form>hus</form>
+              <lemma>hus</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="21">
+                  <form>«</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="22">
+                  <form>hans</form>
+                  <lemma>hans</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>poss</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="24">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="25">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="28">
+              <form>hand</form>
+              <lemma>hand</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="26">
+                  <form>«</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="27">
+                  <form>hans</form>
+                  <lemma>hans</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>poss</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="29">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="30">
+              <form>)</form>
+              <lemma>$)</lemma>
+              <cpostag>&lt;parentes-slutt></cpostag>
+              <postag>&lt;parentes-slutt></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="31">
+              <form>;</form>
+              <lemma>$;</lemma>
+              <cpostag>clb</cpostag>
+              <postag>clb</postag>
+              <feats>&lt;semi></feats>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="35">
+          <form>motverkar</form>
+          <lemma>motverke</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="32">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="34">
+                <form>mon</form>
+                <lemma>mon</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="33">
+                  <form>nokon</form>
+                  <lemma>nokon</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>mask</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="36">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="37">
+              <form>konkretiseringa</form>
+              <lemma>konkretisering</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+                <LM>unorm</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="38">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>BM-utgåva</form>
+            <lemma>BM-utgåve</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fem</LM>
+              <LM>appell</LM>
+              <LM>eint</LM>
+              <LM>bu</LM>
+              <LM>samset</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>draget</form>
+          <lemma>drag</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>den</form>
+              <lemma>den</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="5">
+              <form>slåande</form>
+              <lemma>slå</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>&lt;pres-part></feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="6">
+              <form>abtraherande</form>
+              <lemma>abtrahere</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;pres-part></LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>nyttar</form>
+          <lemma>nytte</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="9">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>eint</LM>
+                <LM>hum</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="10">
+              <form>gjerne</form>
+              <lemma>gjerne</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="13">
+              <form>binding</form>
+              <lemma>binding</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="12">
+                  <form>enkel</form>
+                  <lemma>enkel</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="14">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="15">
+                    <form>substantiv</form>
+                    <lemma>substantiv</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="16">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="17">
+                <form>staden</form>
+                <lemma>stad</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="18">
+                  <form>for</form>
+                  <lemma>for</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="19">
+                    <form>dobbel</form>
+                    <lemma>dobbel</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="20">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="23">
+      <form>får</form>
+      <lemma>få</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Og</form>
+          <lemma>og</lemma>
+          <cpostag>konj</cpostag>
+          <postag>konj</postag>
+          <feats>&lt;ikkje-clb></feats>
+          <deprel>KONJ</deprel>
+        </LM>
+        <LM order="17">
+          <form>bein</form>
+          <lemma>bein</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="16">
+              <form>(</form>
+              <lemma>$(</lemma>
+              <cpostag>&lt;parentes-beg></cpostag>
+              <postag>&lt;parentes-beg></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="18">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="19">
+              <form>grein</form>
+              <lemma>grein</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+            </LM>
+            <LM order="20">
+              <form>)</form>
+              <lemma>$)</lemma>
+              <cpostag>&lt;parentes-slutt></cpostag>
+              <postag>&lt;parentes-slutt></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="25">
+          <form>a-endingar</form>
+          <lemma>a-ending</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="26">
+          <form>nyttast</form>
+          <lemma>nytte</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>
+            <LM>inf</LM>
+            <LM>st-form</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="22">
+              <form>så</form>
+              <lemma>så</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="5">
+                <form>er</form>
+                <lemma>vere</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pres</feats>
+                <deprel>APP</deprel>
+                <childnodes>
+                  <LM order="3">
+                    <form>om</form>
+                    <lemma>om</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                    <childnodes order="2">
+                      <form>sjølv</form>
+                      <lemma>sjølv</lemma>
+                      <cpostag>adv</cpostag>
+                      <postag>adv</postag>
+                      <deprel>ADV</deprel>
+                    </childnodes>
+                  </LM>
+                  <LM order="4">
+                    <form>diftongane</form>
+                    <lemma>diftong</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>fl</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>SUBJ</deprel>
+                  </LM>
+                  <LM order="6">
+                    <form>innførde</form>
+                    <lemma>innføre</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>&lt;perf-part></LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>INFV</deprel>
+                    <childnodes order="7">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                      <childnodes order="9">
+                        <form>ord</form>
+                        <lemma>ord</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>nøyt</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="8">
+                            <form>mange</form>
+                            <lemma>mange</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>ATR</deprel>
+                          </LM>
+                          <LM order="13">
+                            <form>fekk</form>
+                            <lemma>få</lemma>
+                            <cpostag>verb</cpostag>
+                            <postag>verb</postag>
+                            <feats>pret</feats>
+                            <deprel>ATR</deprel>
+                            <childnodes>
+                              <LM order="10">
+                                <form>som</form>
+                                <lemma>som</lemma>
+                                <cpostag>sbu</cpostag>
+                                <postag>sbu</postag>
+                                <deprel>SBU</deprel>
+                              </LM>
+                              <LM order="14">
+                                <form>ha</form>
+                                <lemma>ha</lemma>
+                                <cpostag>verb</cpostag>
+                                <postag>verb</postag>
+                                <feats>inf</feats>
+                                <deprel>INFV</deprel>
+                                <childnodes>
+                                  <LM order="11">
+                                    <form>før</form>
+                                    <lemma>før</lemma>
+                                    <cpostag>prep</cpostag>
+                                    <postag>prep</postag>
+                                    <deprel>ADV</deprel>
+                                  </LM>
+                                  <LM order="12">
+                                    <form>ikkje</form>
+                                    <lemma>ikkje</lemma>
+                                    <cpostag>adv</cpostag>
+                                    <postag>adv</postag>
+                                    <deprel>ADV</deprel>
+                                  </LM>
+                                  <LM order="15">
+                                    <form>dei</form>
+                                    <lemma>dei</lemma>
+                                    <cpostag>pron</cpostag>
+                                    <postag>pron</postag>
+                                    <feats>
+                                      <LM>pers</LM>
+                                      <LM>3</LM>
+                                      <LM>fl</LM>
+                                      <LM>hum</LM>
+                                      <LM>akk</LM>
+                                    </feats>
+                                    <deprel>DOBJ</deprel>
+                                  </LM>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="21">
+                    <form>,</form>
+                    <lemma>$,</lemma>
+                    <cpostag>&lt;komma></cpostag>
+                    <postag>&lt;komma></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="24">
+              <form>ikkje</form>
+              <lemma>ikkje</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="27">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="28">
+                <form>substantiv</form>
+                <lemma>substantiv</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="29">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="33">
+              <form>er</form>
+              <lemma>vere</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>APP</deprel>
+              <childnodes>
+                <LM order="30">
+                  <form>boken</form>
+                  <lemma>boken</lemma>
+                  <cpostag>ukjent</cpostag>
+                  <postag>ukjent</postag>
+                  <deprel>SUBJ</deprel>
+                  <childnodes order="32">
+                    <form>elven</form>
+                    <lemma>elven</lemma>
+                    <cpostag>ukjent</cpostag>
+                    <postag>ukjent</postag>
+                    <deprel>KOORD</deprel>
+                    <childnodes order="31">
+                      <form>og</form>
+                      <lemma>og</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+                <LM order="34">
+                  <form>verdigast</form>
+                  <lemma>verdig</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>sup</LM>
+                    <LM>ub</LM>
+                  </feats>
+                  <deprel>SPRED</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="35">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>BM</form>
+          <lemma>BM</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>likevel</form>
+          <lemma>likevel</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="7">
+          <form>syntaks</form>
+          <lemma>syntaks</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>lettare</form>
+              <lemma>lett</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>ATR</deprel>
+              <childnodes order="5">
+                <form>,</form>
+                <lemma>$,</lemma>
+                <cpostag>&lt;komma></cpostag>
+                <postag>&lt;komma></postag>
+                <deprel>IK</deprel>
+              </childnodes>
+            </LM>
+            <LM order="6">
+              <form>friare</form>
+              <lemma>fri</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="10">
+          <form>påverknad</form>
+          <lemma>påverknad</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>APP</deprel>
+          <childnodes>
+            <LM order="9">
+              <form>tydeleg</form>
+              <lemma>tydeleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>m/f</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="11">
+              <form>frå</form>
+              <lemma>frå</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="12">
+                <form>NN-arbeidet</form>
+                <lemma>NN-arbeid</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                  <LM>samset</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="10">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Val</form>
+          <lemma>val</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>verkar</form>
+              <lemma>verke</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>ATR</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>som</form>
+                  <lemma>som</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="4">
+                  <form>inkluderande</form>
+                  <lemma>inkludere</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>&lt;pres-part></feats>
+                  <deprel>SPRED</deprel>
+                  <childnodes order="5">
+                    <form>med</form>
+                    <lemma>med</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="6">
+                      <form>omsyn</form>
+                      <lemma>omsyn</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>nøyt</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes order="7">
+                        <form>til</form>
+                        <lemma>til</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ATR</deprel>
+                        <childnodes order="8">
+                          <form>kjøn</form>
+                          <lemma>kjønn</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>nøyt</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                            <LM>unorm</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="9">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>gjorde</form>
+          <lemma>gjere</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes order="12">
+            <form>der</form>
+            <lemma>der</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="14">
+              <form>gjer</form>
+              <lemma>gjere</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="13">
+                  <form>grunnteksten</form>
+                  <lemma>grunntekst</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                </LM>
+                <LM order="15">
+                  <form>det</form>
+                  <lemma>det</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>3</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>FOBJ</deprel>
+                </LM>
+                <LM order="16">
+                  <form>mogleg</form>
+                  <lemma>mogleg</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>OPRED</deprel>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="17">
+          <form>;</form>
+          <lemma>$;</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;semi></feats>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="35">
+          <form>står</form>
+          <lemma>stå</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="18">
+              <form>der</form>
+              <lemma>der</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="21">
+                  <form>stod</form>
+                  <lemma>stå</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pret</feats>
+                  <deprel>ADV</deprel>
+                  <childnodes>
+                    <LM order="19">
+                      <form>det</form>
+                      <lemma>det</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>3</LM>
+                        <LM>nøyt</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>FSUBJ</deprel>
+                    </LM>
+                    <LM order="20">
+                      <form>før</form>
+                      <lemma>før</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                    </LM>
+                    <LM order="23">
+                      <form>brør</form>
+                      <lemma>bror</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>SUBJ</deprel>
+                      <childnodes>
+                        <LM order="22">
+                          <form>«</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="24">
+                          <form>»</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                    <LM order="25">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                      <childnodes order="26">
+                        <form>tiltale</form>
+                        <lemma>tiltale</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>fem</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="27">
+                            <form>/</form>
+                            <lemma>$/</lemma>
+                            <cpostag>symb</cpostag>
+                            <postag>symb</postag>
+                            <deprel>IK</deprel>
+                          </LM>
+                          <LM order="28">
+                            <form>omtale</form>
+                            <lemma>omtale</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>
+                              <LM>fem</LM>
+                              <LM>appell</LM>
+                              <LM>ub</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>KOORD</deprel>
+                            <childnodes order="29">
+                              <form>av</form>
+                              <lemma>av</lemma>
+                              <cpostag>prep</cpostag>
+                              <postag>prep</postag>
+                              <deprel>ATR</deprel>
+                              <childnodes order="31">
+                                <form>kvinner</form>
+                                <lemma>kvinne</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>
+                                  <LM>fem</LM>
+                                  <LM>appell</LM>
+                                  <LM>ub</LM>
+                                  <LM>fl</LM>
+                                </feats>
+                                <deprel>PUTFYLL</deprel>
+                                <childnodes>
+                                  <LM order="30">
+                                    <form>både</form>
+                                    <lemma>både</lemma>
+                                    <cpostag>konj</cpostag>
+                                    <postag>konj</postag>
+                                    <feats>
+                                      <LM>&lt;ikkje-clb></LM>
+                                      <LM>&lt;adv></LM>
+                                    </feats>
+                                    <deprel>KONJ</deprel>
+                                  </LM>
+                                  <LM order="33">
+                                    <form>menn</form>
+                                    <lemma>mann</lemma>
+                                    <cpostag>subst</cpostag>
+                                    <postag>subst</postag>
+                                    <feats>
+                                      <LM>mask</LM>
+                                      <LM>appell</LM>
+                                      <LM>ub</LM>
+                                      <LM>fl</LM>
+                                    </feats>
+                                    <deprel>KOORD</deprel>
+                                    <childnodes order="32">
+                                      <form>og</form>
+                                      <lemma>og</lemma>
+                                      <cpostag>konj</cpostag>
+                                      <postag>konj</postag>
+                                      <feats>&lt;ikkje-clb></feats>
+                                      <deprel>KONJ</deprel>
+                                    </childnodes>
+                                  </LM>
+                                </childnodes>
+                              </childnodes>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="34">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="36">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="38">
+              <form>søsken</form>
+              <lemma>søsken</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="37">
+                  <form>«</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="39">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="40">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="5">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>Menneskesonen</form>
+          <lemma>Menneskesonen</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Nemninga</form>
+              <lemma>nemning</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>APP</deprel>
+            </LM>
+            <LM order="2">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="4">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>no</form>
+          <lemma>no</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="8">
+          <form>for</form>
+          <lemma>for</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="7">
+              <form>berre</form>
+              <lemma>berre</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="9">
+              <form>Jesus</form>
+              <lemma>Jesus</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>prop</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="10">
+          <form>i</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="11">
+            <form>NT</form>
+            <lemma>NT</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fork</LM>
+              <LM>appell</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="14">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="13">
+              <form>men</form>
+              <lemma>men</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="18">
+              <form>brukt</form>
+              <lemma>bruke</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>m/f</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>INFV</deprel>
+              <childnodes>
+                <LM order="15">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="16">
+                    <form>grunnteksten</form>
+                    <lemma>grunntekst</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="17">
+                  <form>òg</form>
+                  <lemma>òg</lemma>
+                  <cpostag>adv</cpostag>
+                  <postag>adv</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="19">
+                  <form>om</form>
+                  <lemma>om</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="20">
+                    <form>profetar</form>
+                    <lemma>profet</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="21">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="22">
+                    <form>GT</form>
+                    <lemma>GT</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fork</LM>
+                      <LM>appell</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="23">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="6">
+      <form>vik</form>
+      <lemma>vike</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Tanken</form>
+          <lemma>tanke</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>om</form>
+            <lemma>om</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="3">
+              <form>Jesus</form>
+              <lemma>Jesus</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>prop</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="4">
+                <form>som</form>
+                <lemma>som</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="5">
+                  <form>profet</form>
+                  <lemma>profet</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>dermed</form>
+          <lemma>dermed</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="9">
+          <form>i</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>meir</form>
+              <lemma>mykje</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="10">
+              <form>bakgrunnen</form>
+              <lemma>bakgrunn</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>verkar</form>
+      <lemma>verke</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>teke</form>
+          <lemma>ta</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>ADV</deprel>
+          <childnodes order="1">
+            <form>Strengt</form>
+            <lemma>streng</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>
+              <LM>pos</LM>
+              <LM>nøyt</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>valet</form>
+          <lemma>val</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="4">
+            <form>dette</form>
+            <lemma>dette</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>dem</LM>
+              <LM>nøyt</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>tekstforklårande</form>
+          <lemma>tekstforklåre</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;pres-part></LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="7">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="11">
+          <form>vel</form>
+          <lemma>velje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="9">
+              <form>di</form>
+              <lemma>di</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+              <childnodes order="8">
+                <form>med</form>
+                <lemma>med</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ADV</deprel>
+              </childnodes>
+            </LM>
+            <LM order="10">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>eint</LM>
+                <LM>hum</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="12">
+              <form>bort</form>
+              <lemma>bort</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="13">
+              <form>lesemåtar</form>
+              <lemma>lesemåte</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Kroppsnært</form>
+      <lemma>kroppsnær</lemma>
+      <cpostag>adj</cpostag>
+      <postag>adj</postag>
+      <feats>
+        <LM>pos</LM>
+        <LM>nøyt</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+        <LM>samset</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes order="2">
+        <form>|</form>
+        <lemma>$|</lemma>
+        <cpostag>clb</cpostag>
+        <postag>clb</postag>
+        <feats>&lt;overskrift></feats>
+        <deprel>IP</deprel>
+      </childnodes>
+    </LM>
+    <LM order="20">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>møydomen</form>
+          <lemma>møydom</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Den</form>
+              <lemma>den</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="2">
+              <form>tapte</form>
+              <lemma>tape</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="4">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="5">
+                <form>profetien</form>
+                <lemma>profeti</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="6">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="7">
+                      <form>Jesaja</form>
+                      <lemma>Jesaja</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>prop</feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes order="8">
+                        <form>7,14</form>
+                        <lemma>7,14</lemma>
+                        <cpostag>det</cpostag>
+                        <postag>det</postag>
+                        <feats>
+                          <LM>kvant</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>ATR</deprel>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="12">
+                    <form>er</form>
+                    <lemma>vere</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pres</feats>
+                    <deprel>ATR</deprel>
+                    <childnodes>
+                      <LM order="10">
+                        <form>der</form>
+                        <lemma>der</lemma>
+                        <cpostag>sbu</cpostag>
+                        <postag>sbu</postag>
+                        <deprel>SBU</deprel>
+                      </LM>
+                      <LM order="11">
+                        <form>almah</form>
+                        <lemma>almah</lemma>
+                        <cpostag>ukjent</cpostag>
+                        <postag>ukjent</postag>
+                        <deprel>SUBJ</deprel>
+                      </LM>
+                      <LM order="13">
+                        <form>omsett</form>
+                        <lemma>omsetje</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>&lt;perf-part></LM>
+                          <LM>nøyt</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>INFV</deprel>
+                        <childnodes order="14">
+                          <form>til</form>
+                          <lemma>til</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="18">
+                            <form>jenta</form>
+                            <lemma>jente</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>
+                              <LM>fem</LM>
+                              <LM>appell</LM>
+                              <LM>eint</LM>
+                              <LM>bu</LM>
+                            </feats>
+                            <deprel>PUTFYLL</deprel>
+                            <childnodes>
+                              <LM order="15">
+                                <form>«</form>
+                                <lemma>$"</lemma>
+                                <cpostag>&lt;anf></cpostag>
+                                <postag>&lt;anf></postag>
+                                <deprel>IK</deprel>
+                              </LM>
+                              <LM order="16">
+                                <form>den</form>
+                                <lemma>den</lemma>
+                                <cpostag>det</cpostag>
+                                <postag>det</postag>
+                                <feats>
+                                  <LM>dem</LM>
+                                  <LM>fem</LM>
+                                  <LM>eint</LM>
+                                </feats>
+                                <deprel>DET</deprel>
+                              </LM>
+                              <LM order="17">
+                                <form>unge</form>
+                                <lemma>ung</lemma>
+                                <cpostag>adj</cpostag>
+                                <postag>adj</postag>
+                                <feats>
+                                  <LM>pos</LM>
+                                  <LM>eint</LM>
+                                  <LM>bu</LM>
+                                </feats>
+                                <deprel>ATR</deprel>
+                              </LM>
+                              <LM order="19">
+                                <form>»</form>
+                                <lemma>$"</lemma>
+                                <cpostag>&lt;anf></cpostag>
+                                <postag>&lt;anf></postag>
+                                <deprel>IK</deprel>
+                              </LM>
+                            </childnodes>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="9">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="23">
+          <form>oppteke</form>
+          <lemma>oppta</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="21">
+              <form>alt</form>
+              <lemma>alt</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="22">
+              <form>lenge</form>
+              <lemma>lenge</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>&lt;adv></LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="24">
+              <form>journalistar</form>
+              <lemma>journalist</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="25">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="11">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="10">
+          <form>så</form>
+          <lemma>så</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="6">
+            <form>har</form>
+            <lemma>ha</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>pres</feats>
+            <deprel>APP</deprel>
+            <childnodes>
+              <LM order="1">
+                <form>Som</form>
+                <lemma>som</lemma>
+                <cpostag>sbu</cpostag>
+                <postag>sbu</postag>
+                <deprel>SBU</deprel>
+              </LM>
+              <LM order="4">
+                <form>Anders</form>
+                <lemma>Anders</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>prop</LM>
+                </feats>
+                <deprel>SUBJ</deprel>
+                <childnodes>
+                  <LM order="2">
+                    <form>mellom</form>
+                    <lemma>mellom</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="3">
+                      <form>andre</form>
+                      <lemma>annan</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>dem</LM>
+                        <LM>&lt;adj></LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                  <LM order="5">
+                    <form>Aschim</form>
+                    <lemma>Aschim</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>prop</feats>
+                    <deprel>FLAT</deprel>
+                  </LM>
+                </childnodes>
+              </LM>
+              <LM order="7">
+                <form>peika</form>
+                <lemma>peike</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>perf-part</feats>
+                <deprel>INFV</deprel>
+                <childnodes order="8">
+                  <form>på</form>
+                  <lemma>på</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                </childnodes>
+              </LM>
+              <LM order="9">
+                <form>,</form>
+                <lemma>$,</lemma>
+                <cpostag>&lt;komma></cpostag>
+                <postag>&lt;komma></postag>
+                <deprel>IK</deprel>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>Maria</form>
+          <lemma>Maria</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>prop</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="13">
+          <form>framleis</form>
+          <lemma>framleis</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="14">
+          <form>møy</form>
+          <lemma>møy</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="15">
+          <form>i</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="16">
+            <form>Nytestamentet</form>
+            <lemma>Nytestamentet</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>prop</feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>sjå</form>
+          <lemma>sjå</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>imp</feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="17">
+              <form>(</form>
+              <lemma>$(</lemma>
+              <cpostag>&lt;parentes-beg></cpostag>
+              <postag>&lt;parentes-beg></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="19">
+              <form>Luk</form>
+              <lemma>Luk</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="20">
+                  <form>1,27</form>
+                  <lemma>1,27</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="21">
+                  <form>;</form>
+                  <lemma>$;</lemma>
+                  <cpostag>clb</cpostag>
+                  <postag>clb</postag>
+                  <feats>&lt;semi></feats>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="22">
+                  <form>Matt</form>
+                  <lemma>Matt</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>prop</feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes order="23">
+                    <form>1,23</form>
+                    <lemma>1,23</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>kvant</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="24">
+              <form>)</form>
+              <lemma>$)</lemma>
+              <cpostag>&lt;parentes-slutt></cpostag>
+              <postag>&lt;parentes-slutt></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="25">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>interessant</form>
+          <lemma>interessant</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="2">
+            <form>så</form>
+            <lemma>så</lemma>
+            <cpostag>adv</cpostag>
+            <postag>adv</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="1">
+              <form>Vel</form>
+              <lemma>vel</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="19">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>PSUBJ</deprel>
+          <childnodes>
+            <LM order="6">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="8">
+              <form>hore</form>
+              <lemma>hore</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>«</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="9">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="10">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="12">
+                  <form>skit</form>
+                  <lemma>skit</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="11">
+                      <form>«</form>
+                      <lemma>$"</lemma>
+                      <cpostag>&lt;anf></cpostag>
+                      <postag>&lt;anf></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="13">
+                      <form>»</form>
+                      <lemma>$"</lemma>
+                      <cpostag>&lt;anf></cpostag>
+                      <postag>&lt;anf></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="16">
+                  <form>piss</form>
+                  <lemma>piss</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="14">
+                      <form>og</form>
+                      <lemma>og</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </LM>
+                    <LM order="15">
+                      <form>«</form>
+                      <lemma>$"</lemma>
+                      <cpostag>&lt;anf></cpostag>
+                      <postag>&lt;anf></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="17">
+                      <form>»</form>
+                      <lemma>$"</lemma>
+                      <cpostag>&lt;anf></cpostag>
+                      <postag>&lt;anf></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="18">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="21">
+              <form>ord</form>
+              <lemma>ord</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+              <childnodes order="20">
+                <form>kurante</form>
+                <lemma>kurant</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>ATR</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="22">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="5">
+      <form>skjønar</form>
+      <lemma>skjøne</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>av</form>
+          <lemma>av</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>M.a.</form>
+              <lemma>m.a.</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>
+                <LM>fork</LM>
+                <LM>prep+adj</LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="4">
+              <form>grunn</form>
+              <lemma>grunn</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="3">
+                <form>den</form>
+                <lemma>den</lemma>
+                <cpostag>det</cpostag>
+                <postag>det</postag>
+                <feats>
+                  <LM>dem</LM>
+                  <LM>mask</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>DET</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="7">
+          <form>nok</form>
+          <lemma>nok</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="8">
+          <form>profetane</form>
+          <lemma>profet</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+        </LM>
+        <LM order="9">
+          <form>lettare</form>
+          <lemma>lett</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="12">
+          <form>nyttar</form>
+          <lemma>nytte</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="10">
+              <form>når</form>
+              <lemma>når</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="11">
+              <form>dei</form>
+              <lemma>dei</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>fl</LM>
+                <LM>hum</LM>
+                <LM>nom</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="13">
+              <form>horeri</form>
+              <lemma>horeri</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+            <LM order="14">
+              <form>om</form>
+              <lemma>om</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="15">
+                <form>å</form>
+                <lemma>å</lemma>
+                <cpostag>inf-merke</cpostag>
+                <postag>inf-merke</postag>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="16">
+                  <form>vere</form>
+                  <lemma>vere</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>inf</feats>
+                  <deprel>INFV</deprel>
+                  <childnodes order="17">
+                    <form>utrugen</form>
+                    <lemma>utrugen</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>SPRED</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="18">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="20">
+              <form>skit</form>
+              <lemma>skit</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD-ELL</deprel>
+              <childnodes>
+                <LM order="19">
+                  <form>og</form>
+                  <lemma>og</lemma>
+                  <cpostag>konj</cpostag>
+                  <postag>konj</postag>
+                  <feats>clb</feats>
+                  <deprel>KONJ</deprel>
+                </LM>
+                <LM order="22">
+                  <form>piss</form>
+                  <lemma>piss</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes order="21">
+                    <form>og</form>
+                    <lemma>og</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>&lt;ikkje-clb></feats>
+                    <deprel>KONJ</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="23">
+                  <form>om</form>
+                  <lemma>om</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="25">
+                    <form>tilstandar</form>
+                    <lemma>tilstand</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="24">
+                        <form>elendige</form>
+                        <lemma>elendig</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>pos</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>ATR</deprel>
+                      </LM>
+                      <LM order="27">
+                        <form>kan</form>
+                        <lemma>kunne</lemma>
+                        <cpostag>verb</cpostag>
+                        <postag>verb</postag>
+                        <feats>pres</feats>
+                        <deprel>ATR</deprel>
+                        <childnodes>
+                          <LM order="26">
+                            <form>folk</form>
+                            <lemma>folk</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>
+                              <LM>nøyt</LM>
+                              <LM>appell</LM>
+                              <LM>ub</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>SUBJ</deprel>
+                          </LM>
+                          <LM order="28">
+                            <form>kome</form>
+                            <lemma>kome</lemma>
+                            <cpostag>verb</cpostag>
+                            <postag>verb</postag>
+                            <feats>inf</feats>
+                            <deprel>INFV</deprel>
+                            <childnodes>
+                              <LM order="29">
+                                <form>ut</form>
+                                <lemma>ut</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                              </LM>
+                              <LM order="30">
+                                <form>i</form>
+                                <lemma>i</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                              </LM>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="31">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Språket</form>
+          <lemma>språk</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>overalt</form>
+          <lemma>overalt</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="5">
+          <form>kroppsnært</form>
+          <lemma>kroppsnær</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="4">
+            <form>meir</form>
+            <lemma>mykje</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>komp</feats>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>-</form>
+          <lemma>$-</lemma>
+          <cpostag>&lt;strek></cpostag>
+          <postag>&lt;strek></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="10">
+          <form>spegling</form>
+          <lemma>spegling</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>KOORD-ELL</deprel>
+          <childnodes>
+            <LM order="7">
+              <form>truleg</form>
+              <lemma>truleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="8">
+              <form>dels</form>
+              <lemma>dels</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="9">
+              <form>ei</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fem</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="11">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="13">
+                <form>fenomenet</form>
+                <lemma>fenomen</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="12">
+                    <form>det</form>
+                    <lemma>det</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>nøyt</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="14">
+                    <form>i</form>
+                    <lemma>i</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="16">
+                      <form>lyrikk</form>
+                      <lemma>lyrikk</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes>
+                        <LM order="15">
+                          <form>moderne</form>
+                          <lemma>moderne</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>m/f</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </LM>
+                        <LM order="23">
+                          <form>har</form>
+                          <lemma>ha</lemma>
+                          <cpostag>verb</cpostag>
+                          <postag>verb</postag>
+                          <feats>pres</feats>
+                          <deprel>ATR</deprel>
+                          <childnodes>
+                            <LM order="17">
+                              <form>som</form>
+                              <lemma>som</lemma>
+                              <cpostag>sbu</cpostag>
+                              <postag>sbu</postag>
+                              <deprel>SBU</deprel>
+                            </LM>
+                            <LM order="18">
+                              <form>Hadle</form>
+                              <lemma>Hadle</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>prop</feats>
+                              <deprel>SUBJ</deprel>
+                              <childnodes>
+                                <LM order="19">
+                                  <form>Oftedal</form>
+                                  <lemma>Oftedal</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>prop</feats>
+                                  <deprel>FLAT</deprel>
+                                </LM>
+                                <LM order="20">
+                                  <form>Andersen</form>
+                                  <lemma>Andersen</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>prop</feats>
+                                  <deprel>FLAT</deprel>
+                                </LM>
+                                <LM order="22">
+                                  <form>andre</form>
+                                  <lemma>annan</lemma>
+                                  <cpostag>det</cpostag>
+                                  <postag>det</postag>
+                                  <feats>
+                                    <LM>dem</LM>
+                                    <LM>&lt;adj></LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>KOORD</deprel>
+                                  <childnodes order="21">
+                                    <form>og</form>
+                                    <lemma>og</lemma>
+                                    <cpostag>konj</cpostag>
+                                    <postag>konj</postag>
+                                    <feats>&lt;ikkje-clb></feats>
+                                    <deprel>KONJ</deprel>
+                                  </childnodes>
+                                </LM>
+                              </childnodes>
+                            </LM>
+                            <LM order="24">
+                              <form>kalla</form>
+                              <lemma>kalle</lemma>
+                              <cpostag>verb</cpostag>
+                              <postag>verb</postag>
+                              <feats>perf-part</feats>
+                              <deprel>INFV</deprel>
+                              <childnodes order="26">
+                                <form>kroppsmodernisme</form>
+                                <lemma>kroppsmodernisme</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>
+                                  <LM>mask</LM>
+                                  <LM>appell</LM>
+                                  <LM>ub</LM>
+                                  <LM>eint</LM>
+                                  <LM>samset</LM>
+                                </feats>
+                                <deprel>DOBJ</deprel>
+                                <childnodes>
+                                  <LM order="25">
+                                    <form>«</form>
+                                    <lemma>$"</lemma>
+                                    <cpostag>&lt;anf></cpostag>
+                                    <postag>&lt;anf></postag>
+                                    <deprel>IK</deprel>
+                                  </LM>
+                                  <LM order="27">
+                                    <form>»</form>
+                                    <lemma>$"</lemma>
+                                    <cpostag>&lt;anf></cpostag>
+                                    <postag>&lt;anf></postag>
+                                    <deprel>IK</deprel>
+                                  </LM>
+                                </childnodes>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="28">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="12">
+      <form>seier</form>
+      <lemma>seie</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>staden</form>
+            <lemma>stad</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>mask</LM>
+              <LM>appell</LM>
+              <LM>eint</LM>
+              <LM>bu</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="3">
+              <form>for</form>
+              <lemma>for</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="4">
+                <form>å</form>
+                <lemma>å</lemma>
+                <cpostag>inf-merke</cpostag>
+                <postag>inf-merke</postag>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="5">
+                  <form>tale</form>
+                  <lemma>tale</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>inf</feats>
+                  <deprel>INFV</deprel>
+                  <childnodes order="6">
+                    <form>om</form>
+                    <lemma>om</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="10">
+                      <form>mennesket</form>
+                      <lemma>menneske</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>nøyt</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes>
+                        <LM order="7">
+                          <form>«</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="8">
+                          <form>det</form>
+                          <lemma>det</lemma>
+                          <cpostag>det</cpostag>
+                          <postag>det</postag>
+                          <feats>
+                            <LM>dem</LM>
+                            <LM>nøyt</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>DET</deprel>
+                        </LM>
+                        <LM order="9">
+                          <form>syndige</form>
+                          <lemma>syndig</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>eint</LM>
+                            <LM>bu</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </LM>
+                        <LM order="11">
+                          <form>»</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="13">
+          <form>ein</form>
+          <lemma>ein</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="14">
+          <form>no</form>
+          <lemma>no</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="16">
+          <form>kjøt</form>
+          <lemma>kjøt</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="15">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="17">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="18">
+              <form>/</form>
+              <lemma>$/</lemma>
+              <cpostag>symb</cpostag>
+              <postag>symb</postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="20">
+              <form>kjøtt</form>
+              <lemma>kjøtt</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="19">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="21">
+                  <form>»</form>
+                  <lemma>$"</lemma>
+                  <cpostag>&lt;anf></cpostag>
+                  <postag>&lt;anf></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="22">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="5">
+          <form>indre</form>
+          <lemma>indre</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>«</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="4">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="6">
+              <form>»</form>
+              <lemma>$"</lemma>
+              <cpostag>&lt;anf></cpostag>
+              <postag>&lt;anf></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="7">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="8">
+                <form>mennesket</form>
+                <lemma>menneske</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>omtala</form>
+          <lemma>omtale</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Sameleis</form>
+              <lemma>sameleis</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="10">
+              <form>som</form>
+              <lemma>som</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>SPRED</deprel>
+              <childnodes order="11">
+                <form>hjarter</form>
+                <lemma>hjarte</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                  <LM>unorm</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="13">
+                  <form>nyrer</form>
+                  <lemma>nyre</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes order="12">
+                    <form>og</form>
+                    <lemma>og</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>&lt;ikkje-clb></feats>
+                    <deprel>KONJ</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="8">
+      <form>møter</form>
+      <lemma>møte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Der</form>
+          <lemma>der</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>heitte</form>
+              <lemma>heite</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pret</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>det</form>
+                  <lemma>det</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>3</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>FSUBJ</deprel>
+                </LM>
+                <LM order="3">
+                  <form>før</form>
+                  <lemma>før</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="6">
+                  <form>makt</form>
+                  <lemma>makt</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                  <childnodes order="5">
+                    <form>Guds</form>
+                    <lemma>Gud</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>prop</LM>
+                      <LM>gen</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="7">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="11">
+          <form>hand</form>
+          <lemma>hand</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="10">
+            <form>Guds</form>
+            <lemma>Gud</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>prop</LM>
+              <LM>gen</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="6">
+      <form>gjer</form>
+      <lemma>gjere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>myriade</form>
+          <lemma>myriade</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Ein</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="3">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="5">
+                <form>døme</form>
+                <lemma>døme</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="4">
+                  <form>liknande</form>
+                  <lemma>liknande</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>biletspråket</form>
+          <lemma>biletspråk</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+        </LM>
+        <LM order="9">
+          <form>råare</form>
+          <lemma>rå</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>OPRED</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>både</form>
+              <lemma>både</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>
+                <LM>&lt;ikkje-clb></LM>
+                <LM>&lt;adv></LM>
+              </feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="11">
+              <form>tydelegare</form>
+              <lemma>tydeleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>komp</feats>
+              <deprel>KOORD</deprel>
+              <childnodes order="10">
+                <form>og</form>
+                <lemma>og</lemma>
+                <cpostag>konj</cpostag>
+                <postag>konj</postag>
+                <feats>&lt;ikkje-clb></feats>
+                <deprel>KONJ</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Friskare</form>
+      <lemma>frisk</lemma>
+      <cpostag>adj</cpostag>
+      <postag>adj</postag>
+      <feats>komp</feats>
+      <deprel>FRAG</deprel>
+      <childnodes order="2">
+        <form>|</form>
+        <lemma>$|</lemma>
+        <cpostag>clb</cpostag>
+        <postag>clb</postag>
+        <feats>&lt;overskrift></feats>
+        <deprel>IP</deprel>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>verkar</form>
+      <lemma>verke</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Salmane</form>
+          <lemma>salme</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>fornya</form>
+          <lemma>fornye</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="5">
+            <form>friskare</form>
+            <lemma>frisk</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>komp</feats>
+            <deprel>KOORD</deprel>
+            <childnodes>
+              <LM order="4">
+                <form>og</form>
+                <lemma>og</lemma>
+                <cpostag>konj</cpostag>
+                <postag>konj</postag>
+                <feats>&lt;ikkje-clb></feats>
+                <deprel>KONJ</deprel>
+              </LM>
+              <LM order="6">
+                <form>ved</form>
+                <lemma>ved</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ADV</deprel>
+                <childnodes order="10">
+                  <form>har</form>
+                  <lemma>ha</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="7">
+                      <form>at</form>
+                      <lemma>at</lemma>
+                      <cpostag>sbu</cpostag>
+                      <postag>sbu</postag>
+                      <deprel>SBU</deprel>
+                    </LM>
+                    <LM order="8">
+                      <form>ein</form>
+                      <lemma>ein</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>eint</LM>
+                        <LM>hum</LM>
+                      </feats>
+                      <deprel>SUBJ</deprel>
+                    </LM>
+                    <LM order="11">
+                      <form>makta</form>
+                      <lemma>makte</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>perf-part</feats>
+                      <deprel>INFV</deprel>
+                      <childnodes>
+                        <LM order="9">
+                          <form>jamvel</form>
+                          <lemma>jamvel</lemma>
+                          <cpostag>adv</cpostag>
+                          <postag>adv</postag>
+                          <deprel>ADV</deprel>
+                        </LM>
+                        <LM order="12">
+                          <form>å</form>
+                          <lemma>å</lemma>
+                          <cpostag>inf-merke</cpostag>
+                          <postag>inf-merke</postag>
+                          <deprel>DOBJ</deprel>
+                          <childnodes order="13">
+                            <form>overføre</form>
+                            <lemma>overføre</lemma>
+                            <cpostag>verb</cpostag>
+                            <postag>verb</postag>
+                            <feats>inf</feats>
+                            <deprel>INFV</deprel>
+                            <childnodes>
+                              <LM order="14">
+                                <form>til</form>
+                                <lemma>til</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                                <childnodes order="16">
+                                  <form>språkkjensle</form>
+                                  <lemma>språkkjensle</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>fem</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                  </feats>
+                                  <deprel>PUTFYLL</deprel>
+                                  <childnodes order="15">
+                                    <form>norsk</form>
+                                    <lemma>norsk</lemma>
+                                    <cpostag>adj</cpostag>
+                                    <postag>adj</postag>
+                                    <feats>
+                                      <LM>pos</LM>
+                                      <LM>m/f</LM>
+                                      <LM>ub</LM>
+                                      <LM>eint</LM>
+                                    </feats>
+                                    <deprel>ATR</deprel>
+                                  </childnodes>
+                                </childnodes>
+                              </LM>
+                              <LM order="18">
+                                <form>rytmikk</form>
+                                <lemma>rytmikk</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>
+                                  <LM>mask</LM>
+                                  <LM>appell</LM>
+                                  <LM>ub</LM>
+                                  <LM>eint</LM>
+                                </feats>
+                                <deprel>DOBJ</deprel>
+                                <childnodes>
+                                  <LM order="17">
+                                    <form>ein</form>
+                                    <lemma>ein</lemma>
+                                    <cpostag>det</cpostag>
+                                    <postag>det</postag>
+                                    <feats>
+                                      <LM>kvant</LM>
+                                      <LM>mask</LM>
+                                      <LM>eint</LM>
+                                    </feats>
+                                    <deprel>DET</deprel>
+                                  </LM>
+                                  <LM order="20">
+                                    <form>byggjer</form>
+                                    <lemma>byggje</lemma>
+                                    <cpostag>verb</cpostag>
+                                    <postag>verb</postag>
+                                    <feats>pres</feats>
+                                    <deprel>ATR</deprel>
+                                    <childnodes>
+                                      <LM order="19">
+                                        <form>som</form>
+                                        <lemma>som</lemma>
+                                        <cpostag>sbu</cpostag>
+                                        <postag>sbu</postag>
+                                        <deprel>SBU</deprel>
+                                      </LM>
+                                      <LM order="21">
+                                        <form>på</form>
+                                        <lemma>på</lemma>
+                                        <cpostag>prep</cpostag>
+                                        <postag>prep</postag>
+                                        <deprel>ADV</deprel>
+                                        <childnodes order="24">
+                                          <form>veit</form>
+                                          <lemma>vite</lemma>
+                                          <cpostag>verb</cpostag>
+                                          <postag>verb</postag>
+                                          <feats>pres</feats>
+                                          <deprel>PUTFYLL</deprel>
+                                          <childnodes>
+                                            <LM order="22">
+                                              <form>kva</form>
+                                              <lemma>kva</lemma>
+                                              <cpostag>pron</cpostag>
+                                              <postag>pron</postag>
+                                              <feats>
+                                                <LM>ikke-hum</LM>
+                                                <LM>sp</LM>
+                                              </feats>
+                                              <deprel>DOBJ</deprel>
+                                            </LM>
+                                            <LM order="23">
+                                              <form>ein</form>
+                                              <lemma>ein</lemma>
+                                              <cpostag>pron</cpostag>
+                                              <postag>pron</postag>
+                                              <feats>
+                                                <LM>pers</LM>
+                                                <LM>eint</LM>
+                                                <LM>hum</LM>
+                                              </feats>
+                                              <deprel>SUBJ</deprel>
+                                            </LM>
+                                            <LM order="25">
+                                              <form>om</form>
+                                              <lemma>om</lemma>
+                                              <cpostag>prep</cpostag>
+                                              <postag>prep</postag>
+                                              <deprel>ADV</deprel>
+                                              <childnodes order="30">
+                                                <form>songen</form>
+                                                <lemma>song</lemma>
+                                                <cpostag>subst</cpostag>
+                                                <postag>subst</postag>
+                                                <feats>
+                                                  <LM>mask</LM>
+                                                  <LM>appell</LM>
+                                                  <LM>eint</LM>
+                                                  <LM>bu</LM>
+                                                </feats>
+                                                <deprel>PUTFYLL</deprel>
+                                                <childnodes>
+                                                  <LM order="26">
+                                                    <form>den</form>
+                                                    <lemma>den</lemma>
+                                                    <cpostag>det</cpostag>
+                                                    <postag>det</postag>
+                                                    <feats>
+                                                      <LM>dem</LM>
+                                                      <LM>mask</LM>
+                                                      <LM>eint</LM>
+                                                    </feats>
+                                                    <deprel>DET</deprel>
+                                                  </LM>
+                                                  <LM order="27">
+                                                    <form>opphavlege</form>
+                                                    <lemma>opphavleg</lemma>
+                                                    <cpostag>adj</cpostag>
+                                                    <postag>adj</postag>
+                                                    <feats>
+                                                      <LM>pos</LM>
+                                                      <LM>eint</LM>
+                                                      <LM>bu</LM>
+                                                    </feats>
+                                                    <deprel>ATR</deprel>
+                                                  </LM>
+                                                  <LM order="28">
+                                                    <form>hebraiske</form>
+                                                    <lemma>hebraisk</lemma>
+                                                    <cpostag>adj</cpostag>
+                                                    <postag>adj</postag>
+                                                    <feats>
+                                                      <LM>pos</LM>
+                                                      <LM>eint</LM>
+                                                      <LM>bu</LM>
+                                                    </feats>
+                                                    <deprel>ATR</deprel>
+                                                  </LM>
+                                                  <LM order="29">
+                                                    <form>liturgiske</form>
+                                                    <lemma>liturgisk</lemma>
+                                                    <cpostag>adj</cpostag>
+                                                    <postag>adj</postag>
+                                                    <feats>
+                                                      <LM>pos</LM>
+                                                      <LM>eint</LM>
+                                                      <LM>bu</LM>
+                                                    </feats>
+                                                    <deprel>ATR</deprel>
+                                                  </LM>
+                                                </childnodes>
+                                              </childnodes>
+                                            </LM>
+                                          </childnodes>
+                                        </childnodes>
+                                      </LM>
+                                    </childnodes>
+                                  </LM>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="31">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>vert</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Dermed</form>
+          <lemma>dermed</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>salmane</form>
+          <lemma>salme</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>kroppsnære</form>
+          <lemma>kroppsnær</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>fl</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="4">
+            <form>meir</form>
+            <lemma>mykje</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>komp</feats>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>gjennom</form>
+          <lemma>gjennom</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="9">
+            <form>vert</form>
+            <lemma>verte</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>pres</feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes>
+              <LM order="7">
+                <form>at</form>
+                <lemma>at</lemma>
+                <cpostag>sbu</cpostag>
+                <postag>sbu</postag>
+                <deprel>SBU</deprel>
+              </LM>
+              <LM order="8">
+                <form>dei</form>
+                <lemma>dei</lemma>
+                <cpostag>pron</cpostag>
+                <postag>pron</postag>
+                <feats>
+                  <LM>pers</LM>
+                  <LM>3</LM>
+                  <LM>fl</LM>
+                  <LM>hum</LM>
+                  <LM>nom</LM>
+                </feats>
+                <deprel>SUBJ</deprel>
+              </LM>
+              <LM order="11">
+                <form>songbare</form>
+                <lemma>songbar</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>fl</LM>
+                  <LM>samset</LM>
+                </feats>
+                <deprel>SPRED</deprel>
+                <childnodes order="10">
+                  <form>meir</form>
+                  <lemma>mykje</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>komp</feats>
+                  <deprel>ADV</deprel>
+                </childnodes>
+              </LM>
+              <LM order="12">
+                <form>,</form>
+                <lemma>$,</lemma>
+                <cpostag>&lt;komma></cpostag>
+                <postag>&lt;komma></postag>
+                <deprel>IK</deprel>
+              </LM>
+              <LM order="15">
+                <form>kjensla</form>
+                <lemma>kjensle</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>KOORD-ELL</deprel>
+                <childnodes>
+                  <LM order="13">
+                    <form>men</form>
+                    <lemma>men</lemma>
+                    <cpostag>konj</cpostag>
+                    <postag>konj</postag>
+                    <feats>&lt;ikkje-clb></feats>
+                    <deprel>KONJ</deprel>
+                  </LM>
+                  <LM order="14">
+                    <form>òg</form>
+                    <lemma>òg</lemma>
+                    <cpostag>adv</cpostag>
+                    <postag>adv</postag>
+                    <deprel>ADV</deprel>
+                  </LM>
+                  <LM order="18">
+                    <form>kan</form>
+                    <lemma>kunne</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pres</feats>
+                    <deprel>APP</deprel>
+                    <childnodes>
+                      <LM order="16">
+                        <form>at</form>
+                        <lemma>at</lemma>
+                        <cpostag>sbu</cpostag>
+                        <postag>sbu</postag>
+                        <deprel>SBU</deprel>
+                      </LM>
+                      <LM order="17">
+                        <form>dei</form>
+                        <lemma>dei</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>pers</LM>
+                          <LM>3</LM>
+                          <LM>fl</LM>
+                          <LM>hum</LM>
+                          <LM>nom</LM>
+                        </feats>
+                        <deprel>SUBJ</deprel>
+                      </LM>
+                      <LM order="19">
+                        <form>dansast</form>
+                        <lemma>danse</lemma>
+                        <cpostag>verb</cpostag>
+                        <postag>verb</postag>
+                        <feats>
+                          <LM>inf</LM>
+                          <LM>st-form</LM>
+                        </feats>
+                        <deprel>INFV</deprel>
+                        <childnodes order="20">
+                          <form>etter</form>
+                          <lemma>etter</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="21">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>vert</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>lettare</form>
+          <lemma>lett</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>komp</feats>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="4">
+          <form>å</form>
+          <lemma>å</lemma>
+          <cpostag>inf-merke</cpostag>
+          <postag>inf-merke</postag>
+          <deprel>PSUBJ</deprel>
+          <childnodes order="5">
+            <form>sjå</form>
+            <lemma>sjå</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>inf</feats>
+            <deprel>INFV</deprel>
+            <childnodes>
+              <LM order="6">
+                <form>,</form>
+                <lemma>$,</lemma>
+                <cpostag>&lt;komma></cpostag>
+                <postag>&lt;komma></postag>
+                <deprel>IK</deprel>
+              </LM>
+              <LM order="7">
+                <form>igjen</form>
+                <lemma>igjen</lemma>
+                <cpostag>adv</cpostag>
+                <postag>adv</postag>
+                <deprel>ADV</deprel>
+                <childnodes order="8">
+                  <form>-</form>
+                  <lemma>$-</lemma>
+                  <cpostag>&lt;strek></cpostag>
+                  <postag>&lt;strek></postag>
+                  <deprel>IK</deprel>
+                </childnodes>
+              </LM>
+              <LM order="9">
+                <form>slik</form>
+                <lemma>slik</lemma>
+                <cpostag>adv</cpostag>
+                <postag>adv</postag>
+                <deprel>ADV</deprel>
+                <childnodes>
+                  <LM order="11">
+                    <form>var</form>
+                    <lemma>vere</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pret</feats>
+                    <deprel>ADV</deprel>
+                    <childnodes>
+                      <LM order="10">
+                        <form>det</form>
+                        <lemma>det</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>pers</LM>
+                          <LM>3</LM>
+                          <LM>nøyt</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>FSUBJ</deprel>
+                      </LM>
+                      <LM order="12">
+                        <form>med</form>
+                        <lemma>med</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="15">
+                          <form>nynorskomsetjingane</form>
+                          <lemma>nynorskomsetjing</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>fem</LM>
+                            <LM>appell</LM>
+                            <LM>fl</LM>
+                            <LM>bu</LM>
+                            <LM>samset</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes>
+                            <LM order="13">
+                              <form>dei</form>
+                              <lemma>dei</lemma>
+                              <cpostag>det</cpostag>
+                              <postag>det</postag>
+                              <feats>
+                                <LM>dem</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>DET</deprel>
+                            </LM>
+                            <LM order="14">
+                              <form>fyrste</form>
+                              <lemma>fyrste</lemma>
+                              <cpostag>adj</cpostag>
+                              <postag>adj</postag>
+                              <feats>
+                                <LM>pos</LM>
+                                <LM>fl</LM>
+                                <LM>&lt;ordenstal></LM>
+                              </feats>
+                              <deprel>ATR</deprel>
+                            </LM>
+                            <LM order="18">
+                              <form>stod</form>
+                              <lemma>stå</lemma>
+                              <cpostag>verb</cpostag>
+                              <postag>verb</postag>
+                              <feats>pret</feats>
+                              <deprel>ATR</deprel>
+                              <childnodes>
+                                <LM order="16">
+                                  <form>som</form>
+                                  <lemma>som</lemma>
+                                  <cpostag>sbu</cpostag>
+                                  <postag>sbu</postag>
+                                  <deprel>SBU</deprel>
+                                </LM>
+                                <LM order="17">
+                                  <form>Samlaget</form>
+                                  <lemma>Samlaget</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>prop</feats>
+                                  <deprel>SUBJ</deprel>
+                                </LM>
+                                <LM order="19">
+                                  <form>for</form>
+                                  <lemma>for</lemma>
+                                  <cpostag>prep</cpostag>
+                                  <postag>prep</postag>
+                                  <deprel>ADV</deprel>
+                                </LM>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                  <LM order="20">
+                    <form>-</form>
+                    <lemma>$-</lemma>
+                    <cpostag>&lt;strek></cpostag>
+                    <postag>&lt;strek></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                </childnodes>
+              </LM>
+              <LM order="23">
+                <form>er</form>
+                <lemma>vere</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pres</feats>
+                <deprel>DOBJ</deprel>
+                <childnodes>
+                  <LM order="21">
+                    <form>at</form>
+                    <lemma>at</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="22">
+                    <form>språkarbeid</form>
+                    <lemma>språkarbeid</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                      <LM>samset</LM>
+                    </feats>
+                    <deprel>SUBJ</deprel>
+                  </LM>
+                  <LM order="24">
+                    <form>del</form>
+                    <lemma>del</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>SPRED</deprel>
+                    <childnodes order="25">
+                      <form>av</form>
+                      <lemma>av</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="27">
+                        <form>frigjeringsarbeid</form>
+                        <lemma>frigjeringsarbeid</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>nøyt</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="26">
+                            <form>eit</form>
+                            <lemma>ein</lemma>
+                            <cpostag>det</cpostag>
+                            <postag>det</postag>
+                            <feats>
+                              <LM>kvant</LM>
+                              <LM>nøyt</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>DET</deprel>
+                          </LM>
+                          <LM order="28">
+                            <form>,</form>
+                            <lemma>$,</lemma>
+                            <cpostag>&lt;komma></cpostag>
+                            <postag>&lt;komma></postag>
+                            <deprel>IK</deprel>
+                          </LM>
+                          <LM order="29">
+                            <form>frå</form>
+                            <lemma>frå</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="31">
+                              <form>formular</form>
+                              <lemma>formular</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>nøyt</LM>
+                                <LM>appell</LM>
+                                <LM>ub</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes>
+                                <LM order="30">
+                                  <form>bundne</form>
+                                  <lemma>bunden</lemma>
+                                  <cpostag>adj</cpostag>
+                                  <postag>adj</postag>
+                                  <feats>
+                                    <LM>pos</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>ATR</deprel>
+                                </LM>
+                                <LM order="33">
+                                  <form>tankemønster</form>
+                                  <lemma>tankemønster</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>nøyt</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>KOORD</deprel>
+                                  <childnodes order="32">
+                                    <form>og</form>
+                                    <lemma>og</lemma>
+                                    <cpostag>konj</cpostag>
+                                    <postag>konj</postag>
+                                    <feats>&lt;ikkje-clb></feats>
+                                    <deprel>KONJ</deprel>
+                                  </childnodes>
+                                </LM>
+                              </childnodes>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="34">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Sjølv</form>
+          <lemma>sjølv</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>eg</form>
+          <lemma>eg</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>lei</form>
+          <lemma>lei</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>m/f</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="5">
+            <form>for</form>
+            <lemma>for</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+            <childnodes order="16">
+              <form>er</form>
+              <lemma>vere</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="6">
+                  <form>at</form>
+                  <lemma>at</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="7">
+                  <form>ord</form>
+                  <lemma>ord</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                  <childnodes order="8">
+                    <form>som</form>
+                    <lemma>som</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="10">
+                      <form>ljos</form>
+                      <lemma>ljos</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>nøyt</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes>
+                        <LM order="9">
+                          <form>«</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="11">
+                          <form>»</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="14">
+                          <form>hjå</form>
+                          <lemma>hjå</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>KOORD</deprel>
+                          <childnodes>
+                            <LM order="12">
+                              <form>og</form>
+                              <lemma>og</lemma>
+                              <cpostag>konj</cpostag>
+                              <postag>konj</postag>
+                              <feats>&lt;ikkje-clb></feats>
+                              <deprel>KONJ</deprel>
+                            </LM>
+                            <LM order="13">
+                              <form>«</form>
+                              <lemma>$"</lemma>
+                              <cpostag>&lt;anf></cpostag>
+                              <postag>&lt;anf></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                            <LM order="15">
+                              <form>»</form>
+                              <lemma>$"</lemma>
+                              <cpostag>&lt;anf></cpostag>
+                              <postag>&lt;anf></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+                <LM order="17">
+                  <form>borte</form>
+                  <lemma>borte</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>SPRED</deprel>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>tykkjer</form>
+      <lemma>tykkje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Eg</form>
+          <lemma>eg</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>òg</form>
+          <lemma>òg</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="5">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>FSUBJ</deprel>
+            </LM>
+            <LM order="6">
+              <form>pussig</form>
+              <lemma>pussig</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SPRED</deprel>
+            </LM>
+            <LM order="9">
+              <form>må</form>
+              <lemma>måtte</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>PSUBJ</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>at</form>
+                  <lemma>at</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="8">
+                  <form>det</form>
+                  <lemma>det</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>3</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>FSUBJ</deprel>
+                </LM>
+                <LM order="10">
+                  <form>heite</form>
+                  <lemma>heite</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>inf</feats>
+                  <deprel>INFV</deprel>
+                  <childnodes>
+                    <LM order="12">
+                      <form>skal</form>
+                      <lemma>skulle</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>pres</feats>
+                      <deprel>DOBJ</deprel>
+                      <childnodes>
+                        <LM order="11">
+                          <form>«</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="13">
+                          <form>bli</form>
+                          <lemma>bli</lemma>
+                          <cpostag>verb</cpostag>
+                          <postag>verb</postag>
+                          <feats>inf</feats>
+                          <deprel>INFV</deprel>
+                        </LM>
+                        <LM order="14">
+                          <form>»</form>
+                          <lemma>$"</lemma>
+                          <cpostag>&lt;anf></cpostag>
+                          <postag>&lt;anf></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                    <LM order="20">
+                      <form>er</form>
+                      <lemma>vere</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>pres</feats>
+                      <deprel>ADV</deprel>
+                      <childnodes>
+                        <LM order="15">
+                          <form>når</form>
+                          <lemma>når</lemma>
+                          <cpostag>sbu</cpostag>
+                          <postag>sbu</postag>
+                          <deprel>SBU</deprel>
+                        </LM>
+                        <LM order="17">
+                          <form>å</form>
+                          <lemma>å</lemma>
+                          <cpostag>inf-merke</cpostag>
+                          <postag>inf-merke</postag>
+                          <deprel>SUBJ</deprel>
+                          <childnodes>
+                            <LM order="16">
+                              <form>«</form>
+                              <lemma>$"</lemma>
+                              <cpostag>&lt;anf></cpostag>
+                              <postag>&lt;anf></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                            <LM order="18">
+                              <form>verta</form>
+                              <lemma>verte</lemma>
+                              <cpostag>verb</cpostag>
+                              <postag>verb</postag>
+                              <feats>inf</feats>
+                              <deprel>INFV</deprel>
+                            </LM>
+                            <LM order="19">
+                              <form>»</form>
+                              <lemma>$"</lemma>
+                              <cpostag>&lt;anf></cpostag>
+                              <postag>&lt;anf></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                        <LM order="21">
+                          <form>gjennomført</form>
+                          <lemma>gjennomført</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>nøyt</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>SPRED</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="22">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>græt</form>
+      <lemma>gråte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Men</form>
+          <lemma>men</lemma>
+          <cpostag>konj</cpostag>
+          <postag>konj</postag>
+          <feats>clb</feats>
+          <deprel>KONJ</deprel>
+        </LM>
+        <LM order="2">
+          <form>eg</form>
+          <lemma>eg</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>eint</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>ikkje</form>
+          <lemma>ikkje</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="5">
+          <form>for</form>
+          <lemma>for</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="8">
+            <form>møter</form>
+            <lemma>møte</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>pres</feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes>
+              <LM order="6">
+                <form>at</form>
+                <lemma>at</lemma>
+                <cpostag>sbu</cpostag>
+                <postag>sbu</postag>
+                <deprel>SBU</deprel>
+              </LM>
+              <LM order="7">
+                <form>vi</form>
+                <lemma>vi</lemma>
+                <cpostag>pron</cpostag>
+                <postag>pron</postag>
+                <feats>
+                  <LM>pers</LM>
+                  <LM>1</LM>
+                  <LM>fl</LM>
+                  <LM>hum</LM>
+                  <LM>nom</LM>
+                </feats>
+                <deprel>SUBJ</deprel>
+              </LM>
+              <LM order="9">
+                <form>forsamlingar</form>
+                <lemma>forsamling</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+              </LM>
+              <LM order="10">
+                <form>istadenfor</form>
+                <lemma>istadenfor</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <feats>unorm</feats>
+                <deprel>ADV</deprel>
+                <childnodes order="11">
+                  <form>kyrkjelydar</form>
+                  <lemma>kyrkjelyd</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="25">
+      <form>må</form>
+      <lemma>måtte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="4">
+          <form>ofrar</form>
+          <lemma>ofre</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>At</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="2">
+              <form>vi</form>
+              <lemma>vi</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>1</LM>
+                <LM>fl</LM>
+                <LM>hum</LM>
+                <LM>nom</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="3">
+              <form>no</form>
+              <lemma>no</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="6">
+              <form>ord</form>
+              <lemma>ord</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="5">
+                  <form>somme</form>
+                  <lemma>somt</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="8">
+                  <form>er</form>
+                  <lemma>vere</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>ATR</deprel>
+                  <childnodes>
+                    <LM order="7">
+                      <form>vi</form>
+                      <lemma>vi</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>1</LM>
+                        <LM>fl</LM>
+                        <LM>hum</LM>
+                        <LM>nom</LM>
+                      </feats>
+                      <deprel>SUBJ</deprel>
+                    </LM>
+                    <LM order="9">
+                      <form>glade</form>
+                      <lemma>glad</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>SPRED</deprel>
+                      <childnodes order="10">
+                        <form>i</form>
+                        <lemma>i</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="11">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+            <LM order="14">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="12">
+                  <form>mellom</form>
+                  <lemma>mellom</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="13">
+                    <form>anna</form>
+                    <lemma>annan</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>&lt;adj></LM>
+                      <LM>nøyt</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="17">
+                  <form>lever</form>
+                  <lemma>leve</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="15">
+                      <form>di</form>
+                      <lemma>di</lemma>
+                      <cpostag>sbu</cpostag>
+                      <postag>sbu</postag>
+                      <deprel>SBU</deprel>
+                    </LM>
+                    <LM order="16">
+                      <form>dei</form>
+                      <lemma>dei</lemma>
+                      <cpostag>pron</cpostag>
+                      <postag>pron</postag>
+                      <feats>
+                        <LM>pers</LM>
+                        <LM>3</LM>
+                        <LM>fl</LM>
+                        <LM>hum</LM>
+                        <LM>nom</LM>
+                      </feats>
+                      <deprel>SUBJ</deprel>
+                    </LM>
+                    <LM order="18">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                      <childnodes>
+                        <LM order="19">
+                          <form>salmespråk</form>
+                          <lemma>salmespråk</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>nøyt</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                            <LM>samset</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </LM>
+                        <LM order="21">
+                          <form>i</form>
+                          <lemma>i</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>KOORD</deprel>
+                          <childnodes>
+                            <LM order="20">
+                              <form>og</form>
+                              <lemma>og</lemma>
+                              <cpostag>konj</cpostag>
+                              <postag>konj</postag>
+                              <feats>&lt;ikkje-clb></feats>
+                              <deprel>KONJ</deprel>
+                            </LM>
+                            <LM order="23">
+                              <form>dialektar</form>
+                              <lemma>dialekt</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>mask</LM>
+                                <LM>appell</LM>
+                                <LM>ub</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes order="22">
+                                <form>mange</form>
+                                <lemma>mange</lemma>
+                                <cpostag>adj</cpostag>
+                                <postag>adj</postag>
+                                <feats>
+                                  <LM>pos</LM>
+                                  <LM>fl</LM>
+                                </feats>
+                                <deprel>ATR</deprel>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="24">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="26">
+          <form>vegast</form>
+          <lemma>vege</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>
+            <LM>inf</LM>
+            <LM>st-form</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="27">
+              <form>opp</form>
+              <lemma>opp</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="28">
+              <form>mot</form>
+              <lemma>mot</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="29">
+                <form>måten</form>
+                <lemma>måte</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="33">
+                  <form>verkar</form>
+                  <lemma>verke</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>ATR</deprel>
+                  <childnodes order="32">
+                    <form>omsetjingane</form>
+                    <lemma>omsetjing</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fem</LM>
+                      <LM>appell</LM>
+                      <LM>fl</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>SUBJ</deprel>
+                    <childnodes>
+                      <LM order="30">
+                        <form>dei</form>
+                        <lemma>dei</lemma>
+                        <cpostag>det</cpostag>
+                        <postag>det</postag>
+                        <feats>
+                          <LM>dem</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>DET</deprel>
+                      </LM>
+                      <LM order="31">
+                        <form>nye</form>
+                        <lemma>ny</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>pos</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>ATR</deprel>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="34">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>ser</form>
+      <lemma>sjå</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Kan</form>
+          <lemma>kan</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>hende</form>
+            <lemma>hende</lemma>
+            <cpostag>adv</cpostag>
+            <postag>adv</postag>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>starten</form>
+          <lemma>start</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="6">
+            <form>på</form>
+            <lemma>på</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="10">
+              <form>utvikling</form>
+              <lemma>utvikling</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>ei</form>
+                  <lemma>ein</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="8">
+                  <form>historisk</form>
+                  <lemma>historisk</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="9">
+                  <form>fruktbar</form>
+                  <lemma>fruktbar</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>innverknad</form>
+      <lemma>innverknad</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>mask</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Stor</form>
+          <lemma>stor</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>m/f</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="3">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>gløymer</form>
+      <lemma>gløyme</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="3">
+            <form>tid</form>
+            <lemma>tid</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fem</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="2">
+              <form>vår</form>
+              <lemma>vår</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>poss</LM>
+                <LM>fem</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="6">
+          <form>ofte</form>
+          <lemma>ofte</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>&lt;adv></LM>
+          </feats>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="26">
+          <form>fekk</form>
+          <lemma>få</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="7">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="25">
+              <form>så</form>
+              <lemma>så</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="10">
+                <form>tok</form>
+                <lemma>ta</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pret</feats>
+                <deprel>APP</deprel>
+                <childnodes>
+                  <LM order="8">
+                    <form>då</form>
+                    <lemma>då</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="9">
+                    <form>Bibelen</form>
+                    <lemma>Bibelen</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>prop</feats>
+                    <deprel>SUBJ</deprel>
+                  </LM>
+                  <LM order="11">
+                    <form>til</form>
+                    <lemma>til</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ADV</deprel>
+                    <childnodes order="12">
+                      <form>å</form>
+                      <lemma>å</lemma>
+                      <cpostag>inf-merke</cpostag>
+                      <postag>inf-merke</postag>
+                      <deprel>PUTFYLL</deprel>
+                      <childnodes order="13">
+                        <form>verte</form>
+                        <lemma>verte</lemma>
+                        <cpostag>verb</cpostag>
+                        <postag>verb</postag>
+                        <feats>inf</feats>
+                        <deprel>INFV</deprel>
+                        <childnodes>
+                          <LM order="15">
+                            <form>tilgjengeleg</form>
+                            <lemma>tilgjengeleg</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>m/f</LM>
+                              <LM>ub</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>SPRED</deprel>
+                            <childnodes>
+                              <LM order="14">
+                                <form>allment</form>
+                                <lemma>allmenn</lemma>
+                                <cpostag>adj</cpostag>
+                                <postag>adj</postag>
+                                <feats>
+                                  <LM>pos</LM>
+                                  <LM>nøyt</LM>
+                                  <LM>ub</LM>
+                                  <LM>eint</LM>
+                                </feats>
+                                <deprel>ADV</deprel>
+                              </LM>
+                              <LM order="16">
+                                <form>i</form>
+                                <lemma>i</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                                <childnodes order="17">
+                                  <form>Europa</form>
+                                  <lemma>Europa</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>prop</feats>
+                                  <deprel>PUTFYLL</deprel>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </LM>
+                          <LM order="18">
+                            <form>,</form>
+                            <lemma>$,</lemma>
+                            <cpostag>&lt;komma></cpostag>
+                            <postag>&lt;komma></postag>
+                            <deprel>IK</deprel>
+                          </LM>
+                          <LM order="19">
+                            <form>utetter</form>
+                            <lemma>utetter</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ADV</deprel>
+                            <childnodes order="23">
+                              <form>hundreåret</form>
+                              <lemma>hundreår</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>nøyt</LM>
+                                <LM>appell</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes order="20">
+                                <form>syttande</form>
+                                <lemma>syttande</lemma>
+                                <cpostag>adj</cpostag>
+                                <postag>adj</postag>
+                                <feats>
+                                  <LM>pos</LM>
+                                  <LM>eint</LM>
+                                  <LM>bu</LM>
+                                  <LM>&lt;ordenstal></LM>
+                                </feats>
+                                <deprel>ATR</deprel>
+                                <childnodes order="22">
+                                  <form>attande</form>
+                                  <lemma>attande</lemma>
+                                  <cpostag>adj</cpostag>
+                                  <postag>adj</postag>
+                                  <feats>
+                                    <LM>pos</LM>
+                                    <LM>eint</LM>
+                                    <LM>bu</LM>
+                                    <LM>&lt;ordenstal></LM>
+                                  </feats>
+                                  <deprel>KOORD</deprel>
+                                  <childnodes order="21">
+                                    <form>og</form>
+                                    <lemma>og</lemma>
+                                    <cpostag>konj</cpostag>
+                                    <postag>konj</postag>
+                                    <feats>&lt;ikkje-clb></feats>
+                                    <deprel>KONJ</deprel>
+                                  </childnodes>
+                                </childnodes>
+                              </childnodes>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="24">
+                    <form>,</form>
+                    <lemma>$,</lemma>
+                    <cpostag>&lt;komma></cpostag>
+                    <postag>&lt;komma></postag>
+                    <deprel>IK</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="27">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="29">
+              <form>innverknad</form>
+              <lemma>innverknad</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="28">
+                  <form>stor</form>
+                  <lemma>stor</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="30">
+                  <form>på</form>
+                  <lemma>på</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="33">
+                    <form>tenkte</form>
+                    <lemma>tenkje</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pret</feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="31">
+                        <form>kva</form>
+                        <lemma>kva</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>ikke-hum</LM>
+                          <LM>sp</LM>
+                        </feats>
+                        <deprel>DOBJ</deprel>
+                      </LM>
+                      <LM order="32">
+                        <form>folk</form>
+                        <lemma>folk</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>nøyt</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>SUBJ</deprel>
+                      </LM>
+                      <LM order="34">
+                        <form>om</form>
+                        <lemma>om</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="35">
+                          <form>rolla</form>
+                          <lemma>rolle</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>fem</LM>
+                            <LM>appell</LM>
+                            <LM>eint</LM>
+                            <LM>bu</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes order="36">
+                            <form>til</form>
+                            <lemma>til</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="37">
+                              <form>litteraturen</form>
+                              <lemma>litteratur</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>
+                                <LM>mask</LM>
+                                <LM>appell</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                              <childnodes order="38">
+                                <form>i</form>
+                                <lemma>i</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ATR</deprel>
+                                <childnodes order="39">
+                                  <form>kultur-</form>
+                                  <lemma>kultur-</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>ufl</feats>
+                                  <deprel>PUTFYLL</deprel>
+                                  <childnodes order="41">
+                                    <form>samfunnsliv</form>
+                                    <lemma>samfunnsliv</lemma>
+                                    <cpostag>subst</cpostag>
+                                    <postag>subst</postag>
+                                    <feats>
+                                      <LM>nøyt</LM>
+                                      <LM>appell</LM>
+                                      <LM>ub</LM>
+                                      <LM>eint</LM>
+                                      <LM>samset</LM>
+                                    </feats>
+                                    <deprel>KOORD</deprel>
+                                    <childnodes order="40">
+                                      <form>og</form>
+                                      <lemma>og</lemma>
+                                      <cpostag>konj</cpostag>
+                                      <postag>konj</postag>
+                                      <feats>&lt;ikkje-clb></feats>
+                                      <deprel>KONJ</deprel>
+                                    </childnodes>
+                                  </childnodes>
+                                </childnodes>
+                              </childnodes>
+                            </childnodes>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="42">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="17">
+      <form>gav</form>
+      <lemma>gje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>For</form>
+          <lemma>for</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="2">
+              <form>John</form>
+              <lemma>John</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>prop</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="3">
+                  <form>Milton</form>
+                  <lemma>Milton</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>prop</feats>
+                  <deprel>FLAT</deprel>
+                </LM>
+                <LM order="4">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+                <LM order="5">
+                  <form>Alexander</form>
+                  <lemma>Alexander</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>prop</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="6">
+                      <form>Pope</form>
+                      <lemma>Pope</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>prop</feats>
+                      <deprel>FLAT</deprel>
+                    </LM>
+                    <LM order="7">
+                      <form>,</form>
+                      <lemma>$,</lemma>
+                      <cpostag>&lt;komma></cpostag>
+                      <postag>&lt;komma></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="8">
+                  <form>William</form>
+                  <lemma>William</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>prop</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes order="9">
+                    <form>Blake</form>
+                    <lemma>Blake</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>prop</feats>
+                    <deprel>FLAT</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="12">
+                  <form>poetar</form>
+                  <lemma>poet</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>KOORD</deprel>
+                  <childnodes>
+                    <LM order="10">
+                      <form>og</form>
+                      <lemma>og</lemma>
+                      <cpostag>konj</cpostag>
+                      <postag>konj</postag>
+                      <feats>&lt;ikkje-clb></feats>
+                      <deprel>KONJ</deprel>
+                    </LM>
+                    <LM order="11">
+                      <form>mangfaldige</form>
+                      <lemma>mangfaldig</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                    </LM>
+                    <LM order="13">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="15">
+                        <form>nytid</form>
+                        <lemma>nytid</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>fem</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes order="14">
+                          <form>tidleg</form>
+                          <lemma>tidleg</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>m/f</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="16">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>Bibelen</form>
+          <lemma>Bibelen</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>prop</feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="19">
+          <form>støtte</form>
+          <lemma>støtte</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="20">
+            <form>for</form>
+            <lemma>for</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="21">
+              <form>oppfatninga</form>
+              <lemma>oppfatning</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="22">
+                <form>om</form>
+                <lemma>om</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="25">
+                  <form>er</form>
+                  <lemma>vere</lemma>
+                  <cpostag>verb</cpostag>
+                  <postag>verb</postag>
+                  <feats>pres</feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="23">
+                      <form>at</form>
+                      <lemma>at</lemma>
+                      <cpostag>sbu</cpostag>
+                      <postag>sbu</postag>
+                      <deprel>SBU</deprel>
+                    </LM>
+                    <LM order="24">
+                      <form>diktaren</form>
+                      <lemma>diktar</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>SUBJ</deprel>
+                    </LM>
+                    <LM order="26">
+                      <form>skapar</form>
+                      <lemma>skapar</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>SPRED</deprel>
+                      <childnodes>
+                        <LM order="27">
+                          <form>,</form>
+                          <lemma>$,</lemma>
+                          <cpostag>&lt;komma></cpostag>
+                          <postag>&lt;komma></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="28">
+                          <form>profet</form>
+                          <lemma>profet</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>mask</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>KOORD</deprel>
+                        </LM>
+                        <LM order="30">
+                          <form>fornyar</form>
+                          <lemma>fornyar</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>mask</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>KOORD</deprel>
+                          <childnodes>
+                            <LM order="29">
+                              <form>og</form>
+                              <lemma>og</lemma>
+                              <cpostag>konj</cpostag>
+                              <postag>konj</postag>
+                              <feats>&lt;ikkje-clb></feats>
+                              <deprel>KONJ</deprel>
+                            </LM>
+                            <LM order="31">
+                              <form>samstundes</form>
+                              <lemma>samstundes</lemma>
+                              <cpostag>adv</cpostag>
+                              <postag>adv</postag>
+                              <deprel>ATR</deprel>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="32">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="7">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Moralfilosofi</form>
+          <lemma>moralfilosofi</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+            <LM>samset</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="3">
+            <form>samfunnstenking</form>
+            <lemma>samfunnstenking</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fem</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+              <LM>samset</LM>
+            </feats>
+            <deprel>KOORD</deprel>
+            <childnodes>
+              <LM order="2">
+                <form>og</form>
+                <lemma>og</lemma>
+                <cpostag>konj</cpostag>
+                <postag>konj</postag>
+                <feats>&lt;ikkje-clb></feats>
+                <deprel>KONJ</deprel>
+              </LM>
+              <LM order="4">
+                <form>i</form>
+                <lemma>i</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="6">
+                  <form>tid</form>
+                  <lemma>tid</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="5">
+                    <form>tidlegmoderne</form>
+                    <lemma>tidlegmoderne</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                      <LM>samset</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </childnodes>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>òg</form>
+          <lemma>òg</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="10">
+          <form>prega</form>
+          <lemma>prege</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="9">
+              <form>sterkt</form>
+              <lemma>sterk</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="11">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="17">
+                <form>oppleving</form>
+                <lemma>oppleving</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="12">
+                    <form>ei</form>
+                    <lemma>ein</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>kvant</LM>
+                      <LM>fem</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="16">
+                    <form>positiv</form>
+                    <lemma>positiv</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                    <childnodes order="15">
+                      <form>overraskande</form>
+                      <lemma>overraske</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>&lt;pres-part></feats>
+                      <deprel>ADV</deprel>
+                      <childnodes order="13">
+                        <form>for</form>
+                        <lemma>for</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="14">
+                          <form>oss</form>
+                          <lemma>vi</lemma>
+                          <cpostag>pron</cpostag>
+                          <postag>pron</postag>
+                          <feats>
+                            <LM>pers</LM>
+                            <LM>1</LM>
+                            <LM>fl</LM>
+                            <LM>hum</LM>
+                            <LM>akk</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </LM>
+                  <LM order="18">
+                    <form>av</form>
+                    <lemma>av</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="19">
+                      <form>syndeskulda</form>
+                      <lemma>syndeskuld</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>fem</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                        <LM>samset</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="20">
+          <form>:</form>
+          <lemma>$:</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;kolon></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>berre</form>
+          <lemma>berre</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="4">
+          <form>menneske</form>
+          <lemma>menneske</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="5">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>eksisterer</form>
+      <lemma>eksistere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>ved</form>
+          <lemma>ved</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="4">
+            <form>å</form>
+            <lemma>å</lemma>
+            <cpostag>inf-merke</cpostag>
+            <postag>inf-merke</postag>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="5">
+              <form>handle</form>
+              <lemma>handle</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>inf</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="6">
+                <form>feil</form>
+                <lemma>feil</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>nøyt</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>ADV</deprel>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>-</form>
+          <lemma>$-</lemma>
+          <cpostag>&lt;strek></cpostag>
+          <postag>&lt;strek></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="12">
+          <form>krev</form>
+          <lemma>krevje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>medvit</form>
+              <lemma>medvit</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes order="9">
+                <form>om</form>
+                <lemma>om</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="11">
+                  <form>feilbarlege</form>
+                  <lemma>feilbarleg</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                    <LM>unorm</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="10">
+                    <form>det</form>
+                    <lemma>det</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>nøyt</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="15">
+              <form>er</form>
+              <lemma>vere</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="13">
+                  <form>at</form>
+                  <lemma>at</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="14">
+                  <form>vi</form>
+                  <lemma>vi</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>1</LM>
+                    <LM>fl</LM>
+                    <LM>hum</LM>
+                    <LM>nom</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                </LM>
+                <LM order="16">
+                  <form>tolerante</form>
+                  <lemma>tolerant</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>SPRED</deprel>
+                  <childnodes>
+                    <LM order="17">
+                      <form>,</form>
+                      <lemma>$,</lemma>
+                      <cpostag>&lt;komma></cpostag>
+                      <postag>&lt;komma></postag>
+                      <deprel>IK</deprel>
+                    </LM>
+                    <LM order="20">
+                      <form>kritiske</form>
+                      <lemma>kritisk</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>KOORD</deprel>
+                      <childnodes>
+                        <LM order="18">
+                          <form>men</form>
+                          <lemma>men</lemma>
+                          <cpostag>konj</cpostag>
+                          <postag>konj</postag>
+                          <feats>&lt;ikkje-clb></feats>
+                          <deprel>KONJ</deprel>
+                        </LM>
+                        <LM order="19">
+                          <form>òg</form>
+                          <lemma>òg</lemma>
+                          <cpostag>adv</cpostag>
+                          <postag>adv</postag>
+                          <deprel>ADV</deprel>
+                        </LM>
+                        <LM order="21">
+                          <form>til</form>
+                          <lemma>til</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="24">
+                            <form>driv</form>
+                            <lemma>drive</lemma>
+                            <cpostag>verb</cpostag>
+                            <postag>verb</postag>
+                            <feats>pres</feats>
+                            <deprel>PUTFYLL</deprel>
+                            <childnodes>
+                              <LM order="22">
+                                <form>kva</form>
+                                <lemma>kva</lemma>
+                                <cpostag>pron</cpostag>
+                                <postag>pron</postag>
+                                <feats>
+                                  <LM>ikke-hum</LM>
+                                  <LM>sp</LM>
+                                </feats>
+                                <deprel>SUBJ</deprel>
+                              </LM>
+                              <LM order="23">
+                                <form>som</form>
+                                <lemma>som</lemma>
+                                <cpostag>sbu</cpostag>
+                                <postag>sbu</postag>
+                                <deprel>SBU</deprel>
+                              </LM>
+                              <LM order="25">
+                                <form>oss</form>
+                                <lemma>vi</lemma>
+                                <cpostag>pron</cpostag>
+                                <postag>pron</postag>
+                                <feats>
+                                  <LM>pers</LM>
+                                  <LM>1</LM>
+                                  <LM>fl</LM>
+                                  <LM>hum</LM>
+                                  <LM>akk</LM>
+                                </feats>
+                                <deprel>DOBJ</deprel>
+                              </LM>
+                              <LM order="27">
+                                <form>vegen</form>
+                                <lemma>veg</lemma>
+                                <cpostag>subst</cpostag>
+                                <postag>subst</postag>
+                                <feats>
+                                  <LM>mask</LM>
+                                  <LM>appell</LM>
+                                  <LM>eint</LM>
+                                  <LM>bu</LM>
+                                </feats>
+                                <deprel>ADV</deprel>
+                                <childnodes order="26">
+                                  <form>vrange</form>
+                                  <lemma>vrang</lemma>
+                                  <cpostag>adj</cpostag>
+                                  <postag>adj</postag>
+                                  <feats>
+                                    <LM>pos</LM>
+                                    <LM>eint</LM>
+                                    <LM>bu</LM>
+                                  </feats>
+                                  <deprel>ATR</deprel>
+                                </childnodes>
+                              </LM>
+                            </childnodes>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="28">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Samstundes</form>
+          <lemma>samstundes</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>tanke-</form>
+          <lemma>tanke-</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>ufl</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>personleg</form>
+              <lemma>personleg</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="7">
+              <form>handlingsrom</form>
+              <lemma>handlingsrom</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes order="6">
+                <form>og</form>
+                <lemma>og</lemma>
+                <cpostag>konj</cpostag>
+                <postag>konj</postag>
+                <feats>&lt;ikkje-clb></feats>
+                <deprel>KONJ</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="9">
+          <form>med</form>
+          <lemma>med</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="10">
+            <form>ansvar</form>
+            <lemma>ansvar</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>nøyt</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="12">
+              <form>medvit</form>
+              <lemma>medvit</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="11">
+                  <form>og</form>
+                  <lemma>og</lemma>
+                  <cpostag>konj</cpostag>
+                  <postag>konj</postag>
+                  <feats>&lt;ikkje-clb></feats>
+                  <deprel>KONJ</deprel>
+                </LM>
+                <LM order="13">
+                  <form>om</form>
+                  <lemma>om</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="16">
+                    <form>kan</form>
+                    <lemma>kunne</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pres</feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="14">
+                        <form>at</form>
+                        <lemma>at</lemma>
+                        <cpostag>sbu</cpostag>
+                        <postag>sbu</postag>
+                        <deprel>SBU</deprel>
+                      </LM>
+                      <LM order="15">
+                        <form>vi</form>
+                        <lemma>vi</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>pers</LM>
+                          <LM>1</LM>
+                          <LM>fl</LM>
+                          <LM>hum</LM>
+                          <LM>nom</LM>
+                        </feats>
+                        <deprel>SUBJ</deprel>
+                      </LM>
+                      <LM order="17">
+                        <form>setje</form>
+                        <lemma>setje</lemma>
+                        <cpostag>verb</cpostag>
+                        <postag>verb</postag>
+                        <feats>inf</feats>
+                        <deprel>INFV</deprel>
+                        <childnodes>
+                          <LM order="18">
+                            <form>oss</form>
+                            <lemma>vi</lemma>
+                            <cpostag>pron</cpostag>
+                            <postag>pron</postag>
+                            <feats>
+                              <LM>pers</LM>
+                              <LM>1</LM>
+                              <LM>fl</LM>
+                              <LM>hum</LM>
+                              <LM>akk</LM>
+                            </feats>
+                            <deprel>IOBJ</deprel>
+                          </LM>
+                          <LM order="19">
+                            <form>mål</form>
+                            <lemma>mål</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>
+                              <LM>nøyt</LM>
+                              <LM>appell</LM>
+                              <LM>ub</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>DOBJ</deprel>
+                            <childnodes order="21">
+                              <form>forbetrar</form>
+                              <lemma>forbetre</lemma>
+                              <cpostag>verb</cpostag>
+                              <postag>verb</postag>
+                              <feats>pres</feats>
+                              <deprel>ATR</deprel>
+                              <childnodes>
+                                <LM order="20">
+                                  <form>som</form>
+                                  <lemma>som</lemma>
+                                  <cpostag>sbu</cpostag>
+                                  <postag>sbu</postag>
+                                  <deprel>SBU</deprel>
+                                </LM>
+                                <LM order="22">
+                                  <form>oss</form>
+                                  <lemma>vi</lemma>
+                                  <cpostag>pron</cpostag>
+                                  <postag>pron</postag>
+                                  <feats>
+                                    <LM>pers</LM>
+                                    <LM>1</LM>
+                                    <LM>fl</LM>
+                                    <LM>hum</LM>
+                                    <LM>akk</LM>
+                                  </feats>
+                                  <deprel>DOBJ</deprel>
+                                  <childnodes>
+                                    <LM order="23">
+                                      <form>sjølve</form>
+                                      <lemma>sjølve</lemma>
+                                      <cpostag>det</cpostag>
+                                      <postag>det</postag>
+                                      <feats>bu</feats>
+                                      <deprel>DET</deprel>
+                                    </LM>
+                                    <LM order="25">
+                                      <form>verda</form>
+                                      <lemma>verd</lemma>
+                                      <cpostag>subst</cpostag>
+                                      <postag>subst</postag>
+                                      <feats>
+                                        <LM>fem</LM>
+                                        <LM>appell</LM>
+                                        <LM>eint</LM>
+                                        <LM>bu</LM>
+                                      </feats>
+                                      <deprel>KOORD</deprel>
+                                      <childnodes order="24">
+                                        <form>og</form>
+                                        <lemma>og</lemma>
+                                        <cpostag>konj</cpostag>
+                                        <postag>konj</postag>
+                                        <feats>&lt;ikkje-clb></feats>
+                                        <deprel>KONJ</deprel>
+                                      </childnodes>
+                                    </LM>
+                                  </childnodes>
+                                </LM>
+                              </childnodes>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="26">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>skapte</form>
+      <lemma>skape</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>oppfatningar</form>
+          <lemma>oppfatning</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="1">
+            <form>Slike</form>
+            <lemma>slik</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>dem</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>grunnlaget</form>
+          <lemma>grunnlag</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="5">
+            <form>for</form>
+            <lemma>for</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="10">
+              <form>offentlegheit</form>
+              <lemma>offentlegheit</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="6">
+                  <form>ei</form>
+                  <lemma>ein</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="7">
+                  <form>drøftande</form>
+                  <lemma>drøfte</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>&lt;pres-part></feats>
+                  <deprel>ATR</deprel>
+                  <childnodes order="8">
+                    <form>,</form>
+                    <lemma>$,</lemma>
+                    <cpostag>&lt;komma></cpostag>
+                    <postag>&lt;komma></postag>
+                    <deprel>IK</deprel>
+                  </childnodes>
+                </LM>
+                <LM order="9">
+                  <form>normdannande</form>
+                  <lemma>normdanne</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>&lt;pres-part></LM>
+                    <LM>samset</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>vil</form>
+      <lemma>vilje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="5">
+          <form>bibelutgåvene</form>
+          <lemma>bibelutgåve</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="4">
+            <form>desse</form>
+            <lemma>desse</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>dem</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>vere</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>inf</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Kan</form>
+              <lemma>kan</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="2">
+                <form>hende</form>
+                <lemma>hende</lemma>
+                <cpostag>adv</cpostag>
+                <postag>adv</postag>
+                <deprel>ADV</deprel>
+              </childnodes>
+            </LM>
+            <LM order="6">
+              <form>på</form>
+              <lemma>på</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="7">
+                <form>nytt</form>
+                <lemma>ny</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>nøyt</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="9">
+              <form>med</form>
+              <lemma>med</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>SPRED</deprel>
+              <childnodes order="10">
+                <form>på</form>
+                <lemma>på</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="11">
+                  <form>å</form>
+                  <lemma>å</lemma>
+                  <cpostag>inf-merke</cpostag>
+                  <postag>inf-merke</postag>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="12">
+                    <form>minne</form>
+                    <lemma>minne</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>inf</feats>
+                    <deprel>INFV</deprel>
+                    <childnodes>
+                      <LM order="13">
+                        <form>oss</form>
+                        <lemma>vi</lemma>
+                        <cpostag>pron</cpostag>
+                        <postag>pron</postag>
+                        <feats>
+                          <LM>pers</LM>
+                          <LM>1</LM>
+                          <LM>fl</LM>
+                          <LM>hum</LM>
+                          <LM>akk</LM>
+                        </feats>
+                        <deprel>DOBJ</deprel>
+                      </LM>
+                      <LM order="14">
+                        <form>om</form>
+                        <lemma>om</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="21">
+                          <form>kan</form>
+                          <lemma>kunne</lemma>
+                          <cpostag>verb</cpostag>
+                          <postag>verb</postag>
+                          <feats>pres</feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes>
+                            <LM order="15">
+                              <form>at</form>
+                              <lemma>at</lemma>
+                              <cpostag>sbu</cpostag>
+                              <postag>sbu</postag>
+                              <deprel>SBU</deprel>
+                            </LM>
+                            <LM order="16">
+                              <form>vi</form>
+                              <lemma>vi</lemma>
+                              <cpostag>pron</cpostag>
+                              <postag>pron</postag>
+                              <feats>
+                                <LM>pers</LM>
+                                <LM>1</LM>
+                                <LM>fl</LM>
+                                <LM>hum</LM>
+                                <LM>nom</LM>
+                              </feats>
+                              <deprel>SUBJ</deprel>
+                            </LM>
+                            <LM order="22">
+                              <form>søkje</form>
+                              <lemma>søkje</lemma>
+                              <cpostag>verb</cpostag>
+                              <postag>verb</postag>
+                              <feats>inf</feats>
+                              <deprel>INFV</deprel>
+                              <childnodes>
+                                <LM order="17">
+                                  <form>som</form>
+                                  <lemma>som</lemma>
+                                  <cpostag>prep</cpostag>
+                                  <postag>prep</postag>
+                                  <deprel>ADV</deprel>
+                                  <childnodes order="19">
+                                    <form>menneske</form>
+                                    <lemma>menneske</lemma>
+                                    <cpostag>subst</cpostag>
+                                    <postag>subst</postag>
+                                    <feats>
+                                      <LM>nøyt</LM>
+                                      <LM>appell</LM>
+                                      <LM>ub</LM>
+                                      <LM>fl</LM>
+                                    </feats>
+                                    <deprel>PUTFYLL</deprel>
+                                    <childnodes order="18">
+                                      <form>feilande</form>
+                                      <lemma>feile</lemma>
+                                      <cpostag>adj</cpostag>
+                                      <postag>adj</postag>
+                                      <feats>&lt;pres-part></feats>
+                                      <deprel>ATR</deprel>
+                                    </childnodes>
+                                  </childnodes>
+                                </LM>
+                                <LM order="20">
+                                  <form>saman</form>
+                                  <lemma>saman</lemma>
+                                  <cpostag>adv</cpostag>
+                                  <postag>adv</postag>
+                                  <deprel>ADV</deprel>
+                                </LM>
+                                <LM order="23">
+                                  <form>svar</form>
+                                  <lemma>svar</lemma>
+                                  <cpostag>subst</cpostag>
+                                  <postag>subst</postag>
+                                  <feats>
+                                    <LM>nøyt</LM>
+                                    <LM>appell</LM>
+                                    <LM>ub</LM>
+                                    <LM>eint</LM>
+                                  </feats>
+                                  <deprel>DOBJ</deprel>
+                                  <childnodes order="24">
+                                    <form>på</form>
+                                    <lemma>på</lemma>
+                                    <cpostag>prep</cpostag>
+                                    <postag>prep</postag>
+                                    <deprel>ATR</deprel>
+                                    <childnodes order="27">
+                                      <form>vert</form>
+                                      <lemma>verte</lemma>
+                                      <cpostag>verb</cpostag>
+                                      <postag>verb</postag>
+                                      <feats>pres</feats>
+                                      <deprel>PUTFYLL</deprel>
+                                      <childnodes>
+                                        <LM order="25">
+                                          <form>koss</form>
+                                          <lemma>koss</lemma>
+                                          <cpostag>adv</cpostag>
+                                          <postag>adv</postag>
+                                          <deprel>ADV</deprel>
+                                        </LM>
+                                        <LM order="26">
+                                          <form>tilhøva</form>
+                                          <lemma>tilhøve</lemma>
+                                          <cpostag>subst</cpostag>
+                                          <postag>subst</postag>
+                                          <feats>
+                                            <LM>nøyt</LM>
+                                            <LM>appell</LM>
+                                            <LM>fl</LM>
+                                            <LM>bu</LM>
+                                          </feats>
+                                          <deprel>SUBJ</deprel>
+                                        </LM>
+                                        <LM order="28">
+                                          <form>betre</form>
+                                          <lemma>god</lemma>
+                                          <cpostag>adj</cpostag>
+                                          <postag>adj</postag>
+                                          <feats>komp</feats>
+                                          <deprel>SPRED</deprel>
+                                        </LM>
+                                      </childnodes>
+                                    </childnodes>
+                                  </childnodes>
+                                </LM>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="29">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Bjørn</form>
+          <lemma>Bjørn</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>prop</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="2">
+              <form>Kvalsvik</form>
+              <lemma>Kvalsvik</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>FLAT</deprel>
+            </LM>
+            <LM order="3">
+              <form>Nicolaysen</form>
+              <lemma>Nicolaysen</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>FLAT</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>professor</form>
+          <lemma>professor</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="6">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="7">
+                <form>lesevitskap</form>
+                <lemma>lesevitskap</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                  <LM>samset</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+            <LM order="10">
+              <form>bokmeldar</form>
+              <lemma>bokmeldar</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>KOORD</deprel>
+              <childnodes>
+                <LM order="8">
+                  <form>og</form>
+                  <lemma>og</lemma>
+                  <cpostag>konj</cpostag>
+                  <postag>konj</postag>
+                  <feats>&lt;ikkje-clb></feats>
+                  <deprel>KONJ</deprel>
+                </LM>
+                <LM order="9">
+                  <form>fast</form>
+                  <lemma>fast</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="11">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="12">
+                    <form>Dag</form>
+                    <lemma>Dag</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>prop</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes>
+                      <LM order="13">
+                        <form>og</form>
+                        <lemma>og</lemma>
+                        <cpostag>konj</cpostag>
+                        <postag>konj</postag>
+                        <feats>&lt;ikkje-clb></feats>
+                        <deprel>FLAT</deprel>
+                      </LM>
+                      <LM order="14">
+                        <form>Tid</form>
+                        <lemma>Tid</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>prop</feats>
+                        <deprel>FLAT</deprel>
+                      </LM>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="15">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Han</form>
+          <lemma>han</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>mask</LM>
+            <LM>eint</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>konsulent</form>
+          <lemma>konsulent</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="4">
+            <form>på</form>
+            <lemma>på</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="6">
+              <form>spørsmål</form>
+              <lemma>spørsmål</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes>
+                <LM order="5">
+                  <form>retoriske</form>
+                  <lemma>retorisk</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="7">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="8">
+                    <form>ferdistillinga</form>
+                    <lemma>ferdistilling</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fem</LM>
+                      <LM>appell</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                      <LM>samset</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes order="9">
+                      <form>av</form>
+                      <lemma>av</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="12">
+                        <form>omsetjinga</form>
+                        <lemma>omsetjing</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>fem</LM>
+                          <LM>appell</LM>
+                          <LM>eint</LM>
+                          <LM>bu</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="10">
+                            <form>den</form>
+                            <lemma>den</lemma>
+                            <cpostag>det</cpostag>
+                            <postag>det</postag>
+                            <feats>
+                              <LM>dem</LM>
+                              <LM>fem</LM>
+                              <LM>eint</LM>
+                            </feats>
+                            <deprel>DET</deprel>
+                          </LM>
+                          <LM order="11">
+                            <form>nynorske</form>
+                            <lemma>nynorsk</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>eint</LM>
+                              <LM>bu</LM>
+                            </feats>
+                            <deprel>ATR</deprel>
+                          </LM>
+                          <LM order="13">
+                            <form>av</form>
+                            <lemma>av</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="14">
+                              <form>Gamletestamentet</form>
+                              <lemma>Gamletestamentet</lemma>
+                              <cpostag>subst</cpostag>
+                              <postag>subst</postag>
+                              <feats>prop</feats>
+                              <deprel>PUTFYLL</deprel>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="15">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Lett</form>
+      <lemma>lett</lemma>
+      <cpostag>adj</cpostag>
+      <postag>adj</postag>
+      <feats>
+        <LM>pos</LM>
+        <LM>nøyt</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>å</form>
+          <lemma>å</lemma>
+          <cpostag>inf-merke</cpostag>
+          <postag>inf-merke</postag>
+          <deprel>PSUBJ</deprel>
+          <childnodes order="3">
+            <form>få</form>
+            <lemma>få</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>inf</feats>
+            <deprel>INFV</deprel>
+            <childnodes>
+              <LM order="4">
+                <form>ned</form>
+                <lemma>ned</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ADV</deprel>
+              </LM>
+              <LM order="5">
+                <form>sjukefråværet</form>
+                <lemma>sjukefråvær</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="5">
+      <form>gjev</form>
+      <lemma>gje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Éin</form>
+          <lemma>éin</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>kvant</LM>
+            <LM>mask</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>av</form>
+            <lemma>av</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="4">
+              <form>ålmennlækjarar</form>
+              <lemma>ålmennlækjar</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="3">
+                <form>ti</form>
+                <lemma>ti</lemma>
+                <cpostag>det</cpostag>
+                <postag>det</postag>
+                <feats>
+                  <LM>kvant</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>DET</deprel>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>folk</form>
+          <lemma>folk</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>IOBJ</deprel>
+          <childnodes order="7">
+            <form>med</form>
+            <lemma>med</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="9">
+              <form>lidingar</form>
+              <lemma>liding</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="8">
+                <form>psykiske</form>
+                <lemma>psykisk</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>pos</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>ATR</deprel>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>sjukmelding</form>
+          <lemma>sjukmelding</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="10">
+              <form>gradert</form>
+              <lemma>gradere</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>m/f</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="12">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="13">
+                <form>sju</form>
+                <lemma>sju</lemma>
+                <cpostag>det</cpostag>
+                <postag>det</postag>
+                <feats>
+                  <LM>kvant</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="14">
+                  <form>av</form>
+                  <lemma>av</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="16">
+                    <form>tilfelle</form>
+                    <lemma>tilfelle</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes order="15">
+                      <form>ti</form>
+                      <lemma>ti</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="17">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>gjev</form>
+      <lemma>gje</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>tiandedel</form>
+          <lemma>tiandedel</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="1">
+            <form>Ein</form>
+            <lemma>ein</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>mask</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>alltid</form>
+          <lemma>alltid</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="6">
+          <form>sjukmelding</form>
+          <lemma>sjukmelding</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes order="5">
+            <form>full</form>
+            <lemma>full</lemma>
+            <cpostag>adj</cpostag>
+            <postag>adj</postag>
+            <feats>
+              <LM>pos</LM>
+              <LM>m/f</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>ATR</deprel>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>stig</form>
+      <lemma>stige</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>No</form>
+          <lemma>no</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>talet</form>
+          <lemma>tal</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="4">
+            <form>på</form>
+            <lemma>på</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="5">
+              <form>sjukmelde</form>
+              <lemma>sjukmeld</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>atter</form>
+          <lemma>atter</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="8">
+            <form>gong</form>
+            <lemma>gong</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>mask</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="7">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Sjukefråvære</form>
+      <lemma>sjukefråvære</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>nøyt</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes order="2">
+        <form>|</form>
+        <lemma>$|</lemma>
+        <cpostag>clb</cpostag>
+        <postag>clb</postag>
+        <feats>&lt;overskrift></feats>
+        <deprel>IP</deprel>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>Det</form>
+      <lemma>Det</lemma>
+      <cpostag>ukjent</cpostag>
+      <postag>ukjent</postag>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>«</form>
+          <lemma>$"</lemma>
+          <cpostag>&lt;anf></cpostag>
+          <postag>&lt;anf></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="3">
+          <form>legemeldte</form>
+          <lemma>legemeldte</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="4">
+          <form>sykefraværet</form>
+          <lemma>sykefraværet</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="5">
+          <form>gikk</form>
+          <lemma>gikk</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="6">
+          <form>opp</form>
+          <lemma>opp</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="7">
+          <form>med</form>
+          <lemma>med</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="8">
+          <form>2,8</form>
+          <lemma>2,8</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>kvant</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="9">
+          <form>prosent</form>
+          <lemma>prosent</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="10">
+          <form>fra</form>
+          <lemma>fra</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="11">
+          <form>2.</form>
+          <lemma>2.</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>fl</feats>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="12">
+          <form>kvartal</form>
+          <lemma>kvartal</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="13">
+          <form>2010</form>
+          <lemma>2010</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>kvant</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="14">
+          <form>til</form>
+          <lemma>til</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="15">
+          <form>2.</form>
+          <lemma>2.</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>fl</feats>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="16">
+          <form>kvartal</form>
+          <lemma>kvartal</lemma>
+          <cpostag>ukjent</cpostag>
+          <postag>ukjent</postag>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="17">
+          <form>2011</form>
+          <lemma>2011</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>kvant</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>FLAT</deprel>
+        </LM>
+        <LM order="18">
+          <form>»</form>
+          <lemma>$"</lemma>
+          <cpostag>&lt;anf></cpostag>
+          <postag>&lt;anf></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="19">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="20">
+          <form>skriv</form>
+          <lemma>skrive</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>PAR</deprel>
+          <childnodes>
+            <LM order="21">
+              <form>NAV</form>
+              <lemma>NAV</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="22">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="24">
+                <form>pressemelding</form>
+                <lemma>pressemelding</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="23">
+                    <form>ei</form>
+                    <lemma>ein</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>kvant</LM>
+                      <LM>fem</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>FLAT</deprel>
+                  </LM>
+                  <LM order="27">
+                    <form>vart</form>
+                    <lemma>verte</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>pret</feats>
+                    <deprel>ATR</deprel>
+                    <childnodes>
+                      <LM order="25">
+                        <form>som</form>
+                        <lemma>som</lemma>
+                        <cpostag>sbu</cpostag>
+                        <postag>sbu</postag>
+                        <deprel>SBU</deprel>
+                      </LM>
+                      <LM order="28">
+                        <form>send</form>
+                        <lemma>sende</lemma>
+                        <cpostag>adj</cpostag>
+                        <postag>adj</postag>
+                        <feats>
+                          <LM>&lt;perf-part></LM>
+                          <LM>m/f</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>INFV</deprel>
+                        <childnodes>
+                          <LM order="26">
+                            <form>nett</form>
+                            <lemma>nett</lemma>
+                            <cpostag>adv</cpostag>
+                            <postag>adv</postag>
+                            <deprel>FLAT</deprel>
+                          </LM>
+                          <LM order="29">
+                            <form>ut</form>
+                            <lemma>ut</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ADV</deprel>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="30">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Mennene</form>
+          <lemma>mann</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="3">
+          <form>borte</form>
+          <lemma>borte</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="5">
+          <form>prosent</form>
+          <lemma>prosent</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>4,3</form>
+              <lemma>4,3</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="6">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="7">
+                <form>tida</form>
+                <lemma>tid</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="9">
+          <form>kvinnene</form>
+          <lemma>kvinne</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>KOORD-ELL</deprel>
+          <childnodes order="10">
+            <form>7,4</form>
+            <lemma>7,4</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>kjem</form>
+      <lemma>kome</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>tillegg</form>
+            <lemma>tillegg</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>nøyt</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>eint</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>dei</form>
+          <lemma>dei</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="6">
+            <form>har</form>
+            <lemma>ha</lemma>
+            <cpostag>verb</cpostag>
+            <postag>verb</postag>
+            <feats>pres</feats>
+            <deprel>ATR</deprel>
+            <childnodes>
+              <LM order="5">
+                <form>som</form>
+                <lemma>som</lemma>
+                <cpostag>sbu</cpostag>
+                <postag>sbu</postag>
+                <deprel>SBU</deprel>
+              </LM>
+              <LM order="7">
+                <form>sjukefråvære</form>
+                <lemma>sjukefråvære</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+              </LM>
+              <LM order="8">
+                <form>utan</form>
+                <lemma>utan</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ADV</deprel>
+                <childnodes order="9">
+                  <form>å</form>
+                  <lemma>å</lemma>
+                  <cpostag>inf-merke</cpostag>
+                  <postag>inf-merke</postag>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="10">
+                    <form>ha</form>
+                    <lemma>ha</lemma>
+                    <cpostag>verb</cpostag>
+                    <postag>verb</postag>
+                    <feats>inf</feats>
+                    <deprel>INFV</deprel>
+                    <childnodes order="11">
+                      <form>vore</form>
+                      <lemma>vere</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>perf-part</feats>
+                      <deprel>INFV</deprel>
+                      <childnodes order="12">
+                        <form>innom</form>
+                        <lemma>innom</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>SPRED</deprel>
+                        <childnodes order="13">
+                          <form>lækjar</form>
+                          <lemma>lækjar</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>mask</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </LM>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="6">
+      <form>vert</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Tek</form>
+          <lemma>ta</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="2">
+              <form>vi</form>
+              <lemma>vi</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>1</LM>
+                <LM>fl</LM>
+                <LM>hum</LM>
+                <LM>nom</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="3">
+              <form>med</form>
+              <lemma>med</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="4">
+              <form>desse</form>
+              <lemma>desse</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+            <LM order="5">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>sjukefråværet</form>
+          <lemma>sjukefråvære</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="7">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="8">
+              <form>samla</form>
+              <lemma>samle</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="11">
+          <form>prosent</form>
+          <lemma>prosent</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes order="10">
+            <form>6,5</form>
+            <lemma>6,5</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>DET</deprel>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Tendensen</form>
+          <lemma>tendens</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>same</form>
+          <lemma>same</lemma>
+          <cpostag>det</cpostag>
+          <postag>det</postag>
+          <feats>
+            <LM>dem</LM>
+            <LM>&lt;adj></LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>den</form>
+              <lemma>den</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="5">
+              <form>som</form>
+              <lemma>som</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="6">
+                <form>i</form>
+                <lemma>i</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="7">
+                    <form>tidlegare</form>
+                    <lemma>tidleg</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>komp</feats>
+                    <deprel>ADV</deprel>
+                  </LM>
+                  <LM order="8">
+                    <form>år</form>
+                    <lemma>år</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>;</form>
+          <lemma>$;</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;semi></feats>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="17">
+          <form>aukar</form>
+          <lemma>auke</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="14">
+              <form>ligg</form>
+              <lemma>liggje</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="10">
+                  <form>medan</form>
+                  <lemma>medan</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="11">
+                  <form>fråværet</form>
+                  <lemma>fråvære</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                  <childnodes order="12">
+                    <form>til</form>
+                    <lemma>til</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="13">
+                      <form>menn</form>
+                      <lemma>mann</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>ub</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+                <LM order="15">
+                  <form>stabilt</form>
+                  <lemma>stabil</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="16">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="18">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="19">
+              <form>for</form>
+              <lemma>for</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="20">
+                <form>kvinner</form>
+                <lemma>kvinne</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="21">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="5">
+      <form>kjem</form>
+      <lemma>kome</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>prosent</form>
+          <lemma>prosent</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>15,3</form>
+              <lemma>15,3</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="3">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="4">
+                <form>sjukmeldingane</form>
+                <lemma>sjukmelding</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>fl</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>av</form>
+          <lemma>av</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="8">
+            <form>lidingar</form>
+            <lemma>liding</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fem</LM>
+              <LM>appell</LM>
+              <LM>ub</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+            <childnodes order="7">
+              <form>psykiske</form>
+              <lemma>psykisk</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="11">
+          <form>auke</form>
+          <lemma>auke</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>APP</deprel>
+          <childnodes>
+            <LM order="10">
+              <form>ein</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="12">
+              <form>på</form>
+              <lemma>på</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="14">
+                <form>prosent</form>
+                <lemma>prosent</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="13">
+                  <form>25</form>
+                  <lemma>25</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="18">
+              <form>åra</form>
+              <lemma>år</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>fl</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>ATR</deprel>
+              <childnodes>
+                <LM order="15">
+                  <form>dei</form>
+                  <lemma>dei</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>dem</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="16">
+                  <form>seinaste</form>
+                  <lemma>sein</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>sup</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+                <LM order="17">
+                  <form>ti</form>
+                  <lemma>ti</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="19">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="12">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="5">
+          <form>er</form>
+          <lemma>vere</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>ADV</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Sidan</form>
+              <lemma>sidan</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="4">
+              <form>sjuke</form>
+              <lemma>sjuk</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>dei</form>
+                  <lemma>dei</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>dem</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="3">
+                  <form>psykisk</form>
+                  <lemma>psykisk</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ADV</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="7">
+              <form>borte</form>
+              <lemma>borte</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="6">
+                <form>lenger</form>
+                <lemma>lenge</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>
+                  <LM>komp</LM>
+                  <LM>&lt;adv></LM>
+                </feats>
+                <deprel>ADV</deprel>
+                <childnodes order="8">
+                  <form>enn</form>
+                  <lemma>enn</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="10">
+                    <form>sjukmelde</form>
+                    <lemma>sjukmeld</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes order="9">
+                      <form>andre</form>
+                      <lemma>annan</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>dem</LM>
+                        <LM>&lt;adj></LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </childnodes>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="11">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="14">
+          <form>prosent</form>
+          <lemma>prosent</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="13">
+              <form>20</form>
+              <lemma>20</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="15">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="16">
+                <form>sjukefråværet</form>
+                <lemma>sjukefråvære</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="17">
+          <form>no</form>
+          <lemma>no</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="19">
+          <form>resultat</form>
+          <lemma>resultat</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="18">
+              <form>eit</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="20">
+              <form>av</form>
+              <lemma>av</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="22">
+                <form>lidingar</form>
+                <lemma>liding</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>fem</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="21">
+                  <form>psykiske</form>
+                  <lemma>psykisk</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>fl</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="23">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>I</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+          <childnodes order="2">
+            <form>OECD</form>
+            <lemma>OECD</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>
+              <LM>fork</LM>
+              <LM>prop</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="4">
+          <form>det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="6">
+          <form>land</form>
+          <lemma>land</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>PSUBJ</deprel>
+          <childnodes>
+            <LM order="5">
+              <form>ingen</form>
+              <lemma>ingen</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="8">
+              <form>har</form>
+              <lemma>ha</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pres</feats>
+              <deprel>ATR</deprel>
+              <childnodes>
+                <LM order="7">
+                  <form>som</form>
+                  <lemma>som</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="12">
+                  <form>folkesetnad</form>
+                  <lemma>folkesetnad</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                  <childnodes>
+                    <LM order="9">
+                      <form>ein</form>
+                      <lemma>ein</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>mask</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </LM>
+                    <LM order="11">
+                      <form>sjuk</form>
+                      <lemma>sjuk</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>
+                        <LM>pos</LM>
+                        <LM>m/f</LM>
+                        <LM>ub</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                      <childnodes order="10">
+                        <form>så</form>
+                        <lemma>så</lemma>
+                        <cpostag>adv</cpostag>
+                        <postag>adv</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="16">
+                          <form>som</form>
+                          <lemma>som</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="17">
+                            <form>Noreg</form>
+                            <lemma>Noreg</lemma>
+                            <cpostag>subst</cpostag>
+                            <postag>subst</postag>
+                            <feats>prop</feats>
+                            <deprel>PUTFYLL</deprel>
+                          </childnodes>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                    <LM order="13">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ATR</deprel>
+                      <childnodes order="15">
+                        <form>alder</form>
+                        <lemma>alder</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>mask</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes order="14">
+                          <form>arbeidsfør</form>
+                          <lemma>arbeidsfør</lemma>
+                          <cpostag>adj</cpostag>
+                          <postag>adj</postag>
+                          <feats>
+                            <LM>pos</LM>
+                            <LM>m/f</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>ATR</deprel>
+                        </childnodes>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Kvifor</form>
+          <lemma>kvifor</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="3">
+          <form>det</form>
+          <lemma>det</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>3</LM>
+            <LM>nøyt</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>FSUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>slik</form>
+          <lemma>slik</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>SPRED</deprel>
+        </LM>
+        <LM order="5">
+          <form>?</form>
+          <lemma>$?</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;spm></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>er</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Og</form>
+          <lemma>og</lemma>
+          <cpostag>konj</cpostag>
+          <postag>konj</postag>
+          <feats>&lt;ikkje-clb></feats>
+          <deprel>KONJ</deprel>
+        </LM>
+        <LM order="2">
+          <form>kvar</form>
+          <lemma>kvar</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="4">
+          <form>eventuelt</form>
+          <lemma>eventuell</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>nøyt</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="5">
+          <form>nyhenda</form>
+          <lemma>nyhende</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>fl</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="6">
+            <form>i</form>
+            <lemma>i</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="8">
+              <form>tala</form>
+              <lemma>tal</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>fl</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+              <childnodes order="7">
+                <form>desse</form>
+                <lemma>desse</lemma>
+                <cpostag>det</cpostag>
+                <postag>det</postag>
+                <feats>
+                  <LM>dem</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>DET</deprel>
+              </childnodes>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="9">
+          <form>?</form>
+          <lemma>$?</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;spm></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="1">
+      <form>Har</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="2">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>høyrt</form>
+          <lemma>høyre</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>ikkje</form>
+              <lemma>ikkje</lemma>
+              <cpostag>adv</cpostag>
+              <postag>adv</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="5">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>pron</cpostag>
+              <postag>pron</postag>
+              <feats>
+                <LM>pers</LM>
+                <LM>3</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+            </LM>
+            <LM order="6">
+              <form>før</form>
+              <lemma>før</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>?</form>
+          <lemma>$?</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;spm></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>gonger</form>
+      <lemma>gong</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>mask</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>fl</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Jau</form>
+          <lemma>jau</lemma>
+          <cpostag>interj</cpostag>
+          <postag>interj</postag>
+          <deprel>INTERJ</deprel>
+          <childnodes order="2">
+            <form>,</form>
+            <lemma>$,</lemma>
+            <cpostag>&lt;komma></cpostag>
+            <postag>&lt;komma></postag>
+            <deprel>IK</deprel>
+          </childnodes>
+        </LM>
+        <LM order="3">
+          <form>mange</form>
+          <lemma>mange</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>pos</LM>
+            <LM>fl</LM>
+          </feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="5">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="4">
+      <form>vert</form>
+      <lemma>verte</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Ekspertgruppe</form>
+          <lemma>ekspertgruppe</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>på</form>
+            <lemma>på</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ATR</deprel>
+            <childnodes order="3">
+              <form>ekspertgruppe</form>
+              <lemma>ekspertgruppe</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>PUTFYLL</deprel>
+            </childnodes>
+          </childnodes>
+        </LM>
+        <LM order="5">
+          <form>sett</form>
+          <lemma>setje</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>&lt;perf-part></LM>
+            <LM>m/f</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>INFV</deprel>
+          <childnodes order="6">
+            <form>ned</form>
+            <lemma>ned</lemma>
+            <cpostag>prep</cpostag>
+            <postag>prep</postag>
+            <deprel>ADV</deprel>
+          </childnodes>
+        </LM>
+        <LM order="7">
+          <form>,</form>
+          <lemma>$,</lemma>
+          <cpostag>&lt;komma></cpostag>
+          <postag>&lt;komma></postag>
+          <deprel>IK</deprel>
+        </LM>
+        <LM order="9">
+          <form>fløymer</form>
+          <lemma>fløyme</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="8">
+              <form>forskingsmillionane</form>
+              <lemma>forskingsmillion</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>fl</LM>
+                <LM>bu</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="10">
+              <form>lett</form>
+              <lemma>lett</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="11">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="15">
+          <form>går</form>
+          <lemma>gå</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>NHO</form>
+              <lemma>NHO</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>SUBJ</deprel>
+              <childnodes order="14">
+                <form>LO</form>
+                <lemma>LO</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>prop</feats>
+                <deprel>KOORD</deprel>
+                <childnodes order="13">
+                  <form>og</form>
+                  <lemma>og</lemma>
+                  <cpostag>konj</cpostag>
+                  <postag>konj</postag>
+                  <feats>&lt;ikkje-clb></feats>
+                  <deprel>KONJ</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="16">
+              <form>inn</form>
+              <lemma>inn</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="17">
+              <form>avtalar</form>
+              <lemma>avtale</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="18">
+                <form>om</form>
+                <lemma>om</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="20">
+                  <form>arbeidsliv</form>
+                  <lemma>arbeidsliv</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes order="19">
+                    <form>inkluderande</form>
+                    <lemma>inkludere</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>&lt;pres-part></feats>
+                    <deprel>ATR</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="21">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="23">
+          <form>får</form>
+          <lemma>få</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="22">
+              <form>NAV</form>
+              <lemma>NAV</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>prop</feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="26">
+              <form>løyvingar</form>
+              <lemma>løyving</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>fl</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes order="25">
+                <form>større</form>
+                <lemma>stor</lemma>
+                <cpostag>adj</cpostag>
+                <postag>adj</postag>
+                <feats>komp</feats>
+                <deprel>ATR</deprel>
+                <childnodes order="24">
+                  <form>stadig</form>
+                  <lemma>stadig</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>nøyt</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>ADV</deprel>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="27">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="29">
+          <form>går</form>
+          <lemma>gå</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pres</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="28">
+              <form>arbeidsgjevarane</form>
+              <lemma>arbeidsgjevar</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>fl</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+            </LM>
+            <LM order="30">
+              <form>i</form>
+              <lemma>i</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="31">
+                <form>møte</form>
+                <lemma>møte</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>nøyt</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>eint</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes order="32">
+                  <form>etter</form>
+                  <lemma>etter</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ATR</deprel>
+                  <childnodes order="33">
+                    <form>møte</form>
+                    <lemma>møte</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>nøyt</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="34">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>får</form>
+      <lemma>få</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pres</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Men</form>
+          <lemma>men</lemma>
+          <cpostag>konj</cpostag>
+          <postag>konj</postag>
+          <feats>clb</feats>
+          <deprel>KONJ</deprel>
+        </LM>
+        <LM order="2">
+          <form>fråværet</form>
+          <lemma>fråvære</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+        </LM>
+        <LM order="4">
+          <form>vi</form>
+          <lemma>vi</lemma>
+          <cpostag>pron</cpostag>
+          <postag>pron</postag>
+          <feats>
+            <LM>pers</LM>
+            <LM>1</LM>
+            <LM>fl</LM>
+            <LM>hum</LM>
+            <LM>nom</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>ikkje</form>
+          <lemma>ikkje</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="6">
+          <form>ned</form>
+          <lemma>ned</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="7">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="9">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Sist</form>
+          <lemma>sist</lemma>
+          <cpostag>adv</cpostag>
+          <postag>adv</postag>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>braut</form>
+              <lemma>bryte</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pret</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="2">
+                  <form>det</form>
+                  <lemma>det</lemma>
+                  <cpostag>pron</cpostag>
+                  <postag>pron</postag>
+                  <feats>
+                    <LM>pers</LM>
+                    <LM>3</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>FSUBJ</deprel>
+                </LM>
+                <LM order="4">
+                  <form>ut</form>
+                  <lemma>ut</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="5">
+                  <form>panikk</form>
+                  <lemma>panikk</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DOBJ</deprel>
+                  <childnodes order="6">
+                    <form>om</form>
+                    <lemma>om</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes order="7">
+                      <form>sjukefråværet</form>
+                      <lemma>sjukefråvære</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>nøyt</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                      </feats>
+                      <deprel>PUTFYLL</deprel>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="8">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="10">
+          <form>i</form>
+          <lemma>i</lemma>
+          <cpostag>prep</cpostag>
+          <postag>prep</postag>
+          <deprel>SPRED</deprel>
+          <childnodes order="11">
+            <form>2009</form>
+            <lemma>2009</lemma>
+            <cpostag>det</cpostag>
+            <postag>det</postag>
+            <feats>
+              <LM>kvant</LM>
+              <LM>fl</LM>
+            </feats>
+            <deprel>PUTFYLL</deprel>
+          </childnodes>
+        </LM>
+        <LM order="12">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="3">
+      <form>sa</form>
+      <lemma>seie</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Jens</form>
+          <lemma>Jens</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>prop</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes order="2">
+            <form>Stoltenberg</form>
+            <lemma>Stoltenberg</lemma>
+            <cpostag>subst</cpostag>
+            <postag>subst</postag>
+            <feats>prop</feats>
+            <deprel>FLAT</deprel>
+          </childnodes>
+        </LM>
+        <LM order="8">
+          <form>kunne</form>
+          <lemma>kunne</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="4">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="7">
+              <form>fråværet</form>
+              <lemma>fråvære</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>nøyt</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="5">
+                  <form>det</form>
+                  <lemma>det</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>dem</LM>
+                    <LM>nøyt</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="6">
+                  <form>store</form>
+                  <lemma>stor</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>pos</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="9">
+              <form>truga</form>
+              <lemma>truge</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>inf</feats>
+              <deprel>INFV</deprel>
+              <childnodes order="12">
+                <form>velferdsmodellen</form>
+                <lemma>velferdsmodell</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>eint</LM>
+                  <LM>bu</LM>
+                  <LM>samset</LM>
+                </feats>
+                <deprel>DOBJ</deprel>
+                <childnodes>
+                  <LM order="10">
+                    <form>den</form>
+                    <lemma>den</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>dem</LM>
+                      <LM>mask</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="11">
+                    <form>norske</form>
+                    <lemma>norsk</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>pos</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>ATR</deprel>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="13">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="18">
+          <form>sette</form>
+          <lemma>setje</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>KOORD</deprel>
+          <childnodes>
+            <LM order="14">
+              <form>og</form>
+              <lemma>og</lemma>
+              <cpostag>konj</cpostag>
+              <postag>konj</postag>
+              <feats>clb</feats>
+              <deprel>KONJ</deprel>
+            </LM>
+            <LM order="16">
+              <form>Hanne</form>
+              <lemma>Hanne</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>prop</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes>
+                <LM order="15">
+                  <form>arbeidsminister</form>
+                  <lemma>arbeidsminister</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>mask</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                    <LM>samset</LM>
+                  </feats>
+                  <deprel>APP</deprel>
+                </LM>
+                <LM order="17">
+                  <form>Bjurstrøm</form>
+                  <lemma>Bjurstrøm</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>prop</feats>
+                  <deprel>FLAT</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="19">
+              <form>ned</form>
+              <lemma>ned</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+            </LM>
+            <LM order="22">
+              <form>ekspertgruppe</form>
+              <lemma>ekspertgruppe</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>fem</LM>
+                <LM>appell</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DOBJ</deprel>
+              <childnodes>
+                <LM order="20">
+                  <form>ei</form>
+                  <lemma>ein</lemma>
+                  <cpostag>det</cpostag>
+                  <postag>det</postag>
+                  <feats>
+                    <LM>kvant</LM>
+                    <LM>fem</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>DET</deprel>
+                </LM>
+                <LM order="21">
+                  <form>snøgtarbeidande</form>
+                  <lemma>snøgtarbeide</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>&lt;pres-part></LM>
+                    <LM>samset</LM>
+                  </feats>
+                  <deprel>ATR</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="23">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>fekk</form>
+      <lemma>få</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Gruppa</form>
+          <lemma>gruppe</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>fem</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="5">
+          <form>mandat</form>
+          <lemma>mandat</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>ub</LM>
+            <LM>eint</LM>
+          </feats>
+          <deprel>DOBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>eit</form>
+              <lemma>ein</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>kvant</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="4">
+              <form>avgrensa</form>
+              <lemma>avgrense</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>nøyt</LM>
+                <LM>ub</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>arbeidsliv</form>
+      <lemma>arbeidsliv</lemma>
+      <cpostag>subst</cpostag>
+      <postag>subst</postag>
+      <feats>
+        <LM>nøyt</LM>
+        <LM>appell</LM>
+        <LM>ub</LM>
+        <LM>eint</LM>
+      </feats>
+      <deprel>FRAG</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Inkluderande</form>
+          <lemma>inkludere</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>&lt;pres-part></feats>
+          <deprel>ATR</deprel>
+        </LM>
+        <LM order="3">
+          <form>|</form>
+          <lemma>$|</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;overskrift></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="11">
+      <form>var</form>
+      <lemma>vere</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="3">
+          <form>grunnen</form>
+          <lemma>grunn</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>mask</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="1">
+              <form>Den</form>
+              <lemma>den</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>mask</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="2">
+              <form>formelle</form>
+              <lemma>formell</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>pos</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+            <LM order="4">
+              <form>til</form>
+              <lemma>til</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ATR</deprel>
+              <childnodes order="7">
+                <form>vart</form>
+                <lemma>verte</lemma>
+                <cpostag>verb</cpostag>
+                <postag>verb</postag>
+                <feats>pret</feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="5">
+                    <form>at</form>
+                    <lemma>at</lemma>
+                    <cpostag>sbu</cpostag>
+                    <postag>sbu</postag>
+                    <deprel>SBU</deprel>
+                  </LM>
+                  <LM order="6">
+                    <form>gruppa</form>
+                    <lemma>gruppe</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>fem</LM>
+                      <LM>appell</LM>
+                      <LM>eint</LM>
+                      <LM>bu</LM>
+                    </feats>
+                    <deprel>SUBJ</deprel>
+                  </LM>
+                  <LM order="8">
+                    <form>sett</form>
+                    <lemma>setje</lemma>
+                    <cpostag>adj</cpostag>
+                    <postag>adj</postag>
+                    <feats>
+                      <LM>&lt;perf-part></LM>
+                      <LM>m/f</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>INFV</deprel>
+                    <childnodes order="9">
+                      <form>ned</form>
+                      <lemma>ned</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="10">
+              <form>,</form>
+              <lemma>$,</lemma>
+              <cpostag>&lt;komma></cpostag>
+              <postag>&lt;komma></postag>
+              <deprel>IK</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="32">
+          <form>skulle</form>
+          <lemma>skulle</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>pret</feats>
+          <deprel>SPRED</deprel>
+          <childnodes>
+            <LM order="12">
+              <form>at</form>
+              <lemma>at</lemma>
+              <cpostag>sbu</cpostag>
+              <postag>sbu</postag>
+              <deprel>SBU</deprel>
+            </LM>
+            <LM order="13">
+              <form>avtalen</form>
+              <lemma>avtale</lemma>
+              <cpostag>subst</cpostag>
+              <postag>subst</postag>
+              <feats>
+                <LM>mask</LM>
+                <LM>appell</LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+              </feats>
+              <deprel>SUBJ</deprel>
+              <childnodes order="14">
+                <form>om</form>
+                <lemma>om</lemma>
+                <cpostag>prep</cpostag>
+                <postag>prep</postag>
+                <deprel>ATR</deprel>
+                <childnodes order="17">
+                  <form>arbeidsliv</form>
+                  <lemma>arbeidsliv</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>nøyt</LM>
+                    <LM>appell</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>PUTFYLL</deprel>
+                  <childnodes>
+                    <LM order="15">
+                      <form>eit</form>
+                      <lemma>ein</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>nøyt</LM>
+                        <LM>eint</LM>
+                      </feats>
+                      <deprel>DET</deprel>
+                    </LM>
+                    <LM order="16">
+                      <form>inkluderande</form>
+                      <lemma>inkludere</lemma>
+                      <cpostag>adj</cpostag>
+                      <postag>adj</postag>
+                      <feats>&lt;pres-part></feats>
+                      <deprel>ATR</deprel>
+                    </LM>
+                    <LM order="19">
+                      <form>IA-avtalen</form>
+                      <lemma>IA-avtale</lemma>
+                      <cpostag>subst</cpostag>
+                      <postag>subst</postag>
+                      <feats>
+                        <LM>mask</LM>
+                        <LM>appell</LM>
+                        <LM>eint</LM>
+                        <LM>bu</LM>
+                        <LM>samset</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                      <childnodes>
+                        <LM order="18">
+                          <form>(</form>
+                          <lemma>$(</lemma>
+                          <cpostag>&lt;parentes-beg></cpostag>
+                          <postag>&lt;parentes-beg></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                        <LM order="20">
+                          <form>)</form>
+                          <lemma>$)</lemma>
+                          <cpostag>&lt;parentes-slutt></cpostag>
+                          <postag>&lt;parentes-slutt></postag>
+                          <deprel>IK</deprel>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                    <LM order="22">
+                      <form>byrja</form>
+                      <lemma>byrje</lemma>
+                      <cpostag>verb</cpostag>
+                      <postag>verb</postag>
+                      <feats>pret</feats>
+                      <deprel>ATR</deprel>
+                      <childnodes>
+                        <LM order="21">
+                          <form>som</form>
+                          <lemma>som</lemma>
+                          <cpostag>sbu</cpostag>
+                          <postag>sbu</postag>
+                          <deprel>SBU</deprel>
+                        </LM>
+                        <LM order="23">
+                          <form>i</form>
+                          <lemma>i</lemma>
+                          <cpostag>prep</cpostag>
+                          <postag>prep</postag>
+                          <deprel>ADV</deprel>
+                          <childnodes order="24">
+                            <form>2001</form>
+                            <lemma>2001</lemma>
+                            <cpostag>det</cpostag>
+                            <postag>det</postag>
+                            <feats>
+                              <LM>kvant</LM>
+                              <LM>fl</LM>
+                            </feats>
+                            <deprel>PUTFYLL</deprel>
+                          </childnodes>
+                        </LM>
+                        <LM order="26">
+                          <form>vart</form>
+                          <lemma>verte</lemma>
+                          <cpostag>verb</cpostag>
+                          <postag>verb</postag>
+                          <feats>pret</feats>
+                          <deprel>KOORD</deprel>
+                          <childnodes>
+                            <LM order="25">
+                              <form>og</form>
+                              <lemma>og</lemma>
+                              <cpostag>konj</cpostag>
+                              <postag>konj</postag>
+                              <feats>clb</feats>
+                              <deprel>KONJ</deprel>
+                            </LM>
+                            <LM order="27">
+                              <form>fornya</form>
+                              <lemma>fornye</lemma>
+                              <cpostag>adj</cpostag>
+                              <postag>adj</postag>
+                              <feats>
+                                <LM>&lt;perf-part></LM>
+                                <LM>m/f</LM>
+                                <LM>ub</LM>
+                                <LM>eint</LM>
+                              </feats>
+                              <deprel>INFV</deprel>
+                              <childnodes order="28">
+                                <form>i</form>
+                                <lemma>i</lemma>
+                                <cpostag>prep</cpostag>
+                                <postag>prep</postag>
+                                <deprel>ADV</deprel>
+                                <childnodes order="29">
+                                  <form>2006</form>
+                                  <lemma>2006</lemma>
+                                  <cpostag>det</cpostag>
+                                  <postag>det</postag>
+                                  <feats>
+                                    <LM>kvant</LM>
+                                    <LM>fl</LM>
+                                  </feats>
+                                  <deprel>PUTFYLL</deprel>
+                                </childnodes>
+                              </childnodes>
+                            </LM>
+                            <LM order="30">
+                              <form>,</form>
+                              <lemma>$,</lemma>
+                              <cpostag>&lt;komma></cpostag>
+                              <postag>&lt;komma></postag>
+                              <deprel>IK</deprel>
+                            </LM>
+                          </childnodes>
+                        </LM>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </childnodes>
+              </childnodes>
+            </LM>
+            <LM order="33">
+              <form>fornyast</form>
+              <lemma>fornye</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>
+                <LM>inf</LM>
+                <LM>st-form</LM>
+              </feats>
+              <deprel>INFV</deprel>
+              <childnodes>
+                <LM order="31">
+                  <form>atter</form>
+                  <lemma>atter</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                </LM>
+                <LM order="34">
+                  <form>i</form>
+                  <lemma>i</lemma>
+                  <cpostag>prep</cpostag>
+                  <postag>prep</postag>
+                  <deprel>ADV</deprel>
+                  <childnodes order="35">
+                    <form>mars</form>
+                    <lemma>mars</lemma>
+                    <cpostag>subst</cpostag>
+                    <postag>subst</postag>
+                    <feats>
+                      <LM>mask</LM>
+                      <LM>appell</LM>
+                      <LM>ub</LM>
+                      <LM>eint</LM>
+                    </feats>
+                    <deprel>PUTFYLL</deprel>
+                    <childnodes order="36">
+                      <form>2010</form>
+                      <lemma>2010</lemma>
+                      <cpostag>det</cpostag>
+                      <postag>det</postag>
+                      <feats>
+                        <LM>kvant</LM>
+                        <LM>fl</LM>
+                      </feats>
+                      <deprel>ATR</deprel>
+                    </childnodes>
+                  </childnodes>
+                </LM>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="37">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="9">
+      <form>hadde</form>
+      <lemma>ha</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="10">
+          <form>sjukefråværet</form>
+          <lemma>sjukefråvære</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+        </LM>
+        <LM order="11">
+          <form>auka</form>
+          <lemma>auke</lemma>
+          <cpostag>verb</cpostag>
+          <postag>verb</postag>
+          <feats>perf-part</feats>
+          <deprel>INFV</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>vart</form>
+              <lemma>verte</lemma>
+              <cpostag>verb</cpostag>
+              <postag>verb</postag>
+              <feats>pret</feats>
+              <deprel>ADV</deprel>
+              <childnodes>
+                <LM order="1">
+                  <form>Då</form>
+                  <lemma>då</lemma>
+                  <cpostag>sbu</cpostag>
+                  <postag>sbu</postag>
+                  <deprel>SBU</deprel>
+                </LM>
+                <LM order="2">
+                  <form>ekspertgruppa</form>
+                  <lemma>ekspertgruppe</lemma>
+                  <cpostag>subst</cpostag>
+                  <postag>subst</postag>
+                  <feats>
+                    <LM>fem</LM>
+                    <LM>appell</LM>
+                    <LM>eint</LM>
+                    <LM>bu</LM>
+                  </feats>
+                  <deprel>SUBJ</deprel>
+                </LM>
+                <LM order="4">
+                  <form>sett</form>
+                  <lemma>setje</lemma>
+                  <cpostag>adj</cpostag>
+                  <postag>adj</postag>
+                  <feats>
+                    <LM>&lt;perf-part></LM>
+                    <LM>m/f</LM>
+                    <LM>ub</LM>
+                    <LM>eint</LM>
+                  </feats>
+                  <deprel>INFV</deprel>
+                  <childnodes>
+                    <LM order="5">
+                      <form>ned</form>
+                      <lemma>ned</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                    </LM>
+                    <LM order="6">
+                      <form>i</form>
+                      <lemma>i</lemma>
+                      <cpostag>prep</cpostag>
+                      <postag>prep</postag>
+                      <deprel>ADV</deprel>
+                      <childnodes order="7">
+                        <form>2009</form>
+                        <lemma>2009</lemma>
+                        <cpostag>det</cpostag>
+                        <postag>det</postag>
+                        <feats>
+                          <LM>kvant</LM>
+                          <LM>fl</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                      </childnodes>
+                    </LM>
+                  </childnodes>
+                </LM>
+                <LM order="8">
+                  <form>,</form>
+                  <lemma>$,</lemma>
+                  <cpostag>&lt;komma></cpostag>
+                  <postag>&lt;komma></postag>
+                  <deprel>IK</deprel>
+                </LM>
+              </childnodes>
+            </LM>
+            <LM order="12">
+              <form>med</form>
+              <lemma>med</lemma>
+              <cpostag>prep</cpostag>
+              <postag>prep</postag>
+              <deprel>ADV</deprel>
+              <childnodes order="14">
+                <form>prosent</form>
+                <lemma>prosent</lemma>
+                <cpostag>subst</cpostag>
+                <postag>subst</postag>
+                <feats>
+                  <LM>mask</LM>
+                  <LM>appell</LM>
+                  <LM>ub</LM>
+                  <LM>fl</LM>
+                </feats>
+                <deprel>PUTFYLL</deprel>
+                <childnodes>
+                  <LM order="13">
+                    <form>11</form>
+                    <lemma>11</lemma>
+                    <cpostag>det</cpostag>
+                    <postag>det</postag>
+                    <feats>
+                      <LM>kvant</LM>
+                      <LM>fl</LM>
+                    </feats>
+                    <deprel>DET</deprel>
+                  </LM>
+                  <LM order="15">
+                    <form>frå</form>
+                    <lemma>frå</lemma>
+                    <cpostag>prep</cpostag>
+                    <postag>prep</postag>
+                    <deprel>ATR</deprel>
+                    <childnodes>
+                      <LM order="17">
+                        <form>kvartal</form>
+                        <lemma>kvartal</lemma>
+                        <cpostag>subst</cpostag>
+                        <postag>subst</postag>
+                        <feats>
+                          <LM>nøyt</LM>
+                          <LM>appell</LM>
+                          <LM>ub</LM>
+                          <LM>eint</LM>
+                        </feats>
+                        <deprel>PUTFYLL</deprel>
+                        <childnodes>
+                          <LM order="16">
+                            <form>tredje</form>
+                            <lemma>tredje</lemma>
+                            <cpostag>adj</cpostag>
+                            <postag>adj</postag>
+                            <feats>
+                              <LM>pos</LM>
+                              <LM>eint</LM>
+                              <LM>bu</LM>
+                              <LM>&lt;ordenstal></LM>
+                            </feats>
+                            <deprel>ATR</deprel>
+                          </LM>
+                          <LM order="18">
+                            <form>i</form>
+                            <lemma>i</lemma>
+                            <cpostag>prep</cpostag>
+                            <postag>prep</postag>
+                            <deprel>ATR</deprel>
+                            <childnodes order="19">
+                              <form>2008</form>
+                              <lemma>2008</lemma>
+                              <cpostag>det</cpostag>
+                              <postag>det</postag>
+                              <feats>
+                                <LM>kvant</LM>
+                                <LM>fl</LM>
+                              </feats>
+                              <deprel>PUTFYLL</deprel>
+                            </childnodes>
+                          </LM>
+                        </childnodes>
+                      </LM>
+                      <LM order="20">
+                        <form>til</form>
+                        <lemma>til</lemma>
+                        <cpostag>prep</cpostag>
+                        <postag>prep</postag>
+                        <deprel>ADV</deprel>
+                        <childnodes order="22">
+                          <form>kvartal</form>
+                          <lemma>kvartal</lemma>
+                          <cpostag>subst</cpostag>
+                          <postag>subst</postag>
+                          <feats>
+                            <LM>nøyt</LM>
+                            <LM>appell</LM>
+                            <LM>ub</LM>
+                            <LM>eint</LM>
+                          </feats>
+                          <deprel>PUTFYLL</deprel>
+                          <childnodes>
+                            <LM order="21">
+                              <form>tredje</form>
+                              <lemma>tredje</lemma>
+                              <cpostag>adj</cpostag>
+                              <postag>adj</postag>
+                              <feats>
+                                <LM>pos</LM>
+                                <LM>eint</LM>
+                                <LM>bu</LM>
+                                <LM>&lt;ordenstal></LM>
+                              </feats>
+                              <deprel>ATR</deprel>
+                            </LM>
+                            <LM order="23">
+                              <form>i</form>
+                              <lemma>i</lemma>
+                              <cpostag>prep</cpostag>
+                              <postag>prep</postag>
+                              <deprel>ATR</deprel>
+                              <childnodes order="24">
+                                <form>2009</form>
+                                <lemma>2009</lemma>
+                                <cpostag>det</cpostag>
+                                <postag>det</postag>
+                                <feats>
+                                  <LM>kvant</LM>
+                                  <LM>fl</LM>
+                                </feats>
+                                <deprel>PUTFYLL</deprel>
+                              </childnodes>
+                            </LM>
+                          </childnodes>
+                        </childnodes>
+                      </LM>
+                    </childnodes>
+                  </LM>
+                </childnodes>
+              </childnodes>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="25">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+    <LM order="2">
+      <form>auka</form>
+      <lemma>auke</lemma>
+      <cpostag>verb</cpostag>
+      <postag>verb</postag>
+      <feats>pret</feats>
+      <deprel>FINV</deprel>
+      <childnodes>
+        <LM order="1">
+          <form>Mest</form>
+          <lemma>mykje</lemma>
+          <cpostag>adj</cpostag>
+          <postag>adj</postag>
+          <feats>
+            <LM>sup</LM>
+            <LM>ub</LM>
+          </feats>
+          <deprel>ADV</deprel>
+        </LM>
+        <LM order="5">
+          <form>fråværet</form>
+          <lemma>fråvære</lemma>
+          <cpostag>subst</cpostag>
+          <postag>subst</postag>
+          <feats>
+            <LM>nøyt</LM>
+            <LM>appell</LM>
+            <LM>eint</LM>
+            <LM>bu</LM>
+          </feats>
+          <deprel>SUBJ</deprel>
+          <childnodes>
+            <LM order="3">
+              <form>det</form>
+              <lemma>det</lemma>
+              <cpostag>det</cpostag>
+              <postag>det</postag>
+              <feats>
+                <LM>dem</LM>
+                <LM>nøyt</LM>
+                <LM>eint</LM>
+              </feats>
+              <deprel>DET</deprel>
+            </LM>
+            <LM order="4">
+              <form>lækjarmelde</form>
+              <lemma>lækjarmelde</lemma>
+              <cpostag>adj</cpostag>
+              <postag>adj</postag>
+              <feats>
+                <LM>&lt;perf-part></LM>
+                <LM>eint</LM>
+                <LM>bu</LM>
+                <LM>samset</LM>
+              </feats>
+              <deprel>ATR</deprel>
+            </LM>
+          </childnodes>
+        </LM>
+        <LM order="6">
+          <form>.</form>
+          <lemma>$.</lemma>
+          <cpostag>clb</cpostag>
+          <postag>clb</postag>
+          <feats>&lt;punkt></feats>
+          <deprel>IP</deprel>
+        </LM>
+      </childnodes>
+    </LM>
+  </body>
+</conll>

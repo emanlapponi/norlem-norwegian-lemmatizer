@@ -1,0 +1,37 @@
+1	Difor	difor	adv	adv	_	2	ADV	_	_
+2	vert	verte	verb	verb	pres	0	FINV	_	_
+3	det	det	pron	pron	pers|3|nøyt|eint	2	FSUBJ	_	_
+4	meir	mykje	adj	adj	komp	5	ATR	_	_
+5	merksemd	merksemd	subst	subst	fem|appell|ub|eint	2	PSUBJ	_	_
+6	kring	kring	prep	prep	_	5	ATR	_	_
+7	spørsmål	spørsmål	subst	subst	nøyt|appell|ub|fl	6	PUTFYLL	_	_
+8	om	om	prep	prep	_	7	ATR	_	_
+9	integritet	integritet	subst	subst	mask|appell|ub|eint	8	PUTFYLL	_	_
+10	og	og	konj	konj	<ikkje-clb>	13	KONJ	_	_
+11	om	om	sbu	sbu	_	13	SBU	_	_
+12	ein	ein	pron	pron	pers|eint|hum	13	SUBJ	_	_
+13	kan	kunne	verb	verb	pres	8	KOORD	_	_
+14	ta	ta	verb	verb	inf	13	INFV	_	_
+15	ein	ein	det	det	kvant|mask|eint	16	DET	_	_
+16	politikar	politikar	subst	subst	mask|appell|ub|eint	14	DOBJ	_	_
+17	for	for	prep	prep	_	14	ADV	_	_
+18	å	å	inf-merke	inf-merke	_	17	PUTFYLL	_	_
+19	tala	tale	verb	verb	inf	18	INFV	_	_
+20	usant	usann	adj	adj	pos|nøyt|ub|eint	19	ADV	_	_
+21	-	$-	<strek>	<strek>	_	14	IK	_	_
+22	same	same	det	det	dem|<adj>|bu	23	ADV	_	_
+23	kor	kor	adv	adv	_	24	ADV	_	_
+24	bagatellmessig	bagatellmessig	adj	adj	pos|m/f|ub|eint	27	SPRED	_	_
+25	saka	sak	subst	subst	fem|appell|eint|bu	26	SUBJ	_	_
+26	måtte	måtte	verb	verb	pret	14	ADV	_	_
+27	vera	vere	verb	verb	inf	26	INFV	_	_
+28	.	$.	clb	clb	<punkt>	2	IP	_	_
+
+1	Det	det	pron	pron	pers|3|nøyt|eint	6	PUTFYLL	_	_
+2	må	måtte	verb	verb	pres	0	FINV	_	_
+3	politikarane	politikar	subst	subst	mask|appell|fl|bu	2	SUBJ	_	_
+4	ta	ta	verb	verb	inf	2	INFV	_	_
+5	høgd	høgd	subst	subst	fem|appell|ub|eint	4	DOBJ	_	_
+6	for	for	prep	prep	_	4	ADV	_	_
+7	.	$.	clb	clb	<punkt>	2	IP	_	_
+

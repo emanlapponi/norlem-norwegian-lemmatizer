@@ -1,0 +1,159 @@
+﻿Norsk dependenstrebank versjon 1.01 (2014-03-28)
+
+
+Generell informasjon
+====================
+
+- Norsk dependenstrebank (NDT) er en syntaktisk trebank for bokmål og nynorsk, utviklet i perioden 2011-2014 ved Nasjonalbiblioteket i samarbeid med Tekstlaboratoriet og Institutt for informatikk ved Universitetet i Oslo, av Per Erik Solberg, Pål Kristian Eriksen og Kari Kinn.
+
+- NDT består av tekst som er manuelt annotert for morfologiske trekk, syntaktiske funksjoner og hierarkisk struktur. Den morfologiske annotasjonen følger i all hovedsak Oslo-Bergen-taggeren (http://tekstlab.uio.no/obt-ny/). Dependensgrammatikk er brukt som formalisme for den syntaktiske annotasjonen. Mange av analysevalgene følger Norsk referansegrammatikk (Jan Terje Faarlund, Svein Lie og Kjell Ivar Vannebo. 1997. Oslo: Universitetsforlaget). For mer informasjon, se de vedlagte annotasjonsretningslinjene eller en av de vedlagte artiklene om NDT.
+
+- Det er ingen endringer i korpuset fra versjon 1.0 til versjon 1.01, men dokumentasjonen er litt oppdatert.
+
+- NDT er tilgjengelig i conll-format (http://ufal.mff.cuni.cz/conll2009-st/task-description.html) og Prague Markup Language (pml; http://ufal.mff.cuni.cz/jazz/pml/doc/pml_doc.html).
+
+
+Innhold
+=======
+
+/
+---
+
+- ndt_1-0_nno.conll
+Hele nynorskdelen av NDT 1.0 i conll-format
+
+- ndt_1-0_nob.conll
+Hele bokmålsdelen av NDT 1.0 i conll-format
+
+- blog_ndt_nno.conll
+Delkorpus med bloggtekst, nynorsk
+
+- blog_ndt_nob.conll
+Delkorpus med bloggtekst, bokmål
+
+- newspaper_ndt_1-0_nno.conll
+Delkorpus med avistekst, nynorsk
+
+- newspaper_ndt_1-0_nob.conll
+Delkorpus med avistekst, bokmål
+
+- parliament_ndt_1-0_nno.conll
+Delkorpus med stortingsforhandlinger, nynorsk
+
+- parliament_ndt_1-0_nob.conll
+Delkorpus med stortingsforhandlinger, bokmål
+
+- report_ndt_1-0_nno.conll
+Delkorpus med rapporttekst, nynorsk
+
+- report_ndt_1-0_nob.conll
+Delkorpus med rapporttekst, bokmål
+
+- LESMEG.txt
+Denne fila
+
+- README.txt
+Lesmeg-fil på engelsk
+
+documentation/
+-------------
+- 20140314_retningslinjer_ndt_norsk.pdf
+Annotasjonsretningslinjer for NDT på norsk
+
+- 20140314_guidelines_ndt_english.pdf
+Annotasjonsretningslinjer for NDT på engelsk
+
+- solberg_et_al_2014_LREC.pdf
+Solberg, P.E., Skjærholt, A., Øverlid, L., Hagen, K. og Johannessen, J.B. "The Norwegian Dependency Treebank", Proceedings of LREC 2014, Reykjavik
+
+- johannessen_et_al_2011.pdf
+Rapport fra 2011 om NDT
+
+- solberg_2013.pdf
+Solberg, P.E. 2013. "Building gold-standard treebanks for Norwegian", Proceedings of NODALIDA 2013, Lindköping Electronic Conference Proceedings: s. 459-474. 
+
+- references_blog_nno.txt
+Referanser, bloggtekst, nynorsk
+
+- references_blog_nob.txt
+Referanser, bloggtekst, bokmål
+
+- references_newspaper_nno.txt
+Referanser, avistekst, nynorsk
+
+- references_newspaper_nob.txt
+Referanser, avistekst, bokmål
+
+- references_parliament_nno.txt
+Referanser, stortingsforhandlinger, nynorsk
+
+- references_parliament_nob.txt
+Referanser, stortingsforhandlinger, bokmål
+
+- references_report_nno.txt
+Referanser, rapporttekst, nynorsk
+
+- references_report_nob.txt
+Referanser, rapporttekst, bokmål
+
+nno/
+---
+
+- conll/
+Enkeltfilene til nynorskkorpuset i conll-format. Filene er på maksimalt 100 setninger hver, og filnavnene har en nomenklatur tilsvarende den som er brukt i referanselistene. 
+
+- pml/
+Enkeltfilene til nynorskkorpuset i pml-format. Filene er på maksimalt 100 setninger hver, og filnavnene har en nomenklatur tilsvarende den som er brukt i referanselistene. Mappa inneholder også en skjemafil i xml-format.
+
+nob/
+---
+
+- conll/
+Enkeltfilene til bokmålskorpuset i conll-format. Filene er på maksimalt 100 setninger hver, og filnavnene har en nomenklatur tilsvarende den som er brukt i referanselistene. 
+
+- pml/
+Enkeltfilene til bokmålskorpuset i pml-format. Filene er på maksimalt 100 setninger hver, og filnavnene har en nomenklatur tilsvarende den som er brukt i referanselistene. Mappa inneholder også en skjemafil i xml-format.
+
+
+Dobbeltannotert materiale
+=========================
+
+- Hele NDT er er manuelt annotert med morfologi og syntaks av minst én annotør. En liten del av materialet er syntaktisk annotert av to annotører. Det gjelder følgende filer:
+
+Nynorsk:
+--------
+blogg-nn002_0000, blogg-nn002_0001, blogg-nn002_0002, blogg-nn002_0003, dot009_0000, dot009_0001
+
+Bokmål:
+-------
+ap001_0000, ap001_0001, ap001_0002, ap007_0000, db001a_0000, db001a_0001, db001b_0000, db001b_0001, db001b_0002, db001b_0003, db001b_0004, db003_0000, db003_0001, db003_0002, db003_0003, db003_0004, db013_0000, db013_0001, db013_0002, db013_0003
+
+
+Kontaktinformasjon
+==================
+
+- For spørsmål, kommentarer og feilrapporter, vennligst kontakt Språkbanken på sprakbanken@nb.no.
+
+
+Opphavsrettslige forhold
+========================
+
+- Nasjonalbiblioteket har innhentet tillatelse til å bruke avis- og bloggtekstene i NDT. NDT er tilgjengelig for fri bruk, men innholdet i avis- og bloggtekstene kan ikke tilgjengeliggjøres på nytt som løpende tekst. Det er ingen restriksjoner på de delene av NDT som inneholder stortingsforhandlinger og rapporttekst.
+
+
+Takk
+====
+
+Det er flere som har bidratt med sin tid og sine krefter og gode råd for at NDT skal bli så bra som mulig, og det er vi svært takknemlige for. Vi vil spesielt nevne:
+
+- Janne Bondi Johannessen, Universitetet i Oslo
+- Kristin Hagen, Universitetet i Oslo
+- Lilja Øvrelid, Universitetet i Oslo
+- Arne Skjærholt, Universitetet i Oslo
+- Anders Nøklestad, Universitetet i Oslo
+- Fredrik Jørgensen, Meltwater Group
+- André Lynum, Norges teknisk-naturvitenskapelige universitet
+- Lars Nygaard, Kaldera språkteknologi AS
+- Jan Stepanek, Karlsuniversitetet, Praha
+
+Nasjonalbiblioteket, 2014-03-28
