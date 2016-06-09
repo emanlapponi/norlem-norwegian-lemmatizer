@@ -12,26 +12,34 @@ def lemmatize(main_model, backup_model, pos, evaluation, test_file):
         token_index = 1
         pos_index = 3
     
-    for line in test_file:
+    test_lines = test_file.readlines()
+
+    for i, line in enumerate(test_lines):
         if line != '\n':
+            try:
+                next_line = test_lines[i+1].split()
+            except:
+                next_line = []
+            try:
+                next_token = next_line[pos_index]
+            except:
+                next_token = '\n'
             if evaluation:
                 total += 1
             line = line.split()
+            lemma = line[token_index]
             if pos:
                 key = "%s_%s" % (line[token_index], line[pos_index])
             else:
                 key = "%s" % (line[token_index])
             if key in main_model:
-                print 'foo'
-                lemma = main_model[key]
+                if next_token in main_model[key]:
+                    lemma = main_model[key][next_token]
             elif backup_model != 'token':
                 if key in backup_model:
-                    print 'bar'
                     lemma = backup_model[key]
                 else:
                     lemma = line[token_index]
-            else:
-                lemma = line[token_index]
             if evaluation:
                 if lemma.lower() == line[2].lower():
                     right +=1
@@ -45,20 +53,29 @@ def lemmatize(main_model, backup_model, pos, evaluation, test_file):
 
 
 # So how about embedding in a trigram context for each word?
-# {word: {context1: lemma, context2: lemma ... }} 
+# {key: {context1: [(lemma, count), (lemma, count)], context2: [(lemma, count), (lemma, count)]  ... }} 
 def train(ndt, ordbanken=False, pos=False):
     main_model = {}
-    for line in ndt:
+    ndt_lines = ndt.readlines()
+    for i, line in enumerate(ndt_lines):
         if line != '\n':
             line = line.split()
+            try:
+                next_line = ndt_lines[i+1].split()
+            except:
+                next_line = []
+            next_token = next_line[3] if len(next_line) > 0 else '\n'
             if pos:
                 key = "%s_%s" % (line[1], line[3])
             else:
                 key = "%s" % (line[1])
             value = line[2]
+            if key not in main_model:
+                main_model[key] = {}
             # if key in main_model and value.lower() != main_model[key].lower():
             #     print 'MAIN', key.encode('utf8'), value.encode('utf8'), main_model[key].encode('utf8')
-            main_model[key] = value
+            main_model[key][next_token] = value
+
     if ordbanken:
         backup_model = {}
         for line in ordbanken:
@@ -72,6 +89,7 @@ def train(ndt, ordbanken=False, pos=False):
                 # if key in backup_model and value.lower() != backup_model[key].lower():
                 #     print 'BACKUP', key.encode('utf8'), value.encode('utf8'), backup_model[key].encode('utf8')
                 backup_model[key] = value
+
         return (main_model, backup_model)        
     else:
         return main_model
