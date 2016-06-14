@@ -3,7 +3,7 @@ import codecs
 from argparse import ArgumentParser
 from nltk.stem.snowball import SnowballStemmer
 
-def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, test_file):
+def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, evaluation, test_file):
 
     """
         Now we want to make sure we address the genitive s, somehow. So for all subst,
@@ -28,39 +28,57 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
     test_lines = test_file.readlines()
 
     for i, line in enumerate(test_lines):
+
+        logger = ''
+
         if line != '\n':
             try:
                 next_line = test_lines[i+1].split()
-                next_token = "%s" % (stemmer.stem(next_line[token_index].lower()))
+                # next_token = "%s" % (stemmer.stem(next_line[token_index]))
+                next_token = "%s" % (next_line[pos_index])
             except:
-                next_token = '\n'
+                next_token = '$OUTOFBOUNDS'
 
             try:
                 next_line2 = test_lines[i+2].split()
-                trig = "%s_%s" % (next_token, stemmer.stem(next_line2[token_index].lower()))
+                # trig = "%s_%s" % (next_token, stemmer.stem(next_line2[token_index]))
+                trig = "%s_%s" % (next_line2[pos_index])
+
             except:
-                trig = '%s_\n' % (next_token)
+                trig = '%s_$OUTOFBOUNDS' % (next_token)
 
             if evaluation:
                 total += 1
             
             line = line.split()
+
+            logger = logger + "TOKEN: %s | " % (line[token_index])
+
             splitted_token = line[token_index].split("-")
+
             if '' not in splitted_token:
                 token = splitted_token[-1]
             else:
                 splitted_token = []
                 token = line[token_index]
 
+            if token.endswith('s') and not token.endswith('ss') and line[pos_index] == 'subst' and token not in all_subst:
+                token = token[:-1]
+                logger = logger + "GENITIVE: %s | " % (token)
+            
             affix = ''
-            if line[pos_index] in ['subst', 'adj', 'verb']:
-                for word in lexicon:
-                    if token.endswith(word):
-                        print 'FOO'
-                        offset = token.index(word)
-                        affix = token[:offset]
-                        token = word
+            if len(line[token_index]) > 5:
+                if line[pos_index] in ['subst', 'adj', 'verb']:
+                    for word in lexicon:
+                        if token.endswith(word):
+                            offset = token.index(word)
+                            affix = token[:offset]
+                            token = word
+                            logger = logger + "SUFFIX: %s | " % (token)
+                            break
 
+
+            
             stemmed = stemmer.stem(token)
             lemma = token
             
@@ -68,13 +86,18 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
                 key = "%s_%s" % (token, line[pos_index])
             else:
                 key = "%s" % (token)
-            key = key.lower()
+            key = key
+
+            logger = logger + "KEY: %s | " % (key)
+
             # found the token/pos
             if key in main_model:
+                logger = logger + "NDT | "
                 count = 0
                 # found the context
 
                 if trig in main_model[key]['trigram']:
+                    logger = logger + "TRIGRAM: %s | " % (trig)
                     for lem in main_model[key]['trigram'][trig]:
                         # lemma is the most frequent lemma for the context
                         if main_model[key]['trigram'][trig][lem] > count:
@@ -90,6 +113,7 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
                 #                 lemma = lem
 
                 elif next_token in main_model[key]['bigram']:
+                    logger = logger + "BIGRAM: %s | " % (next_token)
                     for lem in main_model[key]['bigram'][next_token]:
                         # lemma is the most frequent lemma for the context
                         if main_model[key]['bigram'][next_token][lem] > count:
@@ -97,6 +121,7 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
                             lemma = lem
                 # did not find the context
                 else:
+                    logger = logger + "NO CONTEXT | "
                     for nt in main_model[key]['bigram']:
                         for lem in main_model[key]['bigram'][nt]:
                             # lemma is the most frequent lemma for the token/pos
@@ -104,24 +129,32 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
                                 count = main_model[key]['bigram'][nt][lem]
                                 lemma = lem
             elif backup_model != 'token':
-                if key.lower()  in backup_model:
-                    lemma = backup_model[key.lower()]
+                if key in backup_model:
+                    logger = logger + "ORDBANKEN | "
+                    lemma = backup_model[key]
                 elif stemmed in all_lemmas:
                 #else:
+                    logger = logger + "STEMMED | "
                     lemma = stemmed
             if len(splitted_token) > 1:
-                token = '-'.join(splitted_token[:-1])
-                lemma = '-'.join([token, lemma])
+                pre_split = '-'.join(splitted_token[:-1])
+                lemma = '-'.join([pre_split, lemma])
+                logger = logger + "HYPHEN | "
 
             if affix:
-                token = ''.join([affix, token])
                 lemma = ''.join([affix, lemma])
 
+            logger = logger + " SYSTEM: %s | GOLD: %s | " % (lemma, line[2])
+
             if evaluation:
-                if lemma.lower() == line[2].lower():
+                if lemma == line[2]:
                     right +=1
+                    logger = logger + "RIGHT \n"
                 else:
-                    print line[token_index].encode('utf8').lower(), lemma.encode('utf8').lower(), line[2].encode('utf8').lower()
+                    logger = logger + "WRONG \n"
+
+            # print logger.encode('utf8')
+            
             if not evaluation:
                 print "%s\t%s" % (line[0].encode('utf8'), lemma.encode('utf8'))
         else:
@@ -135,6 +168,10 @@ def lemmatize(main_model, backup_model, all_lemmas, lexicon, pos, evaluation, te
 # {key: {context1: {lemma: count, lemma: count} ... }} 
 def train(ndt, ordbanken=False, pos=False):
 
+    # Here we want to make better decision in terms of lexicons / all_subst etc.
+    # for instance, we want things to be more effective (use maps!)
+    # and we want information from both ordbanken and ndt!
+
     lexicon = []
 
     main_model = {}
@@ -144,26 +181,24 @@ def train(ndt, ordbanken=False, pos=False):
             line = line.split()
             try:
                 next_line = ndt_lines[i+1].split()
-                next_token = "%s" % (stemmer.stem(next_line[1].lower()))
+                #next_token = "%s" % (stemmer.stem(next_line[1]))
+                next_token = "%s" % (next_line[3])
             except:
-                next_token = '\n'
+                next_token = '$OUTOFBOUNDS'
 
             try:
                 next_line2 = ndt_lines[i+2].split()
-                next_token2 = "%s" % (stemmer.stem(next_line2[1].lower()))
+                #next_token2 = "%s" % (stemmer.stem(next_line2[1]))
+                next_token2 = "%s" % (next_line2[3])
             except:
-                next_token2 = '\n'
+                next_token2 = '$OUTOFBOUNDS'
 
             if pos:
                 key = "%s_%s" % (line[1], line[3])
             else:
                 key = "%s" % (line[1])
 
-            if line[3] in ['subst', 'adj', 'verb']:
-                if line[1].endswith('s'):
-                    print line[1].encode('utf8')
-                lexicon.append(line[1])
-            key = key.lower()
+            key = key
             lemma = line[2]
 
             if key not in main_model:
@@ -184,24 +219,30 @@ def train(ndt, ordbanken=False, pos=False):
             else:
                 main_model[key]['trigram'][trig][lemma] = 1
 
-    lexicon.sort(lambda x, y: cmp(len(x), len(y)))
-    lexicon = reversed(lexicon)
-
     if ordbanken:
         backup_model = {}
         all_lemmas = []
+        all_subst = []
         for line in ordbanken:
             if not line.startswith("*") and not line.startswith('\r\n'):
                 line = line.split('\t')
+                tag = line[3].split()[0]
                 if pos:
-                    key = "%s_%s" % (line[2], line[3].split()[0])
+                    key = "%s_%s" % (line[2], tag)
                 else:
                     key = "%s" % (line[2])
                 lemma = line[1]
+                if tag == 'subst':
+                    all_subst.append(line[2])
                 all_lemmas.append(lemma)
                 backup_model[key] = lemma
 
-        return (main_model, backup_model, set(all_lemmas), lexicon)        
+                if tag in ['subst', 'adj', 'verb']:
+                    lexicon.append(line[2])
+
+        lexicon.sort(lambda x, y: cmp(len(x), len(y)))
+        lexicon = reversed(lexicon)
+        return (main_model, backup_model, set(all_lemmas), set(all_subst), lexicon)        
     else:
         # need to fix the return without ordbanken ...
         return main_model
@@ -233,13 +274,13 @@ def main():
     ndt = codecs.open(args.ndt, 'r', 'utf8')
     if args.ordbanken:
         ordbanken = codecs.open(args.ordbanken, 'r', 'utf-8')
-        main_model, backup_model, all_lemmas, lexicon = train(ndt, ordbanken=ordbanken, pos=args.pos)
+        main_model, backup_model, all_lemmas, all_subst, lexicon = train(ndt, ordbanken=ordbanken, pos=args.pos)
     else:
         main_model = train(ndt, pos=args.pos)
         backup_model = 'token'
 
     test = codecs.open(args.input[0], 'r', 'utf8')
-    lemmatize(main_model, backup_model, all_lemmas, lexicon, args.pos, args.eval, test)
+    lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, args.pos, args.eval, test)
 
 if __name__ == '__main__':
     main()
