@@ -66,18 +66,21 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
                 token = token[:-1]
                 logger = logger + "GENITIVE: %s | " % (token)
             
+
+            # I am a little unsure of where this should be done;
+            # maybe we should first see whether the whole word is in the lexicon
             affix = ''
-            if len(line[token_index]) > 5:
-                if line[pos_index] in ['subst', 'adj', 'verb']:
+            if True:
+            #if len(line[token_index]) > 8:
+                if line[pos_index] in ['subst', 'adj', 'verb'] and token not in lexicon:
                     for word in lexicon:
-                        if token.endswith(word):
+                        if len(word) > 2 and token.endswith(word):
                             offset = token.index(word)
                             affix = token[:offset]
                             token = word
-                            logger = logger + "SUFFIX: %s | " % (token)
+                            if affix:
+                                logger = logger + "SUFFIX: %s | " % (token)
                             break
-
-
             
             stemmed = stemmer.stem(token)
             lemma = token
@@ -153,7 +156,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
                 else:
                     logger = logger + "WRONG \n"
 
-            # print logger.encode('utf8')
+            print logger.encode('utf8')
             
             if not evaluation:
                 print "%s\t%s" % (line[0].encode('utf8'), lemma.encode('utf8'))
@@ -169,13 +172,18 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
 def train(ndt, ordbanken=False, pos=False):
 
     # Here we want to make better decision in terms of lexicons / all_subst etc.
-    # for instance, we want things to be more effective (use maps!)
+    # for instance, we want things to be more effective (use dicts!)
     # and we want information from both ordbanken and ndt!
+
+    truecasing = {}
 
     lexicon = []
 
     main_model = {}
     ndt_lines = ndt.readlines()
+
+    prev = '\n'
+
     for i, line in enumerate(ndt_lines):
         if line != '\n':
             line = line.split()
@@ -200,6 +208,9 @@ def train(ndt, ordbanken=False, pos=False):
 
             key = key
             lemma = line[2]
+
+            # DEBUG: All trigram seem to have the $OUTOFBOUNDS default
+            #  - do a better job with catching exceptions
 
             if key not in main_model:
                 main_model[key] = {'trigram': {}, 'bigram': {}}
