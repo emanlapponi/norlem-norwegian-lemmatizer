@@ -13,7 +13,6 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
         with 's' as preserved, then stem all others to make keys.
     """
 
-
     stemmer = SnowballStemmer("norwegian")
 
     token_index = 0
@@ -24,7 +23,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
         right = 0.0
         token_index = 1
         pos_index = 3
-    
+
     test_lines = test_file.readlines()
 
     for i, line in enumerate(test_lines):
@@ -49,7 +48,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
 
             if evaluation:
                 total += 1
-            
+
             line = line.split()
 
             logger = logger + "TOKEN: %s | " % (line[token_index])
@@ -65,7 +64,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
             if token.endswith('s') and not token.endswith('ss') and line[pos_index] == 'subst' and token not in all_subst:
                 token = token[:-1]
                 logger = logger + "GENITIVE: %s | " % (token)
-            
+
 
             # I am a little unsure of where this should be done;
             # maybe we should first see whether the whole word is in the lexicon
@@ -81,10 +80,10 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
                             if affix:
                                 logger = logger + "SUFFIX: %s | " % (token)
                             break
-            
+
             stemmed = stemmer.stem(token)
             lemma = token
-            
+
             if pos:
                 key = "%s_%s" % (token, line[pos_index])
             else:
@@ -157,7 +156,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
                     logger = logger + "WRONG \n"
 
             print logger.encode('utf8')
-            
+
             if not evaluation:
                 print "%s\t%s" % (line[0].encode('utf8'), lemma.encode('utf8'))
         else:
@@ -168,7 +167,7 @@ def lemmatize(main_model, backup_model, all_lemmas, all_subst, lexicon, pos, eva
 
 
 # So how about embedding in a bigram context for each word?
-# {key: {context1: {lemma: count, lemma: count} ... }} 
+# {key: {context1: {lemma: count, lemma: count} ... }}
 def train(ndt, ordbanken=False, pos=False):
 
     # Here we want to make better decision in terms of lexicons / all_subst etc.
@@ -253,7 +252,7 @@ def train(ndt, ordbanken=False, pos=False):
 
         lexicon.sort(lambda x, y: cmp(len(x), len(y)))
         lexicon = reversed(lexicon)
-        return (main_model, backup_model, set(all_lemmas), set(all_subst), lexicon)        
+        return (main_model, backup_model, set(all_lemmas), set(all_subst), lexicon)
     else:
         # need to fix the return without ordbanken ...
         return main_model
@@ -279,7 +278,7 @@ def main():
     argparser.add_argument('--ordbanken', help="path to the ordbanken file used for backup training")
     argparser.add_argument('--eval', help='accept an NDT formatted file as input and calculate accuracy', action="store_true")
     argparser.add_argument('--pos', help='use POS-disambiguated tokens', action="store_true")
-    argparser.add_argument('input', help='the input to be lemmatized. Can be in the NDT format if run with --eval', nargs='+')   
+    argparser.add_argument('input', help='the input to be lemmatized. Can be in the NDT format if run with --eval', nargs='+')
     args = argparser.parse_args()
 
     ndt = codecs.open(args.ndt, 'r', 'utf8')
