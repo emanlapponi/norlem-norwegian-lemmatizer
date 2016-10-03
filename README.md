@@ -7,6 +7,7 @@ This project is currently under development. If you want to use it, you should
 probably install pypy as it provides quite a noticeable speed-up.
 
 Basic invocation:
+
     pypy norlem/norlem_lemmatize.py --model models/nob.norlem.json inputfile
 
 where `inputfile` is a file containing newline separated tokens and double
